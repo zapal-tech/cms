@@ -1,0 +1,3818 @@
+[
+  {
+    "label": "Pacific/Midway (GMT-11:00)",
+    "tzCode": "Pacific/Midway",
+    "name": {
+      "en": "(GMT-11:00) Midway",
+      "uk": "(GMT-11:00) Мідвей"
+    },
+    "utc": "-11:00"
+  },
+  {
+    "label": "Pacific/Niue (GMT-11:00)",
+    "tzCode": "Pacific/Niue",
+    "name": {
+      "en": "(GMT-11:00) Alofi",
+      "uk": "(GMT-11:00) Алофі"
+    },
+    "utc": "-11:00"
+  },
+  {
+    "label": "Pacific/Pago_Pago (GMT-11:00)",
+    "tzCode": "Pacific/Pago_Pago",
+    "name": {
+      "en": "(GMT-11:00) Pago Pago, Tāfuna, Ta`ū, Taulaga",
+      "uk": "(GMT-11:00) Паго-Паго, Тафуна, Тау, Таулага"
+    },
+    "utc": "-11:00"
+  },
+  {
+    "label": "America/Adak (GMT-10:00)",
+    "tzCode": "America/Adak",
+    "name": {
+      "en": "(GMT-10:00) Adak",
+      "uk": "(GMT-10:00) Адак"
+    },
+    "utc": "-10:00"
+  },
+  {
+    "label": "Pacific/Honolulu (GMT-10:00)",
+    "tzCode": "Pacific/Honolulu",
+    "name": {
+      "en": "(GMT-10:00) Honolulu, East Honolulu, Pearl City, Hilo, Kailua",
+      "uk": "(GMT-10:00) Гонолулу, Іст-Гонолулу, Перл-Сіті, Хіло, Кайлуа"
+    },
+    "utc": "-10:00"
+  },
+  {
+    "label": "Pacific/Rarotonga (GMT-10:00)",
+    "tzCode": "Pacific/Rarotonga",
+    "name": {
+      "en": "(GMT-10:00) Avarua",
+      "uk": "(GMT-10:00) Аваруа"
+    },
+    "utc": "-10:00"
+  },
+  {
+    "label": "Pacific/Tahiti (GMT-10:00)",
+    "tzCode": "Pacific/Tahiti",
+    "name": {
+      "en": "(GMT-10:00) Faaa, Papeete, Punaauia, Pirae, Mahina",
+      "uk": "(GMT-10:00) Фааа, Папеете, Пунаауіа, Пірае, Махіна"
+    },
+    "utc": "-10:00"
+  },
+  {
+    "label": "Pacific/Marquesas (GMT-09:30)",
+    "tzCode": "Pacific/Marquesas",
+    "name": {
+      "en": "(GMT-09:30) Taiohae",
+      "uk": "(GMT-09:30) Таіохае"
+    },
+    "utc": "-09:30"
+  },
+  {
+    "label": "America/Anchorage (GMT-09:00)",
+    "tzCode": "America/Anchorage",
+    "name": {
+      "en": "(GMT-09:00) Anchorage, Fairbanks, Eagle River, Badger, Knik-Fairview",
+      "uk": "(GMT-09:00) Анкоридж, Фейрбенкс, Ігл-Рівер, Беджер, Кнік-Фейрв’ю"
+    },
+    "utc": "-09:00"
+  },
+  {
+    "label": "America/Juneau (GMT-09:00)",
+    "tzCode": "America/Juneau",
+    "name": {
+      "en": "(GMT-09:00) Juneau",
+      "uk": "(GMT-09:00) Джуно"
+    },
+    "utc": "-09:00"
+  },
+  {
+    "label": "America/Metlakatla (GMT-09:00)",
+    "tzCode": "America/Metlakatla",
+    "name": {
+      "en": "(GMT-09:00) Metlakatla",
+      "uk": "(GMT-09:00) Метлакатла"
+    },
+    "utc": "-09:00"
+  },
+  {
+    "label": "America/Nome (GMT-09:00)",
+    "tzCode": "America/Nome",
+    "name": {
+      "en": "(GMT-09:00) Nome",
+      "uk": "(GMT-09:00) Ном"
+    },
+    "utc": "-09:00"
+  },
+  {
+    "label": "America/Sitka (GMT-09:00)",
+    "tzCode": "America/Sitka",
+    "name": {
+      "en": "(GMT-09:00) Sitka, Ketchikan",
+      "uk": "(GMT-09:00) Сітка, Кетчікан"
+    },
+    "utc": "-09:00"
+  },
+  {
+    "label": "America/Yakutat (GMT-09:00)",
+    "tzCode": "America/Yakutat",
+    "name": {
+      "en": "(GMT-09:00) Yakutat",
+      "uk": "(GMT-09:00) Якутат"
+    },
+    "utc": "-09:00"
+  },
+  {
+    "label": "Pacific/Gambier (GMT-09:00)",
+    "tzCode": "Pacific/Gambier",
+    "name": {
+      "en": "(GMT-09:00) Gambier",
+      "uk": "(GMT-09:00) Гамб’є"
+    },
+    "utc": "-09:00"
+  },
+  {
+    "label": "America/Los_Angeles (GMT-08:00)",
+    "tzCode": "America/Los_Angeles",
+    "name": {
+      "en": "(GMT-08:00) Los Angeles, San Diego, San Jose, San Francisco, Seattle",
+      "uk": "(GMT-08:00) Лос-Анджелес, Сан-Дієго, Сан-Хосе, Сан-Франциско, Сіетл"
+    },
+    "utc": "-08:00"
+  },
+  {
+    "label": "America/Tijuana (GMT-08:00)",
+    "tzCode": "America/Tijuana",
+    "name": {
+      "en": "(GMT-08:00) Tijuana, Mexicali, Ensenada, Rosarito, Tecate",
+      "uk": "(GMT-08:00) Тіхуана, Мексикалі, Енсенада, Росаріто, Текате"
+    },
+    "utc": "-08:00"
+  },
+  {
+    "label": "America/Vancouver (GMT-08:00)",
+    "tzCode": "America/Vancouver",
+    "name": {
+      "en": "(GMT-08:00) Vancouver, Surrey, Okanagan, Victoria, Burnaby",
+      "uk": "(GMT-08:00) Ванкувер, Саррі, Оканаган, Вікторія, Бернабі"
+    },
+    "utc": "-08:00"
+  },
+  {
+    "label": "Pacific/Pitcairn (GMT-08:00)",
+    "tzCode": "Pacific/Pitcairn",
+    "name": {
+      "en": "(GMT-08:00) Adamstown",
+      "uk": "(GMT-08:00) Адамстаун"
+    },
+    "utc": "-08:00"
+  },
+  {
+    "label": "America/Boise (GMT-07:00)",
+    "tzCode": "America/Boise",
+    "name": {
+      "en": "(GMT-07:00) Boise, Meridian, Nampa, Idaho Falls, Pocatello",
+      "uk": "(GMT-07:00) Бойсе, Мерідіан, Нампа, Айдахо-Фолс, Покателло"
+    },
+    "utc": "-07:00"
+  },
+  {
+    "label": "America/Cambridge_Bay (GMT-07:00)",
+    "tzCode": "America/Cambridge_Bay",
+    "name": {
+      "en": "(GMT-07:00) Cambridge Bay",
+      "uk": "(GMT-07:00) Кембрідж-Бей"
+    },
+    "utc": "-07:00"
+  },
+  {
+    "label": "America/Chihuahua (GMT-07:00)",
+    "tzCode": "America/Chihuahua",
+    "name": {
+      "en": "(GMT-07:00) Chihuahua, Ciudad Delicias, Cuauhtémoc, Parral, Nuevo Casas Grandes",
+      "uk": "(GMT-07:00) Чіуауа, Сьюдад-Делісіас, Куаутемок, Парраль, Нуево-Касас-Грандес"
+    },
+    "utc": "-07:00"
+  },
+  {
+    "label": "America/Creston (GMT-07:00)",
+    "tzCode": "America/Creston",
+    "name": {
+      "en": "(GMT-07:00) Creston",
+      "uk": "(GMT-07:00) Крестон"
+    },
+    "utc": "-07:00"
+  },
+  {
+    "label": "America/Dawson (GMT-07:00)",
+    "tzCode": "America/Dawson",
+    "name": {
+      "en": "(GMT-07:00) Dawson",
+      "uk": "(GMT-07:00) Доусон"
+    },
+    "utc": "-07:00"
+  },
+  {
+    "label": "America/Dawson_Creek (GMT-07:00)",
+    "tzCode": "America/Dawson_Creek",
+    "name": {
+      "en": "(GMT-07:00) Fort St. John, Dawson Creek",
+      "uk": "(GMT-07:00) Форт-Сент-Джон, Доусон-Крік"
+    },
+    "utc": "-07:00"
+  },
+  {
+    "label": "America/Denver (GMT-07:00)",
+    "tzCode": "America/Denver",
+    "name": {
+      "en": "(GMT-07:00) Denver, El Paso, Albuquerque, Colorado Springs, Aurora",
+      "uk": "(GMT-07:00) Денвер, Ель-Пасо, Альбукерке, Колорадо-Спрінгс, Орора"
+    },
+    "utc": "-07:00"
+  },
+  {
+    "label": "America/Edmonton (GMT-07:00)",
+    "tzCode": "America/Edmonton",
+    "name": {
+      "en": "(GMT-07:00) Calgary, Edmonton, Fort McMurray, Red Deer, Lethbridge",
+      "uk": "(GMT-07:00) Калгарі, Едмонтон, Форт-Мак-Мюррей, Ред-Дір, Летбрідж"
+    },
+    "utc": "-07:00"
+  },
+  {
+    "label": "America/Fort_Nelson (GMT-07:00)",
+    "tzCode": "America/Fort_Nelson",
+    "name": {
+      "en": "(GMT-07:00) Fort Nelson",
+      "uk": "(GMT-07:00) Форт-Нельсон"
+    },
+    "utc": "-07:00"
+  },
+  {
+    "label": "America/Hermosillo (GMT-07:00)",
+    "tzCode": "America/Hermosillo",
+    "name": {
+      "en": "(GMT-07:00) Hermosillo, Ciudad Obregón, Nogales, San Luis Río Colorado, Navojoa",
+      "uk": "(GMT-07:00) Ермосільо, Сьюдад-Обрегон, Ногалес, Сан-Луїс-Ріо-Колорадо, Навохоа"
+    },
+    "utc": "-07:00"
+  },
+  {
+    "label": "America/Inuvik (GMT-07:00)",
+    "tzCode": "America/Inuvik",
+    "name": {
+      "en": "(GMT-07:00) Inuvik",
+      "uk": "(GMT-07:00) Інувік"
+    },
+    "utc": "-07:00"
+  },
+  {
+    "label": "America/Mazatlan (GMT-07:00)",
+    "tzCode": "America/Mazatlan",
+    "name": {
+      "en": "(GMT-07:00) Culiacán, Mazatlán, Tepic, Los Mochis, La Paz",
+      "uk": "(GMT-07:00) Кульякан, Мазатлан, Тепік, Лос-Мочіс, Ла-Пас"
+    },
+    "utc": "-07:00"
+  },
+  {
+    "label": "America/Ojinaga (GMT-07:00)",
+    "tzCode": "America/Ojinaga",
+    "name": {
+      "en": "(GMT-07:00) Ciudad Juárez, Manuel Ojinaga, Ojinaga",
+      "uk": "(GMT-07:00) Сьюдад-Хуарес, Мануель-Охінага, Охінага"
+    },
+    "utc": "-07:00"
+  },
+  {
+    "label": "America/Phoenix (GMT-07:00)",
+    "tzCode": "America/Phoenix",
+    "name": {
+      "en": "(GMT-07:00) Phoenix, Tucson, Mesa, Chandler, Gilbert",
+      "uk": "(GMT-07:00) Фінікс, Тусон, Меса, Чандлер, Гілберт"
+    },
+    "utc": "-07:00"
+  },
+  {
+    "label": "America/Whitehorse (GMT-07:00)",
+    "tzCode": "America/Whitehorse",
+    "name": {
+      "en": "(GMT-07:00) Whitehorse",
+      "uk": "(GMT-07:00) Вайтхорс"
+    },
+    "utc": "-07:00"
+  },
+  {
+    "label": "America/Yellowknife (GMT-07:00)",
+    "tzCode": "America/Yellowknife",
+    "name": {
+      "en": "(GMT-07:00) Yellowknife",
+      "uk": "(GMT-07:00) Єллоунайф"
+    },
+    "utc": "-07:00"
+  },
+  {
+    "label": "America/Bahia_Banderas (GMT-06:00)",
+    "tzCode": "America/Bahia_Banderas",
+    "name": {
+      "en": "(GMT-06:00) Mezcales, San Vicente, Bucerías, Valle de Banderas",
+      "uk": "(GMT-06:00) Мескалес, Сан-Вісенте, Бусеріас, Вальє-де-Бандерас"
+    },
+    "utc": "-06:00"
+  },
+  {
+    "label": "America/Belize (GMT-06:00)",
+    "tzCode": "America/Belize",
+    "name": {
+      "en": "(GMT-06:00) Belize City, San Ignacio, Orange Walk, Belmopan, Dangriga",
+      "uk": "(GMT-06:00) Беліз-Сіті, Сан-Ігнасіо, Оранж-Волк, Белмопан, Дангріга"
+    },
+    "utc": "-06:00"
+  },
+  {
+    "label": "America/Chicago (GMT-06:00)",
+    "tzCode": "America/Chicago",
+    "name": {
+      "en": "(GMT-06:00) Chicago, Houston, San Antonio, Dallas, Austin",
+      "uk": "(GMT-06:00) Чикаго, Х'юстон, Сан-Антоніо, Даллас, Остін"
+    },
+    "utc": "-06:00"
+  },
+  {
+    "label": "America/Costa_Rica (GMT-06:00)",
+    "tzCode": "America/Costa_Rica",
+    "name": {
+      "en": "(GMT-06:00) San José, Limón, San Francisco, Alajuela, Liberia",
+      "uk": "(GMT-06:00) Сан-Хосе, Лімон, Сан-Франциско, Алахуела, Ліберія"
+    },
+    "utc": "-06:00"
+  },
+  {
+    "label": "America/El_Salvador (GMT-06:00)",
+    "tzCode": "America/El_Salvador",
+    "name": {
+      "en": "(GMT-06:00) San Salvador, Soyapango, Santa Ana, San Miguel, Mejicanos",
+      "uk": "(GMT-06:00) Сан-Сальвадор, Сояпанго, Санта-Ана, Сан-Мігель, Мехіканос"
+    },
+    "utc": "-06:00"
+  },
+  {
+    "label": "America/Guatemala (GMT-06:00)",
+    "tzCode": "America/Guatemala",
+    "name": {
+      "en": "(GMT-06:00) Guatemala City, Mixco, Villa Nueva, Petapa, San Juan Sacatepéquez",
+      "uk": "(GMT-06:00) Гватемала-Сіті, Мікско, Вілья-Нуева, Петапа, Сан-Хуан-Сакатепекес"
+    },
+    "utc": "-06:00"
+  },
+  {
+    "label": "America/Indiana/Knox (GMT-06:00)",
+    "tzCode": "America/Indiana/Knox",
+    "name": {
+      "en": "(GMT-06:00) Knox",
+      "uk": "(GMT-06:00) Кнокс"
+    },
+    "utc": "-06:00"
+  },
+  {
+    "label": "America/Indiana/Tell_City (GMT-06:00)",
+    "tzCode": "America/Indiana/Tell_City",
+    "name": {
+      "en": "(GMT-06:00) Tell City",
+      "uk": "(GMT-06:00) Телл-Сіті"
+    },
+    "utc": "-06:00"
+  },
+  {
+    "label": "America/Managua (GMT-06:00)",
+    "tzCode": "America/Managua",
+    "name": {
+      "en": "(GMT-06:00) Managua, León, Masaya, Chinandega, Matagalpa",
+      "uk": "(GMT-06:00) Манагуа, Леон, Масая, Чінандега, Матагальпа"
+    },
+    "utc": "-06:00"
+  },
+  {
+    "label": "America/Matamoros (GMT-06:00)",
+    "tzCode": "America/Matamoros",
+    "name": {
+      "en": "(GMT-06:00) Reynosa, Heroica Matamoros, Nuevo Laredo, Piedras Negras, Ciudad Acuña",
+      "uk": "(GMT-06:00) Рейноса, Ероїка-Матаморос, Нуево-Ларедо, П'єдрас-Неграс, Сьюдад-Акуна"
+    },
+    "utc": "-06:00"
+  },
+  {
+    "label": "America/Menominee (GMT-06:00)",
+    "tzCode": "America/Menominee",
+    "name": {
+      "en": "(GMT-06:00) Menominee, Iron Mountain, Kingsford, Ironwood, Iron River",
+      "uk": "(GMT-06:00) Меноміні, Айрон-Маунтін, Кінгсфорд, Айронвуд, Айрон-Рівер"
+    },
+    "utc": "-06:00"
+  },
+  {
+    "label": "America/Merida (GMT-06:00)",
+    "tzCode": "America/Merida",
+    "name": {
+      "en": "(GMT-06:00) Mérida, Campeche, Ciudad del Carmen, Kanasín, Valladolid",
+      "uk": "(GMT-06:00) Меріда, Кампече, Сьюдад-дель-Кармен, Канасін, Вальядолід"
+    },
+    "utc": "-06:00"
+  },
+  {
+    "label": "America/Mexico_City (GMT-06:00)",
+    "tzCode": "America/Mexico_City",
+    "name": {
+      "en": "(GMT-06:00) Mexico City, Iztapalapa, Ecatepec de Morelos, Guadalajara, Puebla",
+      "uk": "(GMT-06:00) Мехіко, Істапалапа, Екатепек-де-Морелос, Гвадалахара, Пуебла"
+    },
+    "utc": "-06:00"
+  },
+  {
+    "label": "America/Monterrey (GMT-06:00)",
+    "tzCode": "America/Monterrey",
+    "name": {
+      "en": "(GMT-06:00) Monterrey, Saltillo, Guadalupe, Torreón, Victoria de Durango",
+      "uk": "(GMT-06:00) Монтеррей, Сальтільо, Гуадалупе, Торреон, Вікторія-де-Дуранго"
+    },
+    "utc": "-06:00"
+  },
+  {
+    "label": "America/North_Dakota/Beulah (GMT-06:00)",
+    "tzCode": "America/North_Dakota/Beulah",
+    "name": {
+      "en": "(GMT-06:00) Beulah (North Dakota)",
+      "uk": "(GMT-06:00) Беула (Північна Дакота)"
+    },
+    "utc": "-06:00"
+  },
+  {
+    "label": "America/North_Dakota/Center (GMT-06:00)",
+    "tzCode": "America/North_Dakota/Center",
+    "name": {
+      "en": "(GMT-06:00) Center (North Dakota)",
+      "uk": "(GMT-06:00) Центр (Північна Дакота)"
+    },
+    "utc": "-06:00"
+  },
+  {
+    "label": "America/North_Dakota/New_Salem (GMT-06:00)",
+    "tzCode": "America/North_Dakota/New_Salem",
+    "name": {
+      "en": "(GMT-06:00) Mandan (North Dakota)",
+      "uk": "(GMT-06:00) Манден (Північна Дакота)"
+    },
+    "utc": "-06:00"
+  },
+  {
+    "label": "America/Rainy_River (GMT-06:00)",
+    "tzCode": "America/Rainy_River",
+    "name": {
+      "en": "(GMT-06:00) Rainy River",
+      "uk": "(GMT-06:00) Рейні-Рівер"
+    },
+    "utc": "-06:00"
+  },
+  {
+    "label": "America/Rankin_Inlet (GMT-06:00)",
+    "tzCode": "America/Rankin_Inlet",
+    "name": {
+      "en": "(GMT-06:00) Rankin Inlet",
+      "uk": "(GMT-06:00) Ранкін-Інлет"
+    },
+    "utc": "-06:00"
+  },
+  {
+    "label": "America/Regina (GMT-06:00)",
+    "tzCode": "America/Regina",
+    "name": {
+      "en": "(GMT-06:00) Saskatoon, Regina, Prince Albert, Moose Jaw, North Battleford",
+      "uk": "(GMT-06:00) Саскатун, Реджайна, Принс-Альберт, Мус-Джо, Норт-Батлфорд"
+    },
+    "utc": "-06:00"
+  },
+  {
+    "label": "America/Resolute (GMT-06:00)",
+    "tzCode": "America/Resolute",
+    "name": {
+      "en": "(GMT-06:00) Resolute",
+      "uk": "(GMT-06:00) Резолют"
+    },
+    "utc": "-06:00"
+  },
+  {
+    "label": "America/Swift_Current (GMT-06:00)",
+    "tzCode": "America/Swift_Current",
+    "name": {
+      "en": "(GMT-06:00) Swift Current",
+      "uk": "(GMT-06:00) Свіфт-Каррент"
+    },
+    "utc": "-06:00"
+  },
+  {
+    "label": "America/Tegucigalpa (GMT-06:00)",
+    "tzCode": "America/Tegucigalpa",
+    "name": {
+      "en": "(GMT-06:00) Tegucigalpa, San Pedro Sula, Choloma, La Ceiba, El Progreso",
+      "uk": "(GMT-06:00) Тегусігальпа, Сан-Педро-Сула, Чолома, Ла-Сейба, Ель-Прогресо"
+    },
+    "utc": "-06:00"
+  },
+  {
+    "label": "America/Winnipeg (GMT-06:00)",
+    "tzCode": "America/Winnipeg",
+    "name": {
+      "en": "(GMT-06:00) Winnipeg, Brandon, Kenora, Portage la Prairie, Thompson",
+      "uk": "(GMT-06:00) Вінніпег, Брандон, Кенора, Портедж-ла-Прері, Томпсон"
+    },
+    "utc": "-06:00"
+  },
+  {
+    "label": "Pacific/Easter (GMT-06:00)",
+    "tzCode": "Pacific/Easter",
+    "name": {
+      "en": "(GMT-06:00) Easter Island",
+      "uk": "(GMT-06:00) Острів Пасхи"
+    },
+    "utc": "-06:00"
+  },
+  {
+    "label": "Pacific/Galapagos (GMT-06:00)",
+    "tzCode": "Pacific/Galapagos",
+    "name": {
+      "en": "(GMT-06:00) Puerto Ayora, Puerto Baquerizo Moreno",
+      "uk": "(GMT-06:00) Пуерто-Айора, Пуерто-Бакерізо-Морено"
+    },
+    "utc": "-06:00"
+  },
+  {
+    "label": "America/Atikokan (GMT-05:00)",
+    "tzCode": "America/Atikokan",
+    "name": {
+      "en": "(GMT-05:00) Atikokan",
+      "uk": "(GMT-05:00) Атікокан"
+    },
+    "utc": "-05:00"
+  },
+  {
+    "label": "America/Bogota (GMT-05:00)",
+    "tzCode": "America/Bogota",
+    "name": {
+      "en": "(GMT-05:00) Bogotá, Cali, Medellín, Barranquilla, Cartagena",
+      "uk": "(GMT-05:00) Богота, Калі, Медельїн, Барранкілья, Картагена"
+    },
+    "utc": "-05:00"
+  },
+  {
+    "label": "America/Cancun (GMT-05:00)",
+    "tzCode": "America/Cancun",
+    "name": {
+      "en": "(GMT-05:00) Cancún, Chetumal, Playa del Carmen, Cozumel, Felipe Carrillo Puerto",
+      "uk": "(GMT-05:00) Канкун, Четумаль, Плайя-дель-Кармен, Косумель, Феліпе-Каррільо-Пуерто"
+    },
+    "utc": "-05:00"
+  },
+  {
+    "label": "America/Cayman (GMT-05:00)",
+    "tzCode": "America/Cayman",
+    "name": {
+      "en": "(GMT-05:00) George Town, West Bay, Bodden Town, East End, North Side",
+      "uk": "(GMT-05:00) Джорджтаун, Вест-Бей, Бодден-Таун, Іст-Енд, Норт-Сайд"
+    },
+    "utc": "-05:00"
+  },
+  {
+    "label": "America/Detroit (GMT-05:00)",
+    "tzCode": "America/Detroit",
+    "name": {
+      "en": "(GMT-05:00) Detroit, Grand Rapids, Warren, Sterling Heights, Ann Arbor",
+      "uk": "(GMT-05:00) Детройт, Гранд-Рапідс, Воррен, Стерлінг-Хайтс, Енн-Арбор"
+    },
+    "utc": "-05:00"
+  },
+  {
+    "label": "America/Eirunepe (GMT-05:00)",
+    "tzCode": "America/Eirunepe",
+    "name": {
+      "en": "(GMT-05:00) Eirunepé, Benjamin Constant, Envira",
+      "uk": "(GMT-05:00) Ейрунепе, Бенжамін-Констант, Енвіра"
+    },
+    "utc": "-05:00"
+  },
+  {
+    "label": "America/Grand_Turk (GMT-05:00)",
+    "tzCode": "America/Grand_Turk",
+    "name": {
+      "en": "(GMT-05:00) Cockburn Town",
+      "uk": "(GMT-05:00) Кокберн-Таун"
+    },
+    "utc": "-05:00"
+  },
+  {
+    "label": "America/Guayaquil (GMT-05:00)",
+    "tzCode": "America/Guayaquil",
+    "name": {
+      "en": "(GMT-05:00) Guayaquil, Quito, Cuenca, Santo Domingo de los Colorados, Machala",
+      "uk": "(GMT-05:00) Гуаякіль, Кіто, Куенка, Санто-Домінго-де-лос-Колорадос, Мачала"
+    },
+    "utc": "-05:00"
+  },
+  {
+    "label": "America/Havana (GMT-05:00)",
+    "tzCode": "America/Havana",
+    "name": {
+      "en": "(GMT-05:00) Havana, Santiago de Cuba, Camagüey, Holguín, Guantánamo",
+      "uk": "(GMT-05:00) Гавана, Сантьяго-де-Куба, Камагуей, Голгін, Гуантанамо"
+    },
+    "utc": "-05:00"
+  },
+  {
+    "label": "America/Indiana/Indianapolis (GMT-05:00)",
+    "tzCode": "America/Indiana/Indianapolis",
+    "name": {
+      "en": "(GMT-05:00) Indianapolis, Fort Wayne, South Bend, Carmel, Bloomington (Indiana)",
+      "uk": "(GMT-05:00) Індіанаполіс, Форт-Уейн, Саут-Бенд, Кармел, Блумінгтон (Індіана)"
+    },
+    "utc": "-05:00"
+  },
+  {
+    "label": "America/Indiana/Marengo (GMT-05:00)",
+    "tzCode": "America/Indiana/Marengo",
+    "name": {
+      "en": "(GMT-05:00) Marengo (Indiana)",
+      "uk": "(GMT-05:00) Маренго (Індіана)"
+    },
+    "utc": "-05:00"
+  },
+  {
+    "label": "America/Indiana/Petersburg (GMT-05:00)",
+    "tzCode": "America/Indiana/Petersburg",
+    "name": {
+      "en": "(GMT-05:00) Petersburg (Indiana)",
+      "uk": "(GMT-05:00) Пітерсберг (Індіана)"
+    },
+    "utc": "-05:00"
+  },
+  {
+    "label": "America/Indiana/Vevay (GMT-05:00)",
+    "tzCode": "America/Indiana/Vevay",
+    "name": {
+      "en": "(GMT-05:00) Vevay (Indiana)",
+      "uk": "(GMT-05:00) Вевей (Індіана)"
+    },
+    "utc": "-05:00"
+  },
+  {
+    "label": "America/Indiana/Vincennes (GMT-05:00)",
+    "tzCode": "America/Indiana/Vincennes",
+    "name": {
+      "en": "(GMT-05:00) Vincennes, Jasper, Washington, Huntingburg (Indiana)",
+      "uk": "(GMT-05:00) Вінсеннес, Джаспер, Вашингтон, Хантінгбург (Індіана)"
+    },
+    "utc": "-05:00"
+  },
+  {
+    "label": "America/Indiana/Winamac (GMT-05:00)",
+    "tzCode": "America/Indiana/Winamac",
+    "name": {
+      "en": "(GMT-05:00) Winamac (Indiana)",
+      "uk": "(GMT-05:00) Вінамак (Індіана)"
+    },
+    "utc": "-05:00"
+  },
+  {
+    "label": "America/Iqaluit (GMT-05:00)",
+    "tzCode": "America/Iqaluit",
+    "name": {
+      "en": "(GMT-05:00) Iqaluit",
+      "uk": "(GMT-05:00) Ікалуїт"
+    },
+    "utc": "-05:00"
+  },
+  {
+    "label": "America/Jamaica (GMT-05:00)",
+    "tzCode": "America/Jamaica",
+    "name": {
+      "en": "(GMT-05:00) Kingston, New Kingston, Spanish Town, Portmore, Montego Bay",
+      "uk": "(GMT-05:00) Кінгстон, Нью-Кінгстон, Спаніш-Таун, Портмор, Монтего-Бей"
+    },
+    "utc": "-05:00"
+  },
+  {
+    "label": "America/Kentucky/Louisville (GMT-05:00)",
+    "tzCode": "America/Kentucky/Louisville",
+    "name": {
+      "en": "(GMT-05:00) Louisville, Jeffersonville, New Albany, Jeffersontown, Pleasure Ridge Park (Kentucky)",
+      "uk": "(GMT-05:00) Луїсвілл, Джефферсонвілл, Нью-Олбані, Джефферсонтаун, Плезур-Рідж-Парк (Кентуккі)"
+    },
+    "utc": "-05:00"
+  },
+  {
+    "label": "America/Kentucky/Monticello (GMT-05:00)",
+    "tzCode": "America/Kentucky/Monticello",
+    "name": {
+      "en": "(GMT-05:00) Monticello (Kentucky)",
+      "uk": "(GMT-05:00) Монтічелло (Кентуккі)"
+    },
+    "utc": "-05:00"
+  },
+  {
+    "label": "America/Lima (GMT-05:00)",
+    "tzCode": "America/Lima",
+    "name": {
+      "en": "(GMT-05:00) Lima, Arequipa, Callao, Trujillo, Chiclayo",
+      "uk": "(GMT-05:00) Ліма, Ареквіпа, Кальяо, Трухільйо, Чіклайо"
+    },
+    "utc": "-05:00"
+  },
+  {
+    "label": "America/Nassau (GMT-05:00)",
+    "tzCode": "America/Nassau",
+    "name": {
+      "en": "(GMT-05:00) Nassau, Lucaya, Freeport, West End, Cooper’s Town",
+      "uk": "(GMT-05:00) Нассау, Люкая, Фріпорт, Вест-Енд, Куперс-Таун"
+    },
+    "utc": "-05:00"
+  },
+  {
+    "label": "America/New_York (GMT-05:00)",
+    "tzCode": "America/New_York",
+    "name": {
+      "en": "(GMT-05:00) New York City, Brooklyn, Queens, Philadelphia, Manhattan",
+      "uk": "(GMT-05:00) Нью-Йорк, Бруклін, Квінс, Філадельфія, Мангеттен"
+    },
+    "utc": "-05:00"
+  },
+  {
+    "label": "America/Nipigon (GMT-05:00)",
+    "tzCode": "America/Nipigon",
+    "name": {
+      "en": "(GMT-05:00) Nipigon",
+      "uk": "(GMT-05:00) Ніпігон"
+    },
+    "utc": "-05:00"
+  },
+  {
+    "label": "America/Panama (GMT-05:00)",
+    "tzCode": "America/Panama",
+    "name": {
+      "en": "(GMT-05:00) Panamá, San Miguelito, Juan Díaz, David, Arraiján",
+      "uk": "(GMT-05:00) Панама, Сан-Мігеліто, Хуан-Діас, Давід, Аррайхан"
+    },
+    "utc": "-05:00"
+  },
+  {
+    "label": "America/Pangnirtung (GMT-05:00)",
+    "tzCode": "America/Pangnirtung",
+    "name": {
+      "en": "(GMT-05:00) Pangnirtung",
+      "uk": "(GMT-05:00) Пангніртунг"
+    },
+    "utc": "-05:00"
+  },
+  {
+    "label": "America/Port-au-Prince (GMT-05:00)",
+    "tzCode": "America/Port-au-Prince",
+    "name": {
+      "en": "(GMT-05:00) Port-au-Prince, Carrefour, Delmas 73, Pétionville, Port-de-Paix",
+      "uk": "(GMT-05:00) Порт-о-Пренс, Каррефур, Дельмас 73, Петіонвіль, Порт-де-Пейс"
+    },
+    "utc": "-05:00"
+  },
+  {
+    "label": "America/Rio_Branco (GMT-05:00)",
+    "tzCode": "America/Rio_Branco",
+    "name": {
+      "en": "(GMT-05:00) Rio Branco, Cruzeiro do Sul, Sena Madureira, Tarauacá, Feijó",
+      "uk": "(GMT-05:00) Ріо-Бранко, Крузейру-ду-Сул, Сена-Мадурейра, Тарауака, Фейжо"
+    },
+    "utc": "-05:00"
+  },
+  {
+    "label": "America/Thunder_Bay (GMT-05:00)",
+    "tzCode": "America/Thunder_Bay",
+    "name": {
+      "en": "(GMT-05:00) Thunder Bay",
+      "uk": "(GMT-05:00) Тандер-Бей"
+    },
+    "utc": "-05:00"
+  },
+  {
+    "label": "America/Toronto (GMT-05:00)",
+    "tzCode": "America/Toronto",
+    "name": {
+      "en": "(GMT-05:00) Toronto, Montréal, Ottawa, Mississauga, Québec",
+      "uk": "(GMT-05:00) Торонто, Монреаль, Оттава, Міссіссога, Квебек"
+    },
+    "utc": "-05:00"
+  },
+  {
+    "label": "America/Anguilla (GMT-04:00)",
+    "tzCode": "America/Anguilla",
+    "name": {
+      "en": "(GMT-04:00) The Valley, Blowing Point Village, Sandy Ground Village, The Quarter, Sandy Hill",
+      "uk": "(GMT-04:00) Веллі, Блоуінг-Пойнт-Вілладж, Сенді-Граунд-Вілладж, Квотер, Сенді-Хілл"
+    },
+    "utc": "-04:00"
+  },
+  {
+    "label": "America/Antigua (GMT-04:00)",
+    "tzCode": "America/Antigua",
+    "name": {
+      "en": "(GMT-04:00) Saint John’s, Piggotts, Bolands, Codrington, Parham",
+      "uk": "(GMT-04:00) Сент-Джонс, Пігготтс, Боландс, Кодрінгтон, Пархем"
+    },
+    "utc": "-04:00"
+  },
+  {
+    "label": "America/Aruba (GMT-04:00)",
+    "tzCode": "America/Aruba",
+    "name": {
+      "en": "(GMT-04:00) Oranjestad, Tanki Leendert, San Nicolas, Santa Cruz, Paradera",
+      "uk": "(GMT-04:00) Ораньєстад, Танкі-Леендерт, Сан-Ніколас, Санта-Крус, Парадера"
+    },
+    "utc": "-04:00"
+  },
+  {
+    "label": "America/Asuncion (GMT-04:00)",
+    "tzCode": "America/Asuncion",
+    "name": {
+      "en": "(GMT-04:00) Asunción, Ciudad del Este, San Lorenzo, Capiatá, Lambaré",
+      "uk": "(GMT-04:00) Асунсьйон, Сьюдад-дель-Есте, Сан-Лоренцо, Капіата, Ламбаре"
+    },
+    "utc": "-04:00"
+  },
+  {
+    "label": "America/Barbados (GMT-04:00)",
+    "tzCode": "America/Barbados",
+    "name": {
+      "en": "(GMT-04:00) Bridgetown, Speightstown, Oistins, Bathsheba, Holetown",
+      "uk": "(GMT-04:00) Бріджтаун, Спейтстаун, Ойстінс, Батшеба, Холетаун"
+    },
+    "utc": "-04:00"
+  },
+  {
+    "label": "America/Blanc-Sablon (GMT-04:00)",
+    "tzCode": "America/Blanc-Sablon",
+    "name": {
+      "en": "(GMT-04:00) Lévis",
+      "uk": "(GMT-04:00) Левіс"
+    },
+    "utc": "-04:00"
+  },
+  {
+    "label": "America/Boa_Vista (GMT-04:00)",
+    "tzCode": "America/Boa_Vista",
+    "name": {
+      "en": "(GMT-04:00) Boa Vista",
+      "uk": "(GMT-04:00) Боа-Віста"
+    },
+    "utc": "-04:00"
+  },
+  {
+    "label": "America/Campo_Grande (GMT-04:00)",
+    "tzCode": "America/Campo_Grande",
+    "name": {
+      "en": "(GMT-04:00) Campo Grande, Dourados, Corumbá, Três Lagoas, Ponta Porã",
+      "uk": "(GMT-04:00) Кампу-Гранді, Дурадос, Корумба, Трес-Лагоас, Понта-Поран"
+    },
+    "utc": "-04:00"
+  },
+  {
+    "label": "America/Caracas (GMT-04:00)",
+    "tzCode": "America/Caracas",
+    "name": {
+      "en": "(GMT-04:00) Caracas, Maracaibo, Maracay, Valencia, Barquisimeto",
+      "uk": "(GMT-04:00) Каракас, Маракайбо, Маракай, Валенсія, Баркісімето"
+    },
+    "utc": "-04:00"
+  },
+  {
+    "label": "America/Cuiaba (GMT-04:00)",
+    "tzCode": "America/Cuiaba",
+    "name": {
+      "en": "(GMT-04:00) Cuiabá, Várzea Grande, Rondonópolis, Sinop, Barra do Garças",
+      "uk": "(GMT-04:00) Куяба, Варзеа-Гранде, Рондонополіс, Сіноп, Барра-ду-Гарсас"
+    },
+    "utc": "-04:00"
+  },
+  {
+    "label": "America/Curacao (GMT-04:00)",
+    "tzCode": "America/Curacao",
+    "name": {
+      "en": "(GMT-04:00) Willemstad, Sint Michiel Liber",
+      "uk": "(GMT-04:00) Віллемстад, Сінт-Міхіель-Лібер"
+    },
+    "utc": "-04:00"
+  },
+  {
+    "label": "America/Dominica (GMT-04:00)",
+    "tzCode": "America/Dominica",
+    "name": {
+      "en": "(GMT-04:00) Roseau, Portsmouth, Berekua, Saint Joseph, Wesley",
+      "uk": "(GMT-04:00) Розо, Портсмут, Берекуа, Сент-Джозеф, Веслі"
+    },
+    "utc": "-04:00"
+  },
+  {
+    "label": "America/Glace_Bay (GMT-04:00)",
+    "tzCode": "America/Glace_Bay",
+    "name": {
+      "en": "(GMT-04:00) Sydney, Glace Bay, Sydney Mines",
+      "uk": "(GMT-04:00) Сідней, Глейс-Бей, Сідней-Майнс"
+    },
+    "utc": "-04:00"
+  },
+  {
+    "label": "America/Goose_Bay (GMT-04:00)",
+    "tzCode": "America/Goose_Bay",
+    "name": {
+      "en": "(GMT-04:00) Labrador City, Happy Valley-Goose Bay",
+      "uk": "(GMT-04:00) Лабрадор-Сіті, Хеппі-Веллі-Гуз-Бей"
+    },
+    "utc": "-04:00"
+  },
+  {
+    "label": "America/Grenada (GMT-04:00)",
+    "tzCode": "America/Grenada",
+    "name": {
+      "en": "(GMT-04:00) Saint George's, Gouyave, Grenville, Victoria, Saint David’s",
+      "uk": "(GMT-04:00) Сент-Джорджес, Гуяв, Гренвілл, Вікторія, Сент-Девідс"
+    },
+    "utc": "-04:00"
+  },
+  {
+    "label": "America/Guadeloupe (GMT-04:00)",
+    "tzCode": "America/Guadeloupe",
+    "name": {
+      "en": "(GMT-04:00) Les Abymes, Baie-Mahault, Le Gosier, Petit-Bourg, Sainte-Anne",
+      "uk": "(GMT-04:00) Ле-Абім, Бей-Мао, Ле-Госьє, Петі-Бург, Сент-Анн"
+    },
+    "utc": "-04:00"
+  },
+  {
+    "label": "America/Guyana (GMT-04:00)",
+    "tzCode": "America/Guyana",
+    "name": {
+      "en": "(GMT-04:00) Georgetown, Linden, New Amsterdam, Anna Regina, Bartica",
+      "uk": "(GMT-04:00) Джорджтаун, Лінден, Нью-Амстердам, Анна-Реджина, Бартіка"
+    },
+    "utc": "-04:00"
+  },
+  {
+    "label": "America/Halifax (GMT-04:00)",
+    "tzCode": "America/Halifax",
+    "name": {
+      "en": "(GMT-04:00) Halifax, Dartmouth, Charlottetown, Lower Sackville, Truro",
+      "uk": "(GMT-04:00) Галіфакс, Дартмут, Шарлоттаун, Ловер-Саквілл, Труро"
+    },
+    "utc": "-04:00"
+  },
+  {
+    "label": "America/Kralendijk (GMT-04:00)",
+    "tzCode": "America/Kralendijk",
+    "name": {
+      "en": "(GMT-04:00) Kralendijk, Oranjestad, The Bottom",
+      "uk": "(GMT-04:00) Кралендейк, Ораньєстад, Боттом"
+    },
+    "utc": "-04:00"
+  },
+  {
+    "label": "America/La_Paz (GMT-04:00)",
+    "tzCode": "America/La_Paz",
+    "name": {
+      "en": "(GMT-04:00) Santa Cruz de la Sierra, Cochabamba, La Paz, Sucre, Oruro",
+      "uk": "(GMT-04:00) Санта-Крус-де-ла-Сьєрра, Кочабамба, Ла-Пас, Сукре, Оруро"
+    },
+    "utc": "-04:00"
+  },
+  {
+    "label": "America/Lower_Princes (GMT-04:00)",
+    "tzCode": "America/Lower_Princes",
+    "name": {
+      "en": "(GMT-04:00) Cul de Sac, Lower Prince’s Quarter, Koolbaai, Philipsburg",
+      "uk": "(GMT-04:00) Куль-де-Сак, Нижній квартал принца, Кулбаай, Філіпсбург"
+    },
+    "utc": "-04:00"
+  },
+  {
+    "label": "America/Manaus (GMT-04:00)",
+    "tzCode": "America/Manaus",
+    "name": {
+      "en": "(GMT-04:00) Manaus, Itacoatiara, Parintins, Manacapuru, Coari",
+      "uk": "(GMT-04:00) Манаус, Ітакоатіара, Парінтінс, Манакапуру, Коарі"
+    },
+    "utc": "-04:00"
+  },
+  {
+    "label": "America/Marigot (GMT-04:00)",
+    "tzCode": "America/Marigot",
+    "name": {
+      "en": "(GMT-04:00) Marigot",
+      "uk": "(GMT-04:00) Маріго"
+    },
+    "utc": "-04:00"
+  },
+  {
+    "label": "America/Martinique (GMT-04:00)",
+    "tzCode": "America/Martinique",
+    "name": {
+      "en": "(GMT-04:00) Fort-de-France, Le Lamentin, Le Robert, Sainte-Marie, Le François",
+      "uk": "(GMT-04:00) Фор-де-Франс, Ле-Ламентін, Ле-Робер, Сент-Марі, Ле-Франсуа"
+    },
+    "utc": "-04:00"
+  },
+  {
+    "label": "America/Moncton (GMT-04:00)",
+    "tzCode": "America/Moncton",
+    "name": {
+      "en": "(GMT-04:00) Moncton, Saint John, Fredericton, Dieppe, Miramichi",
+      "uk": "(GMT-04:00) Монктон, Сент-Джон, Фредеріктон, Діепп, Мірамічі"
+    },
+    "utc": "-04:00"
+  },
+  {
+    "label": "America/Montserrat (GMT-04:00)",
+    "tzCode": "America/Montserrat",
+    "name": {
+      "en": "(GMT-04:00) Brades, Saint Peters, Plymouth",
+      "uk": "(GMT-04:00) Брейдс, Сент-Пітерс, Плімут"
+    },
+    "utc": "-04:00"
+  },
+  {
+    "label": "America/Porto_Velho (GMT-04:00)",
+    "tzCode": "America/Porto_Velho",
+    "name": {
+      "en": "(GMT-04:00) Porto Velho, Ji Paraná, Vilhena, Ariquemes, Cacoal",
+      "uk": "(GMT-04:00) Порту-Велью, Жі-Парана, Вільєна, Арікемес, Касоал"
+    },
+    "utc": "-04:00"
+  },
+  {
+    "label": "America/Port_of_Spain (GMT-04:00)",
+    "tzCode": "America/Port_of_Spain",
+    "name": {
+      "en": "(GMT-04:00) Chaguanas, Mon Repos, San Fernando, Port of Spain, Rio Claro",
+      "uk": "(GMT-04:00) Чагуанас, Мон-Репо, Сан-Фернандо, Порт-оф-Спейн, Ріо-Кларо"
+    },
+    "utc": "-04:00"
+  },
+  {
+    "label": "America/Puerto_Rico (GMT-04:00)",
+    "tzCode": "America/Puerto_Rico",
+    "name": {
+      "en": "(GMT-04:00) San Juan, Bayamón, Carolina, Ponce, Caguas",
+      "uk": "(GMT-04:00) Сан-Хуан, Баямон, Кароліна, Понсе, Кагуас"
+    },
+    "utc": "-04:00"
+  },
+  {
+    "label": "America/Santiago (GMT-04:00)",
+    "tzCode": "America/Santiago",
+    "name": {
+      "en": "(GMT-04:00) Santiago, Puente Alto, Antofagasta, Viña del Mar, Valparaíso",
+      "uk": "(GMT-04:00) Сантьяго, Пуенте-Альто, Антофагаста, Вінья-дель-Мар, Вальпараїсо"
+    },
+    "utc": "-04:00"
+  },
+  {
+    "label": "America/Santo_Domingo (GMT-04:00)",
+    "tzCode": "America/Santo_Domingo",
+    "name": {
+      "en": "(GMT-04:00) Santo Domingo, Santiago de los Caballeros, Santo Domingo Oeste, Santo Domingo Este, San Pedro de Macorís",
+      "uk": "(GMT-04:00) Санто-Домінго, Сантьяго-де-лос-Кабальєрос, Санто-Домінго-Оесте, Санто-Домінго-Есте, Сан-Педро-де-Макоріс"
+    },
+    "utc": "-04:00"
+  },
+  {
+    "label": "America/St_Barthelemy (GMT-04:00)",
+    "tzCode": "America/St_Barthelemy",
+    "name": {
+      "en": "(GMT-04:00) Gustavia",
+      "uk": "(GMT-04:00) Густавія"
+    },
+    "utc": "-04:00"
+  },
+  {
+    "label": "America/St_Kitts (GMT-04:00)",
+    "tzCode": "America/St_Kitts",
+    "name": {
+      "en": "(GMT-04:00) Basseterre, Fig Tree, Market Shop, Saint Paul’s, Middle Island",
+      "uk": "(GMT-04:00) Бастерр, Фіг-Трі, Маркет-Шоп, Сент-Поллс, Міддл-Айленд"
+    },
+    "utc": "-04:00"
+  },
+  {
+    "label": "America/St_Lucia (GMT-04:00)",
+    "tzCode": "America/St_Lucia",
+    "name": {
+      "en": "(GMT-04:00) Castries, Bisee, Vieux Fort, Micoud, Soufrière",
+      "uk": "(GMT-04:00) Кастри, Бісі, Вьє-Форт, Мікуд, Суфрьєр"
+    },
+    "utc": "-04:00"
+  },
+  {
+    "label": "America/St_Thomas (GMT-04:00)",
+    "tzCode": "America/St_Thomas",
+    "name": {
+      "en": "(GMT-04:00) Saint Croix, Charlotte Amalie, Cruz Bay",
+      "uk": "(GMT-04:00) Сент-Крой, Шарлотта-Амалі, Круз-Бей"
+    },
+    "utc": "-04:00"
+  },
+  {
+    "label": "America/St_Vincent (GMT-04:00)",
+    "tzCode": "America/St_Vincent",
+    "name": {
+      "en": "(GMT-04:00) Kingstown, Kingstown Park, Georgetown, Barrouallie, Port Elizabeth",
+      "uk": "(GMT-04:00) Кінгстаун, Кінгстаун-Парк, Джорджтаун, Барруаллі, Порт-Елізабет"
+    },
+    "utc": "-04:00"
+  },
+  {
+    "label": "America/Thule (GMT-04:00)",
+    "tzCode": "America/Thule",
+    "name": {
+      "en": "(GMT-04:00) Thule",
+      "uk": "(GMT-04:00) Туле"
+    },
+    "utc": "-04:00"
+  },
+  {
+    "label": "America/Tortola (GMT-04:00)",
+    "tzCode": "America/Tortola",
+    "name": {
+      "en": "(GMT-04:00) Road Town",
+      "uk": "(GMT-04:00) Роуд-Таун"
+    },
+    "utc": "-04:00"
+  },
+  {
+    "label": "Atlantic/Bermuda (GMT-04:00)",
+    "tzCode": "Atlantic/Bermuda",
+    "name": {
+      "en": "(GMT-04:00) Hamilton",
+      "uk": "(GMT-04:00) Гамільтон"
+    },
+    "utc": "-04:00"
+  },
+  {
+    "label": "America/St_Johns (GMT-03:30)",
+    "tzCode": "America/St_Johns",
+    "name": {
+      "en": "(GMT-03:30) St. John's, Mount Pearl, Corner Brook, Conception Bay South, Bay Roberts",
+      "uk": "(GMT-03:30) Сент-Джонс, Маунт-Перл, Корнер-Брук, Консепшн-Бей-Саут, Бей-Робертс"
+    },
+    "utc": "-03:30"
+  },
+  {
+    "label": "America/Araguaina (GMT-03:00)",
+    "tzCode": "America/Araguaina",
+    "name": {
+      "en": "(GMT-03:00) Palmas, Araguaína, Gurupi, Miracema do Tocantins, Porto Franco",
+      "uk": "(GMT-03:00) Палмас, Арагуаїна, Гурупі, Міракема-ду-Токантінс, Порту-Франко"
+    },
+    "utc": "-03:00"
+  },
+  {
+    "label": "America/Argentina/Buenos_Aires (GMT-03:00)",
+    "tzCode": "America/Argentina/Buenos_Aires",
+    "name": {
+      "en": "(GMT-03:00) Buenos Aires, La Plata, Mar del Plata, Morón, Bahía Blanca",
+      "uk": "(GMT-03:00) Буенос-Айрес, Ла-Плата, Мар-дель-Плата, Морон, Баїя-Бланка"
+    },
+    "utc": "-03:00"
+  },
+  {
+    "label": "America/Argentina/Catamarca (GMT-03:00)",
+    "tzCode": "America/Argentina/Catamarca",
+    "name": {
+      "en": "(GMT-03:00) San Fernando del Valle de Catamarca, Trelew, Puerto Madryn, Esquel, Rawson",
+      "uk": "(GMT-03:00) Сан-Фернандо-дель-Вальє-де-Катамарка, Трелю, Пуерто-Мадрин, Ескель, Роусон"
+    },
+    "utc": "-03:00"
+  },
+  {
+    "label": "America/Argentina/Cordoba (GMT-03:00)",
+    "tzCode": "America/Argentina/Cordoba",
+    "name": {
+      "en": "(GMT-03:00) Córdoba, Rosario, Santa Fe, Resistencia, Santiago del Estero",
+      "uk": "(GMT-03:00) Кордова, Росаріо, Санта-Фе, Ресістенсія, Сантьяго-дель-Естеро"
+    },
+    "utc": "-03:00"
+  },
+  {
+    "label": "America/Argentina/Jujuy (GMT-03:00)",
+    "tzCode": "America/Argentina/Jujuy",
+    "name": {
+      "en": "(GMT-03:00) San Salvador de Jujuy, San Pedro de Jujuy, Libertador General San Martín, Palpalá, La Quiaca",
+      "uk": "(GMT-03:00) Сан-Сальвадор-де-Хухуй, Сан-Педро-де-Хухуй, Лібертадор-Хенерал-Сан-Мартін, Пальпалі, Ла-Квіака"
+    },
+    "utc": "-03:00"
+  },
+  {
+    "label": "America/Argentina/La_Rioja (GMT-03:00)",
+    "tzCode": "America/Argentina/La_Rioja",
+    "name": {
+      "en": "(GMT-03:00) La Rioja, Chilecito, Arauco, Chamical",
+      "uk": "(GMT-03:00) Ла-Ріоха, Чілесіто, Арауко, Чамікал"
+    },
+    "utc": "-03:00"
+  },
+  {
+    "label": "America/Argentina/Mendoza (GMT-03:00)",
+    "tzCode": "America/Argentina/Mendoza",
+    "name": {
+      "en": "(GMT-03:00) Mendoza, San Rafael, San Martín",
+      "uk": "(GMT-03:00) Мендоса, Сан-Рафаель, Сан-Мартін"
+    },
+    "utc": "-03:00"
+  },
+  {
+    "label": "America/Argentina/Rio_Gallegos (GMT-03:00)",
+    "tzCode": "America/Argentina/Rio_Gallegos",
+    "name": {
+      "en": "(GMT-03:00) Comodoro Rivadavia, Río Gallegos, Caleta Olivia, Pico Truncado, Puerto Deseado",
+      "uk": "(GMT-03:00) Комодоро-Рівадавія, Ріо-Гальєгос, Калета-Олівія, Піко-Трункадо, Пуерто-Десеадо"
+    },
+    "utc": "-03:00"
+  },
+  {
+    "label": "America/Argentina/Salta (GMT-03:00)",
+    "tzCode": "America/Argentina/Salta",
+    "name": {
+      "en": "(GMT-03:00) Salta, Neuquén, Santa Rosa, San Carlos de Bariloche, Cipolletti",
+      "uk": "(GMT-03:00) Сальта, Неукен, Санта-Роса, Сан-Карлос-де-Барілоче, Сіполетті"
+    },
+    "utc": "-03:00"
+  },
+  {
+    "label": "America/Argentina/San_Juan (GMT-03:00)",
+    "tzCode": "America/Argentina/San_Juan",
+    "name": {
+      "en": "(GMT-03:00) San Juan, Chimbas, Santa Lucía, Pocito, Caucete",
+      "uk": "(GMT-03:00) Сан-Хуан, Чімбас, Санта-Люсія, Посіто, Каусете"
+    },
+    "utc": "-03:00"
+  },
+  {
+    "label": "America/Argentina/San_Luis (GMT-03:00)",
+    "tzCode": "America/Argentina/San_Luis",
+    "name": {
+      "en": "(GMT-03:00) San Luis, Villa Mercedes, La Punta, Merlo, Justo Daract",
+      "uk": "(GMT-03:00) Сан-Луїс, Вілья-Мерседес, Ла-Пунта, Мерло, Хусто-Даракт"
+    },
+    "utc": "-03:00"
+  },
+  {
+    "label": "America/Argentina/Tucuman (GMT-03:00)",
+    "tzCode": "America/Argentina/Tucuman",
+    "name": {
+      "en": "(GMT-03:00) San Miguel de Tucumán, Yerba Buena, Tafí Viejo, Alderetes, Aguilares",
+      "uk": "(GMT-03:00) Сан-Мігель-де-Тукуман, Єрба-Буена, Тафі-Вьєхо, Альдеретес, Агіларес"
+    },
+    "utc": "-03:00"
+  },
+  {
+    "label": "America/Argentina/Ushuaia (GMT-03:00)",
+    "tzCode": "America/Argentina/Ushuaia",
+    "name": {
+      "en": "(GMT-03:00) Ushuaia, Río Grande",
+      "uk": "(GMT-03:00) Ушуая, Ріо-Гранде"
+    },
+    "utc": "-03:00"
+  },
+  {
+    "label": "America/Bahia (GMT-03:00)",
+    "tzCode": "America/Bahia",
+    "name": {
+      "en": "(GMT-03:00) Salvador, Feira de Santana, Vitória da Conquista, Itabuna, Camaçari",
+      "uk": "(GMT-03:00) Сальвадор, Фейра-де-Сантана, Віторія-да-Конкіста, Ітабуна, Камасарі"
+    },
+    "utc": "-03:00"
+  },
+  {
+    "label": "America/Belem (GMT-03:00)",
+    "tzCode": "America/Belem",
+    "name": {
+      "en": "(GMT-03:00) Belém, Ananindeua, Macapá, Parauapebas, Marabá",
+      "uk": "(GMT-03:00) Белен, Ананіндеуа, Макапа, Парауапебас, Мараба"
+    },
+    "utc": "-03:00"
+  },
+  {
+    "label": "America/Cayenne (GMT-03:00)",
+    "tzCode": "America/Cayenne",
+    "name": {
+      "en": "(GMT-03:00) Cayenne, Matoury, Saint-Laurent-du-Maroni, Kourou, Rémire-Montjoly",
+      "uk": "(GMT-03:00) Кайєнна, Матурі, Сен-Лоран-дю-Мароні, Куроу, Ремір-Монжолі"
+    },
+    "utc": "-03:00"
+  },
+  {
+    "label": "America/Fortaleza (GMT-03:00)",
+    "tzCode": "America/Fortaleza",
+    "name": {
+      "en": "(GMT-03:00) Fortaleza, São Luís, Natal, Teresina, João Pessoa",
+      "uk": "(GMT-03:00) Форталеза, Сан-Луїс, Натал, Терезіна, Жоао-Песоа"
+    },
+    "utc": "-03:00"
+  },
+  {
+    "label": "America/Godthab (GMT-03:00)",
+    "tzCode": "America/Godthab",
+    "name": {
+      "en": "(GMT-03:00) Nuuk, Sisimiut, Ilulissat, Qaqortoq, Aasiaat",
+      "uk": "(GMT-03:00) Нуук, Сісіміут, Ілуліссат, Какортоґ, Аасіат"
+    },
+    "utc": "-03:00"
+  },
+  {
+    "label": "America/Maceio (GMT-03:00)",
+    "tzCode": "America/Maceio",
+    "name": {
+      "en": "(GMT-03:00) Maceió, Aracaju, Arapiraca, Nossa Senhora do Socorro, São Cristóvão",
+      "uk": "(GMT-03:00) Масейо, Аракажу, Арапірака, Носса-Сеньора-ду-Сокорро, Сан-Крістован"
+    },
+    "utc": "-03:00"
+  },
+  {
+    "label": "America/Miquelon (GMT-03:00)",
+    "tzCode": "America/Miquelon",
+    "name": {
+      "en": "(GMT-03:00) Saint-Pierre, Miquelon",
+      "uk": "(GMT-03:00) Сен-П'єр, Мікелон"
+    },
+    "utc": "-03:00"
+  },
+  {
+    "label": "America/Montevideo (GMT-03:00)",
+    "tzCode": "America/Montevideo",
+    "name": {
+      "en": "(GMT-03:00) Montevideo, Salto, Paysandú, Las Piedras, Rivera",
+      "uk": "(GMT-03:00) Монтевідео, Сальто, Пайсанду, Лас-П'єдрас, Рівера"
+    },
+    "utc": "-03:00"
+  },
+  {
+    "label": "America/Paramaribo (GMT-03:00)",
+    "tzCode": "America/Paramaribo",
+    "name": {
+      "en": "(GMT-03:00) Paramaribo, Lelydorp, Brokopondo, Nieuw Nickerie, Moengo",
+      "uk": "(GMT-03:00) Парамарибо, Лелідорп, Брокопондо, Нью-Нікері, Моенго"
+    },
+    "utc": "-03:00"
+  },
+  {
+    "label": "America/Punta_Arenas (GMT-03:00)",
+    "tzCode": "America/Punta_Arenas",
+    "name": {
+      "en": "(GMT-03:00) Punta Arenas, Puerto Natales",
+      "uk": "(GMT-03:00) Пунта-Аренас, Пуерто-Наталес"
+    },
+    "utc": "-03:00"
+  },
+  {
+    "label": "America/Recife (GMT-03:00)",
+    "tzCode": "America/Recife",
+    "name": {
+      "en": "(GMT-03:00) Recife, Jaboatão, Jaboatão dos Guararapes, Olinda, Paulista",
+      "uk": "(GMT-03:00) Ресіфі, Жабоатан, Жабоатан-дос-Гуарарапес, Олінда, Пауліста"
+    },
+    "utc": "-03:00"
+  },
+  {
+    "label": "America/Santarem (GMT-03:00)",
+    "tzCode": "America/Santarem",
+    "name": {
+      "en": "(GMT-03:00) Santarém, Altamira, Itaituba, Oriximiná, Alenquer",
+      "uk": "(GMT-03:00) Сантарен, Альтаміра, Ітайтуба, Оріксіміна, Аленкер"
+    },
+    "utc": "-03:00"
+  },
+  {
+    "label": "America/Sao_Paulo (GMT-03:00)",
+    "tzCode": "America/Sao_Paulo",
+    "name": {
+      "en": "(GMT-03:00) São Paulo, Rio de Janeiro, Belo Horizonte, Brasília, Curitiba",
+      "uk": "(GMT-03:00) Сан-Паулу, Ріо-де-Жанейро, Белу-Оризонте, Бразиліа, Курітіба"
+    },
+    "utc": "-03:00"
+  },
+  {
+    "label": "Antarctica/Palmer (GMT-03:00)",
+    "tzCode": "Antarctica/Palmer",
+    "name": {
+      "en": "(GMT-03:00) Palmer",
+      "uk": "(GMT-03:00) Палмер"
+    },
+    "utc": "-03:00"
+  },
+  {
+    "label": "Antarctica/Rothera (GMT-03:00)",
+    "tzCode": "Antarctica/Rothera",
+    "name": {
+      "en": "(GMT-03:00) Rothera",
+      "uk": "(GMT-03:00) Ротера"
+    },
+    "utc": "-03:00"
+  },
+  {
+    "label": "Atlantic/Stanley (GMT-03:00)",
+    "tzCode": "Atlantic/Stanley",
+    "name": {
+      "en": "(GMT-03:00) Stanley",
+      "uk": "(GMT-03:00) Стенлі"
+    },
+    "utc": "-03:00"
+  },
+  {
+    "label": "America/Noronha (GMT-02:00)",
+    "tzCode": "America/Noronha",
+    "name": {
+      "en": "(GMT-02:00) Itamaracá",
+      "uk": "(GMT-02:00) Ітамарака"
+    },
+    "utc": "-02:00"
+  },
+  {
+    "label": "Atlantic/South_Georgia (GMT-02:00)",
+    "tzCode": "Atlantic/South_Georgia",
+    "name": {
+      "en": "(GMT-02:00) Grytviken",
+      "uk": "(GMT-02:00) Гритвікен"
+    },
+    "utc": "-02:00"
+  },
+  {
+    "label": "America/Scoresbysund (GMT-01:00)",
+    "tzCode": "America/Scoresbysund",
+    "name": {
+      "en": "(GMT-01:00) Scoresbysund",
+      "uk": "(GMT-01:00) Скорсбісунн"
+    },
+    "utc": "-01:00"
+  },
+  {
+    "label": "Atlantic/Azores (GMT-01:00)",
+    "tzCode": "Atlantic/Azores",
+    "name": {
+      "en": "(GMT-01:00) Ponta Delgada, Lagoa, Angra do Heroísmo, Rosto de Cão, Rabo de Peixe",
+      "uk": "(GMT-01:00) Понта-Делгада, Лагоа, Ангра-ду-Еройсму, Росту-де-Кан, Рабу-де-Пейше"
+    },
+    "utc": "-01:00"
+  },
+  {
+    "label": "Atlantic/Cape_Verde (GMT-01:00)",
+    "tzCode": "Atlantic/Cape_Verde",
+    "name": {
+      "en": "(GMT-01:00) Praia, Mindelo, Santa Maria, Cova Figueira, Santa Cruz",
+      "uk": "(GMT-01:00) Прая, Мінделу, Санта-Марія, Кова-Фігейра, Санта-Крус"
+    },
+    "utc": "-01:00"
+  },
+  {
+    "label": "Africa/Abidjan (GMT+00:00)",
+    "tzCode": "Africa/Abidjan",
+    "name": {
+      "en": "(GMT+00:00) Abidjan, Abobo, Bouaké, Daloa, San-Pédro",
+      "uk": "(GMT+00:00) Абіджан, Абобо, Буаке, Далоа, Сан-Педро"
+    },
+    "utc": "+00:00"
+  },
+  {
+    "label": "Africa/Accra (GMT+00:00)",
+    "tzCode": "Africa/Accra",
+    "name": {
+      "en": "(GMT+00:00) Accra, Kumasi, Tamale, Takoradi, Atsiaman",
+      "uk": "(GMT+00:00) Аккра, Кумасі, Тамале, Такораді, Атсіаман"
+    },
+    "utc": "+00:00"
+  },
+  {
+    "label": "Africa/Bamako (GMT+00:00)",
+    "tzCode": "Africa/Bamako",
+    "name": {
+      "en": "(GMT+00:00) Bamako, Sikasso, Mopti, Koutiala, Ségou",
+      "uk": "(GMT+00:00) Бамако, Сікассо, Мопті, Кутіала, Сегу"
+    },
+    "utc": "+00:00"
+  },
+  {
+    "label": "Africa/Banjul (GMT+00:00)",
+    "tzCode": "Africa/Banjul",
+    "name": {
+      "en": "(GMT+00:00) Serekunda, Brikama, Bakau, Banjul, Farafenni",
+      "uk": "(GMT+00:00) Серекунда, Брікама, Бакау, Банжул, Фарафенні"
+    },
+    "utc": "+00:00"
+  },
+  {
+    "label": "Africa/Bissau (GMT+00:00)",
+    "tzCode": "Africa/Bissau",
+    "name": {
+      "en": "(GMT+00:00) Bissau, Bafatá, Gabú, Bissorã, Bolama",
+      "uk": "(GMT+00:00) Бісау, Бафата, Габу, Біссора, Болама"
+    },
+    "utc": "+00:00"
+  },
+  {
+    "label": "Africa/Casablanca (GMT+00:00)",
+    "tzCode": "Africa/Casablanca",
+    "name": {
+      "en": "(GMT+00:00) Casablanca, Rabat, Fès, Sale, Marrakesh",
+      "uk": "(GMT+00:00) Касабланка, Рабат, Фес, Сале, Марракеш"
+    },
+    "utc": "+00:00"
+  },
+  {
+    "label": "Africa/Conakry (GMT+00:00)",
+    "tzCode": "Africa/Conakry",
+    "name": {
+      "en": "(GMT+00:00) Camayenne, Conakry, Nzérékoré, Kindia, Kankan",
+      "uk": "(GMT+00:00) Камайєнн, Конакрі, Нзерекоре, Кіндія, Канкан"
+    },
+    "utc": "+00:00"
+  },
+  {
+    "label": "Africa/Dakar (GMT+00:00)",
+    "tzCode": "Africa/Dakar",
+    "name": {
+      "en": "(GMT+00:00) Dakar, Pikine, Touba, Thiès, Thiès Nones",
+      "uk": "(GMT+00:00) Дакар, Пікіне, Туба, Тьєс, Тьєс Нонес"
+    },
+    "utc": "+00:00"
+  },
+  {
+    "label": "Africa/El_Aaiun (GMT+00:00)",
+    "tzCode": "Africa/El_Aaiun",
+    "name": {
+      "en": "(GMT+00:00) Laayoune, Dakhla, Laayoune Plage",
+      "uk": "(GMT+00:00) Лааюн, Дахла, Лааюн Плаж"
+    },
+    "utc": "+00:00"
+  },
+  {
+    "label": "Africa/Freetown (GMT+00:00)",
+    "tzCode": "Africa/Freetown",
+    "name": {
+      "en": "(GMT+00:00) Freetown, Bo, Kenema, Koidu, Makeni",
+      "uk": "(GMT+00:00) Фрітаун, Бо, Кенема, Койду, Макені"
+    },
+    "utc": "+00:00"
+  },
+  {
+    "label": "Africa/Lome (GMT+00:00)",
+    "tzCode": "Africa/Lome",
+    "name": {
+      "en": "(GMT+00:00) Lomé, Sokodé, Kara, Atakpamé, Kpalimé",
+      "uk": "(GMT+00:00) Ломе, Сокоде, Кара, Атакпаме, Кпаліме"
+    },
+    "utc": "+00:00"
+  },
+  {
+    "label": "Africa/Monrovia (GMT+00:00)",
+    "tzCode": "Africa/Monrovia",
+    "name": {
+      "en": "(GMT+00:00) Monrovia, Gbarnga, Kakata, Bensonville, Harper",
+      "uk": "(GMT+00:00) Монровія, Гбарнга, Каката, Бенсонвілл, Гарпер"
+    },
+    "utc": "+00:00"
+  },
+  {
+    "label": "Africa/Nouakchott (GMT+00:00)",
+    "tzCode": "Africa/Nouakchott",
+    "name": {
+      "en": "(GMT+00:00) Nouakchott, Nouadhibou, Néma, Kaédi, Rosso",
+      "uk": "(GMT+00:00) Нуакшот, Нуадібу, Нема, Каеді, Россо"
+    },
+    "utc": "+00:00"
+  },
+  {
+    "label": "Africa/Ouagadougou (GMT+00:00)",
+    "tzCode": "Africa/Ouagadougou",
+    "name": {
+      "en": "(GMT+00:00) Ouagadougou, Bobo-Dioulasso, Koudougou, Ouahigouya, Banfora",
+      "uk": "(GMT+00:00) Уагадугу, Бобо-Діуласо, Кудугу, Уахігуя, Банфора"
+    },
+    "utc": "+00:00"
+  },
+  {
+    "label": "Africa/Sao_Tome (GMT+00:00)",
+    "tzCode": "Africa/Sao_Tome",
+    "name": {
+      "en": "(GMT+00:00) São Tomé, Santo António",
+      "uk": "(GMT+00:00) Сан-Томе, Санту-Антоніо"
+    },
+    "utc": "+00:00"
+  },
+  {
+    "label": "America/Danmarkshavn (GMT+00:00)",
+    "tzCode": "America/Danmarkshavn",
+    "name": {
+      "en": "(GMT+00:00) Danmarkshavn",
+      "uk": "(GMT+00:00) Данмарксхавн"
+    },
+    "utc": "+00:00"
+  },
+  {
+    "label": "Antarctica/Troll (GMT+00:00)",
+    "tzCode": "Antarctica/Troll",
+    "name": {
+      "en": "(GMT+00:00) Troll",
+      "uk": "(GMT+00:00) Тролль"
+    },
+    "utc": "+00:00"
+  },
+  {
+    "label": "Atlantic/Canary (GMT+00:00)",
+    "tzCode": "Atlantic/Canary",
+    "name": {
+      "en": "(GMT+00:00) Las Palmas de Gran Canaria, Santa Cruz de Tenerife, La Laguna, Telde, Arona",
+      "uk": "(GMT+00:00) Лас-Пальмас-де-Гран-Канарія, Санта-Крус-де-Тенеріфе, Ла-Лагуна, Тельде, Арона"
+    },
+    "utc": "+00:00"
+  },
+  {
+    "label": "Atlantic/Faroe (GMT+00:00)",
+    "tzCode": "Atlantic/Faroe",
+    "name": {
+      "en": "(GMT+00:00) Tórshavn, Klaksvík, Fuglafjørður, Tvøroyri, Miðvágur",
+      "uk": "(GMT+00:00) Торсхавн, Клаксвік, Фуглаф'ордур, Творойрі, Мідвагур"
+    },
+    "utc": "+00:00"
+  },
+  {
+    "label": "Atlantic/Madeira (GMT+00:00)",
+    "tzCode": "Atlantic/Madeira",
+    "name": {
+      "en": "(GMT+00:00) Funchal, Câmara de Lobos, São Martinho, Caniço, Machico",
+      "uk": "(GMT+00:00) Фуншал, Камара-де-Лобос, Сан-Мартінью, Канісу, Машіку"
+    },
+    "utc": "+00:00"
+  },
+  {
+    "label": "Atlantic/Reykjavik (GMT+00:00)",
+    "tzCode": "Atlantic/Reykjavik",
+    "name": {
+      "en": "(GMT+00:00) Reykjavík, Kópavogur, Hafnarfjörður, Akureyri, Garðabær",
+      "uk": "(GMT+00:00) Рейк'явік, Копавогур, Гафнарф'ордюр, Акурейрі, Гардабер"
+    },
+    "utc": "+00:00"
+  },
+  {
+    "label": "Atlantic/St_Helena (GMT+00:00)",
+    "tzCode": "Atlantic/St_Helena",
+    "name": {
+      "en": "(GMT+00:00) Jamestown, Georgetown, Edinburgh of the Seven Seas",
+      "uk": "(GMT+00:00) Джеймстаун, Джорджтаун, Единбург Семи Морів"
+    },
+    "utc": "+00:00"
+  },
+  {
+    "label": "Europe/Dublin (GMT+00:00)",
+    "tzCode": "Europe/Dublin",
+    "name": {
+      "en": "(GMT+00:00) Dublin, Cork, Luimneach, Gaillimh, Tallaght",
+      "uk": "(GMT+00:00) Дублін, Корк, Луімніх, Галвей, Таллахт"
+    },
+    "utc": "+00:00"
+  },
+  {
+    "label": "Europe/Guernsey (GMT+00:00)",
+    "tzCode": "Europe/Guernsey",
+    "name": {
+      "en": "(GMT+00:00) Saint Peter Port, St Martin, Saint Sampson, St Anne, Saint Saviour",
+      "uk": "(GMT+00:00) Сен-Пітер-Порт, Сен-Мартін, Сен-Сампсон, Сен-Анн, Сен-Савіор"
+    },
+    "utc": "+00:00"
+  },
+  {
+    "label": "Europe/Isle_of_Man (GMT+00:00)",
+    "tzCode": "Europe/Isle_of_Man",
+    "name": {
+      "en": "(GMT+00:00) Douglas, Ramsey, Peel, Port Erin, Castletown",
+      "uk": "(GMT+00:00) Дуглас, Рамсі, Піл, Порт-Ерін, Кастлтаун"
+    },
+    "utc": "+00:00"
+  },
+  {
+    "label": "Europe/Jersey (GMT+00:00)",
+    "tzCode": "Europe/Jersey",
+    "name": {
+      "en": "(GMT+00:00) Saint Helier, Le Hocq",
+      "uk": "(GMT+00:00) Сен-Гелієр, Ле-Ок"
+    },
+    "utc": "+00:00"
+  },
+  {
+    "label": "Europe/Lisbon (GMT+00:00)",
+    "tzCode": "Europe/Lisbon",
+    "name": {
+      "en": "(GMT+00:00) Lisbon, Porto, Amadora, Braga, Setúbal",
+      "uk": "(GMT+00:00) Лісабон, Порту, Амадора, Брага, Сетубал"
+    },
+    "utc": "+00:00"
+  },
+  {
+    "label": "Europe/London (GMT+00:00)",
+    "tzCode": "Europe/London",
+    "name": {
+      "en": "(GMT+00:00) London, Birmingham, Liverpool, Sheffield, Bristol",
+      "uk": "(GMT+00:00) Лондон, Бірмінгем, Ліверпуль, Шеффілд, Брістоль"
+    },
+    "utc": "+00:00"
+  },
+  {
+    "label": "Africa/Algiers (GMT+01:00)",
+    "tzCode": "Africa/Algiers",
+    "name": {
+      "en": "(GMT+01:00) Algiers, Boumerdas, Oran, Tébessa, Constantine",
+      "uk": "(GMT+01:00) Алжир, Бумердас, Оран, Тебесса, Константин"
+    },
+    "utc": "+01:00"
+  },
+  {
+    "label": "Africa/Bangui (GMT+01:00)",
+    "tzCode": "Africa/Bangui",
+    "name": {
+      "en": "(GMT+01:00) Bangui, Bimbo, Mbaïki, Berbérati, Kaga Bandoro",
+      "uk": "(GMT+01:00) Бангі, Бімбо, Мбаїкі, Бербераті, Кага Бандоро"
+    },
+    "utc": "+01:00"
+  },
+  {
+    "label": "Africa/Brazzaville (GMT+01:00)",
+    "tzCode": "Africa/Brazzaville",
+    "name": {
+      "en": "(GMT+01:00) Brazzaville, Pointe-Noire, Dolisie, Kayes, Owando",
+      "uk": "(GMT+01:00) Браззавіль, Пуант-Нуар, Долісі, Каєс, Овандо"
+    },
+    "utc": "+01:00"
+  },
+  {
+    "label": "Africa/Ceuta (GMT+01:00)",
+    "tzCode": "Africa/Ceuta",
+    "name": {
+      "en": "(GMT+01:00) Ceuta, Melilla",
+      "uk": "(GMT+01:00) Сеута, Мелілья"
+    },
+    "utc": "+01:00"
+  },
+  {
+    "label": "Africa/Douala (GMT+01:00)",
+    "tzCode": "Africa/Douala",
+    "name": {
+      "en": "(GMT+01:00) Douala, Yaoundé, Garoua, Kousséri, Bamenda",
+      "uk": "(GMT+01:00) Дуала, Яунде, Гаруа, Куссері, Баменда"
+    },
+    "utc": "+01:00"
+  },
+  {
+    "label": "Africa/Kinshasa (GMT+01:00)",
+    "tzCode": "Africa/Kinshasa",
+    "name": {
+      "en": "(GMT+01:00) Kinshasa, Masina, Kikwit, Mbandaka, Matadi",
+      "uk": "(GMT+01:00) Кіншаса, Масіна, Кіквіт, Мбандака, Матаді"
+    },
+    "utc": "+01:00"
+  },
+  {
+    "label": "Africa/Lagos (GMT+01:00)",
+    "tzCode": "Africa/Lagos",
+    "name": {
+      "en": "(GMT+01:00) Lagos, Kano, Ibadan, Kaduna, Port Harcourt",
+      "uk": "(GMT+01:00) Лагос, Кано, Ібадан, Кадуна, Порт-Харкорт"
+    },
+    "utc": "+01:00"
+  },
+  {
+    "label": "Africa/Libreville (GMT+01:00)",
+    "tzCode": "Africa/Libreville",
+    "name": {
+      "en": "(GMT+01:00) Libreville, Port-Gentil, Franceville, Oyem, Moanda",
+      "uk": "(GMT+01:00) Лібревіль, Порт-Жантіль, Франсвіль, Оєм, Моанда"
+    },
+    "utc": "+01:00"
+  },
+  {
+    "label": "Africa/Luanda (GMT+01:00)",
+    "tzCode": "Africa/Luanda",
+    "name": {
+      "en": "(GMT+01:00) Luanda, N’dalatando, Huambo, Lobito, Benguela",
+      "uk": "(GMT+01:00) Луанда, Ндалатандо, Уамбо, Лобіто, Бенгуела"
+    },
+    "utc": "+01:00"
+  },
+  {
+    "label": "Africa/Malabo (GMT+01:00)",
+    "tzCode": "Africa/Malabo",
+    "name": {
+      "en": "(GMT+01:00) Bata, Malabo, Ebebiyin, Aconibe, Añisoc",
+      "uk": "(GMT+01:00) Бата, Малабо, Ебебіїн, Аконібе, Анісок"
+    },
+    "utc": "+01:00"
+  },
+  {
+    "label": "Africa/Ndjamena (GMT+01:00)",
+    "tzCode": "Africa/Ndjamena",
+    "name": {
+      "en": "(GMT+01:00) N'Djamena, Moundou, Sarh, Abéché, Kelo",
+      "uk": "(GMT+01:00) Нджамена, Мунду, Сарх, Абеше, Кело"
+    },
+    "utc": "+01:00"
+  },
+  {
+    "label": "Africa/Niamey (GMT+01:00)",
+    "tzCode": "Africa/Niamey",
+    "name": {
+      "en": "(GMT+01:00) Niamey, Zinder, Maradi, Agadez, Alaghsas",
+      "uk": "(GMT+01:00) Ніамей, Зіндер, Мараді, Агадез, Алагсас"
+    },
+    "utc": "+01:00"
+  },
+  {
+    "label": "Africa/Porto-Novo (GMT+01:00)",
+    "tzCode": "Africa/Porto-Novo",
+    "name": {
+      "en": "(GMT+01:00) Cotonou, Abomey-Calavi, Djougou, Porto-Novo, Parakou",
+      "uk": "(GMT+01:00) Котону, Абомей-Калаві, Джугу, Порто-Ново, Параку"
+    },
+    "utc": "+01:00"
+  },
+  {
+    "label": "Africa/Tunis (GMT+01:00)",
+    "tzCode": "Africa/Tunis",
+    "name": {
+      "en": "(GMT+01:00) Tunis, Sfax, Sousse, Kairouan, Bizerte",
+      "uk": "(GMT+01:00) Туніс, Сфакс, Сус, Кайруан, Бізерте"
+    },
+    "utc": "+01:00"
+  },
+  {
+    "label": "Africa/Windhoek (GMT+01:00)",
+    "tzCode": "Africa/Windhoek",
+    "name": {
+      "en": "(GMT+01:00) Windhoek, Rundu, Walvis Bay, Oshakati, Swakopmund",
+      "uk": "(GMT+01:00) Віндгук, Рунду, Вальвіс-Бей, Ошакаті, Свакопмунд"
+    },
+    "utc": "+01:00"
+  },
+  {
+    "label": "Arctic/Longyearbyen (GMT+01:00)",
+    "tzCode": "Arctic/Longyearbyen",
+    "name": {
+      "en": "(GMT+01:00) Longyearbyen, Olonkinbyen",
+      "uk": "(GMT+01:00) Лонгйірб'єн, Олонкінб'єн"
+    },
+    "utc": "+01:00"
+  },
+  {
+    "label": "Europe/Amsterdam (GMT+01:00)",
+    "tzCode": "Europe/Amsterdam",
+    "name": {
+      "en": "(GMT+01:00) Amsterdam, Rotterdam, The Hague, Utrecht, Eindhoven",
+      "uk": "(GMT+01:00) Амстердам, Роттердам, Гаага, Утрехт, Ейндховен"
+    },
+    "utc": "+01:00"
+  },
+  {
+    "label": "Europe/Andorra (GMT+01:00)",
+    "tzCode": "Europe/Andorra",
+    "name": {
+      "en": "(GMT+01:00) Andorra la Vella, les Escaldes, Encamp, Sant Julià de Lòria, la Massana",
+      "uk": "(GMT+01:00) Андорра-ла-Велья, лес-Ескальдес, Енкамп, Сант-Жулія-де-Лорія, ла-Массана"
+    },
+    "utc": "+01:00"
+  },
+  {
+    "label": "Europe/Belgrade (GMT+01:00)",
+    "tzCode": "Europe/Belgrade",
+    "name": {
+      "en": "(GMT+01:00) Belgrade, Pristina, Niš, Novi Sad, Prizren",
+      "uk": "(GMT+01:00) Белград, Приштина, Ніш, Нови Сад, Призрен"
+    },
+    "utc": "+01:00"
+  },
+  {
+    "label": "Europe/Berlin (GMT+01:00)",
+    "tzCode": "Europe/Berlin",
+    "name": {
+      "en": "(GMT+01:00) Berlin, Hamburg, Munich, Köln, Frankfurt am Main",
+      "uk": "(GMT+01:00) Берлін, Гамбург, Мюнхен, Кельн, Франкфурт-на-Майні"
+    },
+    "utc": "+01:00"
+  },
+  {
+    "label": "Europe/Bratislava (GMT+01:00)",
+    "tzCode": "Europe/Bratislava",
+    "name": {
+      "en": "(GMT+01:00) Bratislava, Košice, Prešov, Nitra, Žilina",
+      "uk": "(GMT+01:00) Братислава, Кошице, Пряшів, Нітра, Жиліна"
+    },
+    "utc": "+01:00"
+  },
+  {
+    "label": "Europe/Brussels (GMT+01:00)",
+    "tzCode": "Europe/Brussels",
+    "name": {
+      "en": "(GMT+01:00) Brussels, Antwerpen, Gent, Charleroi, Liège",
+      "uk": "(GMT+01:00) Брюссель, Антверпен, Гент, Шарлеруа, Льєж"
+    },
+    "utc": "+01:00"
+  },
+  {
+    "label": "Europe/Budapest (GMT+01:00)",
+    "tzCode": "Europe/Budapest",
+    "name": {
+      "en": "(GMT+01:00) Budapest, Debrecen, Miskolc, Szeged, Pécs",
+      "uk": "(GMT+01:00) Будапешт, Дебрецен, Мішкольц, Сегед, Печ"
+    },
+    "utc": "+01:00"
+  },
+  {
+    "label": "Europe/Copenhagen (GMT+01:00)",
+    "tzCode": "Europe/Copenhagen",
+    "name": {
+      "en": "(GMT+01:00) Copenhagen, Århus, Odense, Aalborg, Frederiksberg",
+      "uk": "(GMT+01:00) Копенгаген, Орхус, Оденсе, Ольборг, Фредеріксберг"
+    },
+    "utc": "+01:00"
+  },
+  {
+    "label": "Europe/Gibraltar (GMT+01:00)",
+    "tzCode": "Europe/Gibraltar",
+    "name": {
+      "en": "(GMT+01:00) Gibraltar",
+      "uk": "(GMT+01:00) Гібралтар"
+    },
+    "utc": "+01:00"
+  },
+  {
+    "label": "Europe/Ljubljana (GMT+01:00)",
+    "tzCode": "Europe/Ljubljana",
+    "name": {
+      "en": "(GMT+01:00) Ljubljana, Maribor, Celje, Kranj, Velenje",
+      "uk": "(GMT+01:00) Любляна, Марібор, Цельє, Крань, Веленьє"
+    },
+    "utc": "+01:00"
+  },
+  {
+    "label": "Europe/Luxembourg (GMT+01:00)",
+    "tzCode": "Europe/Luxembourg",
+    "name": {
+      "en": "(GMT+01:00) Luxembourg, Esch-sur-Alzette, Dudelange, Schifflange, Bettembourg",
+      "uk": "(GMT+01:00) Люксембург, Еш-сюр-Альзетт, Дюделанж, Шиффланж, Беттембург"
+    },
+    "utc": "+01:00"
+  },
+  {
+    "label": "Europe/Madrid (GMT+01:00)",
+    "tzCode": "Europe/Madrid",
+    "name": {
+      "en": "(GMT+01:00) Madrid, Barcelona, Valencia, Sevilla, Zaragoza",
+      "uk": "(GMT+01:00) Мадрид, Барселона, Валенсія, Севілья, Сарагоса"
+    },
+    "utc": "+01:00"
+  },
+  {
+    "label": "Europe/Malta (GMT+01:00)",
+    "tzCode": "Europe/Malta",
+    "name": {
+      "en": "(GMT+01:00) Birkirkara, Qormi, Mosta, Żabbar, San Pawl il-Baħar",
+      "uk": "(GMT+01:00) Біркіркара, Кормі, Моста, Жаббар, Сан-Пауль-іль-Баар"
+    },
+    "utc": "+01:00"
+  },
+  {
+    "label": "Europe/Monaco (GMT+01:00)",
+    "tzCode": "Europe/Monaco",
+    "name": {
+      "en": "(GMT+01:00) Monaco, Monte-Carlo, La Condamine",
+      "uk": "(GMT+01:00) Монако, Монте-Карло, Ла-Кондамін"
+    },
+    "utc": "+01:00"
+  },
+  {
+    "label": "Europe/Oslo (GMT+01:00)",
+    "tzCode": "Europe/Oslo",
+    "name": {
+      "en": "(GMT+01:00) Oslo, Bergen, Trondheim, Stavanger, Drammen",
+      "uk": "(GMT+01:00) Осло, Берген, Тронхейм, Ставангер, Драммен"
+    },
+    "utc": "+01:00"
+  },
+  {
+    "label": "Europe/Paris (GMT+01:00)",
+    "tzCode": "Europe/Paris",
+    "name": {
+      "en": "(GMT+01:00) Paris, Marseille, Lyon, Toulouse, Nice",
+      "uk": "(GMT+01:00) Париж, Марсель, Ліон, Тулуза, Ніцца"
+    },
+    "utc": "+01:00"
+  },
+  {
+    "label": "Europe/Podgorica (GMT+01:00)",
+    "tzCode": "Europe/Podgorica",
+    "name": {
+      "en": "(GMT+01:00) Podgorica, Nikšić, Herceg Novi, Pljevlja, Budva",
+      "uk": "(GMT+01:00) Подгориця, Нікшич, Герцег-Нові, Плєвля, Будва"
+    },
+    "utc": "+01:00"
+  },
+  {
+    "label": "Europe/Prague (GMT+01:00)",
+    "tzCode": "Europe/Prague",
+    "name": {
+      "en": "(GMT+01:00) Prague, Brno, Ostrava, Pilsen, Olomouc",
+      "uk": "(GMT+01:00) Прага, Брно, Острава, Пльзень, Оломоуц"
+    },
+    "utc": "+01:00"
+  },
+  {
+    "label": "Europe/Rome (GMT+01:00)",
+    "tzCode": "Europe/Rome",
+    "name": {
+      "en": "(GMT+01:00) Rome, Milan, Naples, Turin, Palermo",
+      "uk": "(GMT+01:00) Рим, Мілан, Неаполь, Турин, Палермо"
+    },
+    "utc": "+01:00"
+  },
+  {
+    "label": "Europe/San_Marino (GMT+01:00)",
+    "tzCode": "Europe/San_Marino",
+    "name": {
+      "en": "(GMT+01:00) Serravalle, Borgo Maggiore, San Marino, Domagnano, Fiorentino",
+      "uk": "(GMT+01:00) Серравалле, Борго-Маджоре, Сан-Марино, Доманьяно, Фіорентіно"
+    },
+    "utc": "+01:00"
+  },
+  {
+    "label": "Europe/Sarajevo (GMT+01:00)",
+    "tzCode": "Europe/Sarajevo",
+    "name": {
+      "en": "(GMT+01:00) Sarajevo, Banja Luka, Zenica, Tuzla, Mostar",
+      "uk": "(GMT+01:00) Сараєво, Баня-Лука, Зениця, Тузла, Мостар"
+    },
+    "utc": "+01:00"
+  },
+  {
+    "label": "Europe/Skopje (GMT+01:00)",
+    "tzCode": "Europe/Skopje",
+    "name": {
+      "en": "(GMT+01:00) Skopje, Bitola, Kumanovo, Prilep, Tetovo",
+      "uk": "(GMT+01:00) Скоп'є, Бітола, Куманово, Прилеп, Тетово"
+    },
+    "utc": "+01:00"
+  },
+  {
+    "label": "Europe/Stockholm (GMT+01:00)",
+    "tzCode": "Europe/Stockholm",
+    "name": {
+      "en": "(GMT+01:00) Stockholm, Göteborg, Malmö, Uppsala, Sollentuna",
+      "uk": "(GMT+01:00) Стокгольм, Гетеборг, Мальме, Уппсала, Соллентуна"
+    },
+    "utc": "+01:00"
+  },
+  {
+    "label": "Europe/Tirane (GMT+01:00)",
+    "tzCode": "Europe/Tirane",
+    "name": {
+      "en": "(GMT+01:00) Tirana, Durrës, Elbasan, Vlorë, Shkodër",
+      "uk": "(GMT+01:00) Тирана, Дуррес, Ельбасан, Влора, Шкодер"
+    },
+    "utc": "+01:00"
+  },
+  {
+    "label": "Europe/Vaduz (GMT+01:00)",
+    "tzCode": "Europe/Vaduz",
+    "name": {
+      "en": "(GMT+01:00) Schaan, Vaduz, Triesen, Balzers, Eschen",
+      "uk": "(GMT+01:00) Шаан, Вадуц, Трізен, Бальцерс, Ешен"
+    },
+    "utc": "+01:00"
+  },
+  {
+    "label": "Europe/Vatican (GMT+01:00)",
+    "tzCode": "Europe/Vatican",
+    "name": {
+      "en": "(GMT+01:00) Vatican City",
+      "uk": "(GMT+01:00) Ватикан"
+    },
+    "utc": "+01:00"
+  },
+  {
+    "label": "Europe/Vienna (GMT+01:00)",
+    "tzCode": "Europe/Vienna",
+    "name": {
+      "en": "(GMT+01:00) Vienna, Graz, Linz, Favoriten, Donaustadt",
+      "uk": "(GMT+01:00) Відень, Грац, Лінц, Фаворитен, Донаустадт"
+    },
+    "utc": "+01:00"
+  },
+  {
+    "label": "Europe/Warsaw (GMT+01:00)",
+    "tzCode": "Europe/Warsaw",
+    "name": {
+      "en": "(GMT+01:00) Warsaw, Łódź, Kraków, Wrocław, Poznań",
+      "uk": "(GMT+01:00) Варшава, Лодзь, Краків, Вроцлав, Познань"
+    },
+    "utc": "+01:00"
+  },
+  {
+    "label": "Europe/Zagreb (GMT+01:00)",
+    "tzCode": "Europe/Zagreb",
+    "name": {
+      "en": "(GMT+01:00) Zagreb, Split, Rijeka, Osijek, Zadar",
+      "uk": "(GMT+01:00) Загреб, Спліт, Рієка, Осієк, Задар"
+    },
+    "utc": "+01:00"
+  },
+  {
+    "label": "Europe/Zurich (GMT+01:00)",
+    "tzCode": "Europe/Zurich",
+    "name": {
+      "en": "(GMT+01:00) Zürich, Genève, Basel, Lausanne, Bern",
+      "uk": "(GMT+01:00) Цюрих, Женева, Базель, Лозанна, Берн"
+    },
+    "utc": "+01:00"
+  },
+  {
+    "label": "Africa/Blantyre (GMT+02:00)",
+    "tzCode": "Africa/Blantyre",
+    "name": {
+      "en": "(GMT+02:00) Lilongwe, Blantyre, Mzuzu, Zomba, Kasungu",
+      "uk": "(GMT+02:00) Лілонгве, Блантайр, Мзузу, Зомба, Касунгу"
+    },
+    "utc": "+02:00"
+  },
+  {
+    "label": "Africa/Bujumbura (GMT+02:00)",
+    "tzCode": "Africa/Bujumbura",
+    "name": {
+      "en": "(GMT+02:00) Bujumbura, Muyinga, Gitega, Ruyigi, Ngozi",
+      "uk": "(GMT+02:00) Бужумбура, Муйінга, Гітега, Руйігі, Нгозі"
+    },
+    "utc": "+02:00"
+  },
+  {
+    "label": "Africa/Cairo (GMT+02:00)",
+    "tzCode": "Africa/Cairo",
+    "name": {
+      "en": "(GMT+02:00) Cairo, Alexandria, Giza, Port Said, Suez",
+      "uk": "(GMT+02:00) Каїр, Александрія, Гіза, Порт-Саїд, Суец"
+    },
+    "utc": "+02:00"
+  },
+  {
+    "label": "Africa/Gaborone (GMT+02:00)",
+    "tzCode": "Africa/Gaborone",
+    "name": {
+      "en": "(GMT+02:00) Gaborone, Francistown, Molepolole, Selebi-Phikwe, Maun",
+      "uk": "(GMT+02:00) Габороне, Франсістаун, Молепололе, Селебі-Фікве, Маун"
+    },
+    "utc": "+02:00"
+  },
+  {
+    "label": "Africa/Harare (GMT+02:00)",
+    "tzCode": "Africa/Harare",
+    "name": {
+      "en": "(GMT+02:00) Harare, Bulawayo, Chitungwiza, Mutare, Gweru",
+      "uk": "(GMT+02:00) Хараре, Булавайо, Чітунгвіза, Мутаре, Гверу"
+    },
+    "utc": "+02:00"
+  },
+  {
+    "label": "Africa/Johannesburg (GMT+02:00)",
+    "tzCode": "Africa/Johannesburg",
+    "name": {
+      "en": "(GMT+02:00) Cape Town, Durban, Johannesburg, Soweto, Pretoria",
+      "uk": "(GMT+02:00) Кейптаун, Дурбан, Йоганнесбург, Совето, Преторія"
+    },
+    "utc": "+02:00"
+  },
+  {
+    "label": "Africa/Juba (GMT+02:00)",
+    "tzCode": "Africa/Juba",
+    "name": {
+      "en": "(GMT+02:00) Juba, Winejok, Malakal, Wau, Kuacjok",
+      "uk": "(GMT+02:00) Джуба, Вінейок, Малакал, Вау, Куачок"
+    },
+    "utc": "+02:00"
+  },
+  {
+    "label": "Africa/Khartoum (GMT+02:00)",
+    "tzCode": "Africa/Khartoum",
+    "name": {
+      "en": "(GMT+02:00) Khartoum, Omdurman, Nyala, Port Sudan, Kassala",
+      "uk": "(GMT+02:00) Хартум, Омдурман, Ньяла, Порт-Судан, Кассала"
+    },
+    "utc": "+02:00"
+  },
+  {
+    "label": "Africa/Kigali (GMT+02:00)",
+    "tzCode": "Africa/Kigali",
+    "name": {
+      "en": "(GMT+02:00) Kigali, Butare, Gitarama, Musanze, Gisenyi",
+      "uk": "(GMT+02:00) Кігалі, Бутаре, Гітарама, Мусанзе, Гісені"
+    },
+    "utc": "+02:00"
+  },
+  {
+    "label": "Africa/Lubumbashi (GMT+02:00)",
+    "tzCode": "Africa/Lubumbashi",
+    "name": {
+      "en": "(GMT+02:00) Lubumbashi, Mbuji-Mayi, Kisangani, Kananga, Likasi",
+      "uk": "(GMT+02:00) Лубумбаші, Мбуджі-Майі, Кісангані, Кананга, Лікасі"
+    },
+    "utc": "+02:00"
+  },
+  {
+    "label": "Africa/Lusaka (GMT+02:00)",
+    "tzCode": "Africa/Lusaka",
+    "name": {
+      "en": "(GMT+02:00) Lusaka, Kitwe, Ndola, Kabwe, Chingola",
+      "uk": "(GMT+02:00) Лусака, Кітве, Ндола, Кабве, Чінгола"
+    },
+    "utc": "+02:00"
+  },
+  {
+    "label": "Africa/Maputo (GMT+02:00)",
+    "tzCode": "Africa/Maputo",
+    "name": {
+      "en": "(GMT+02:00) Maputo, Matola, Beira, Nampula, Chimoio",
+      "uk": "(GMT+02:00) Мапуту, Матола, Бейра, Нампула, Чімойо"
+    },
+    "utc": "+02:00"
+  },
+  {
+    "label": "Africa/Maseru (GMT+02:00)",
+    "tzCode": "Africa/Maseru",
+    "name": {
+      "en": "(GMT+02:00) Maseru, Mafeteng, Leribe, Maputsoe, Mohale’s Hoek",
+      "uk": "(GMT+02:00) Масеру, Мафетенг, Лерібе, Мапутсоє, Мохалес-Хоек"
+    },
+    "utc": "+02:00"
+  },
+  {
+    "label": "Africa/Mbabane (GMT+02:00)",
+    "tzCode": "Africa/Mbabane",
+    "name": {
+      "en": "(GMT+02:00) Manzini, Mbabane, Big Bend, Malkerns, Nhlangano",
+      "uk": "(GMT+02:00) Манзіні, Мбабане, Біг-Бенд, Малкернс, Нглангано"
+    },
+    "utc": "+02:00"
+  },
+  {
+    "label": "Africa/Tripoli (GMT+02:00)",
+    "tzCode": "Africa/Tripoli",
+    "name": {
+      "en": "(GMT+02:00) Tripoli, Benghazi, Mişrātah, Tarhuna, Al Khums",
+      "uk": "(GMT+02:00) Триполі, Бенгазі, Місрат, Тархуна, Аль-Хумс"
+    },
+    "utc": "+02:00"
+  },
+  {
+    "label": "Asia/Amman (GMT+02:00)",
+    "tzCode": "Asia/Amman",
+    "name": {
+      "en": "(GMT+02:00) Amman, Zarqa, Irbid, Russeifa, Wādī as Sīr",
+      "uk": "(GMT+02:00) Амман, Зарка, Ірбід, Руссейфа, Ваді-ас-Сір"
+    },
+    "utc": "+02:00"
+  },
+  {
+    "label": "Asia/Beirut (GMT+02:00)",
+    "tzCode": "Asia/Beirut",
+    "name": {
+      "en": "(GMT+02:00) Beirut, Ra’s Bayrūt, Tripoli, Sidon, Tyre",
+      "uk": "(GMT+02:00) Бейрут, Ра'с Бейрут, Триполі, Сідон, Тір"
+    },
+    "utc": "+02:00"
+  },
+  {
+    "label": "Asia/Damascus (GMT+02:00)",
+    "tzCode": "Asia/Damascus",
+    "name": {
+      "en": "(GMT+02:00) Aleppo, Damascus, Homs, Ḩamāh, Latakia",
+      "uk": "(GMT+02:00) Алеппо, Дамаск, Хомс, Хама, Латакія"
+    },
+    "utc": "+02:00"
+  },
+  {
+    "label": "Asia/Famagusta (GMT+02:00)",
+    "tzCode": "Asia/Famagusta",
+    "name": {
+      "en": "(GMT+02:00) Famagusta, Kyrenia, Protaras, Paralímni, Lápithos",
+      "uk": "(GMT+02:00) Фамагуста, Киренія, Протарас, Паралімні, Лапітос"
+    },
+    "utc": "+02:00"
+  },
+  {
+    "label": "Asia/Gaza (GMT+02:00)",
+    "tzCode": "Asia/Gaza",
+    "name": {
+      "en": "(GMT+02:00) Gaza, Khān Yūnis, Jabālyā, Rafaḩ, Dayr al Balaḩ",
+      "uk": "(GMT+02:00) Газа, Хан Юніс, Джабалія, Рафах, Дейр-аль-Балах"
+    },
+    "utc": "+02:00"
+  },
+  {
+    "label": "Asia/Hebron (GMT+02:00)",
+    "tzCode": "Asia/Hebron",
+    "name": {
+      "en": "(GMT+02:00) East Jerusalem, Hebron, Nablus, Battir, Ţūlkarm",
+      "uk": "(GMT+02:00) Східний Єрусалим, Хеврон, Наблус, Баттір, Тулкарм"
+    },
+    "utc": "+02:00"
+  },
+  {
+    "label": "Asia/Jerusalem (GMT+02:00)",
+    "tzCode": "Asia/Jerusalem",
+    "name": {
+      "en": "(GMT+02:00) Jerusalem, Tel Aviv, West Jerusalem, Haifa, Ashdod",
+      "uk": "(GMT+02:00) Єрусалим, Тель-Авів, Західний Єрусалим, Хайфа, Ашдод"
+    },
+    "utc": "+02:00"
+  },
+  {
+    "label": "Asia/Nicosia (GMT+02:00)",
+    "tzCode": "Asia/Nicosia",
+    "name": {
+      "en": "(GMT+02:00) Nicosia, Limassol, Larnaca, Stróvolos, Paphos",
+      "uk": "(GMT+02:00) Нікосія, Лімасол, Ларнака, Строволос, Пафос"
+    },
+    "utc": "+02:00"
+  },
+  {
+    "label": "Europe/Athens (GMT+02:00)",
+    "tzCode": "Europe/Athens",
+    "name": {
+      "en": "(GMT+02:00) Athens, Thessaloníki, Pátra, Piraeus, Lárisa",
+      "uk": "(GMT+02:00) Афіни, Салоніки, Патра, Пірей, Ларіса"
+    },
+    "utc": "+02:00"
+  },
+  {
+    "label": "Europe/Bucharest (GMT+02:00)",
+    "tzCode": "Europe/Bucharest",
+    "name": {
+      "en": "(GMT+02:00) Bucharest, Sector 3, Sector 6, Sector 2, Iaşi",
+      "uk": "(GMT+02:00) Бухарест, Сектор 3, Сектор 6, Сектор 2, Ясси"
+    },
+    "utc": "+02:00"
+  },
+  {
+    "label": "Europe/Chisinau (GMT+02:00)",
+    "tzCode": "Europe/Chisinau",
+    "name": {
+      "en": "(GMT+02:00) Chisinau, Tiraspol, Bălţi, Bender, Rîbniţa",
+      "uk": "(GMT+02:00) Кишинів, Тирасполь, Бельці, Бендери, Рибниця"
+    },
+    "utc": "+02:00"
+  },
+  {
+    "label": "Europe/Helsinki (GMT+02:00)",
+    "tzCode": "Europe/Helsinki",
+    "name": {
+      "en": "(GMT+02:00) Helsinki, Espoo, Tampere, Vantaa, Turku",
+      "uk": "(GMT+02:00) Гельсінкі, Еспоо, Тампере, Вантаа, Турку"
+    },
+    "utc": "+02:00"
+  },
+  {
+    "label": "Europe/Kaliningrad (GMT+02:00)",
+    "tzCode": "Europe/Kaliningrad",
+    "name": {
+      "en": "(GMT+02:00) Königsberg (ex. Kaliningrad), Chernyakhovsk, Sovetsk, Baltiysk, Gusev",
+      "uk": "(GMT+02:00) Ке́ніґсберґ (Королевець, раніше Калінінград), Черняхівськ, Совєтськ, Балтійськ, Гусєв"
+    },
+    "utc": "+02:00"
+  },
+  {
+    "label": "Europe/Kyiv (GMT+02:00)",
+    "tzCode": "Europe/Kyiv",
+    "name": {
+      "en": "(GMT+02:00) Kyiv, Kharkiv, Donetsk, Odessa, Dnipro",
+      "uk": "(GMT+02:00) Київ, Харків, Донецьк, Одеса, Дніпро"
+    },
+    "utc": "+02:00"
+  },
+  {
+    "label": "Europe/Mariehamn (GMT+02:00)",
+    "tzCode": "Europe/Mariehamn",
+    "name": {
+      "en": "(GMT+02:00) Mariehamn",
+      "uk": "(GMT+02:00) Марієгамн"
+    },
+    "utc": "+02:00"
+  },
+  {
+    "label": "Europe/Riga (GMT+02:00)",
+    "tzCode": "Europe/Riga",
+    "name": {
+      "en": "(GMT+02:00) Riga, Daugavpils, Liepāja, Jelgava, Jūrmala",
+      "uk": "(GMT+02:00) Рига, Даугавпілс, Лієпая, Єлгава, Юрмала"
+    },
+    "utc": "+02:00"
+  },
+  {
+    "label": "Europe/Simferopol (GMT+02:00)",
+    "tzCode": "Europe/Kyiv",
+    "name": {
+      "en": "(GMT+02:00) Simferopol, Kerch, Yevpatoriya, Yalta, Feodosiya",
+      "uk": "(GMT+02:00) Сімферополь, Керч, Євпаторія, Ялта, Феодосія"
+    },
+    "utc": "+02:00"
+  },
+  {
+    "label": "Europe/Sofia (GMT+02:00)",
+    "tzCode": "Europe/Sofia",
+    "name": {
+      "en": "(GMT+02:00) Sofia, Plovdiv, Varna, Burgas, Ruse",
+      "uk": "(GMT+02:00) Софія, Пловдів, Варна, Бургас, Русе"
+    },
+    "utc": "+02:00"
+  },
+  {
+    "label": "Europe/Tallinn (GMT+02:00)",
+    "tzCode": "Europe/Tallinn",
+    "name": {
+      "en": "(GMT+02:00) Tallinn, Tartu, Narva, Kohtla-Järve, Pärnu",
+      "uk": "(GMT+02:00) Таллінн, Тарту, Нарва, Кохтла-Ярве, Пярну"
+    },
+    "utc": "+02:00"
+  },
+  {
+    "label": "Europe/Uzhgorod (GMT+02:00)",
+    "tzCode": "Europe/Uzhgorod",
+    "name": {
+      "en": "(GMT+02:00) Uzhgorod, Mukachevo, Khust, Berehove, Tyachiv",
+      "uk": "(GMT+02:00) Ужгород, Мукачево, Хуст, Берегове, Тячів"
+    },
+    "utc": "+02:00"
+  },
+  {
+    "label": "Europe/Vilnius (GMT+02:00)",
+    "tzCode": "Europe/Vilnius",
+    "name": {
+      "en": "(GMT+02:00) Vilnius, Kaunas, Klaipėda, Šiauliai, Panevėžys",
+      "uk": "(GMT+02:00) Вільнюс, Каунас, Клайпеда, Шяуляй, Паневежис"
+    },
+    "utc": "+02:00"
+  },
+  {
+    "label": "Europe/Zaporozhye (GMT+02:00)",
+    "tzCode": "Europe/Zaporozhye",
+    "name": {
+      "en": "(GMT+02:00) Luhansk, Sevastopol, Sievierodonetsk, Alchevsk, Lysychansk",
+      "uk": "(GMT+02:00) Луганськ, Севастополь, Сєвєродонецьк, Алчевськ, Лисичанськ"
+    },
+    "utc": "+02:00"
+  },
+  {
+    "label": "Africa/Addis_Ababa (GMT+03:00)",
+    "tzCode": "Africa/Addis_Ababa",
+    "name": {
+      "en": "(GMT+03:00) Addis Ababa, Dire Dawa, Mek'ele, Nazrēt, Bahir Dar",
+      "uk": "(GMT+03:00) Аддис-Абеба, Дире-Дауа, Мекеле, Назрет, Бахір-Дар"
+    },
+    "utc": "+03:00"
+  },
+  {
+    "label": "Africa/Asmara (GMT+03:00)",
+    "tzCode": "Africa/Asmara",
+    "name": {
+      "en": "(GMT+03:00) Asmara, Keren, Massawa, Assab, Mendefera",
+      "uk": "(GMT+03:00) Асмара, Керен, Массава, Ассаб, Мендефера"
+    },
+    "utc": "+03:00"
+  },
+  {
+    "label": "Africa/Dar_es_Salaam (GMT+03:00)",
+    "tzCode": "Africa/Dar_es_Salaam",
+    "name": {
+      "en": "(GMT+03:00) Dar es Salaam, Mwanza, Zanzibar, Arusha, Mbeya",
+      "uk": "(GMT+03:00) Дар-ес-Салам, Мванза, Занзібар, Аруша, Мбея"
+    },
+    "utc": "+03:00"
+  },
+  {
+    "label": "Africa/Djibouti (GMT+03:00)",
+    "tzCode": "Africa/Djibouti",
+    "name": {
+      "en": "(GMT+03:00) Djibouti, 'Ali Sabieh, Tadjourah, Obock, Dikhil",
+      "uk": "(GMT+03:00) Джибуті, Алі-Сабіє, Таджура, Обок, Діхіл"
+    },
+    "utc": "+03:00"
+  },
+  {
+    "label": "Africa/Kampala (GMT+03:00)",
+    "tzCode": "Africa/Kampala",
+    "name": {
+      "en": "(GMT+03:00) Kampala, Gulu, Lira, Mbarara, Jinja",
+      "uk": "(GMT+03:00) Кампала, Гулу, Ліра, Мбарара, Джінджа"
+    },
+    "utc": "+03:00"
+  },
+  {
+    "label": "Africa/Mogadishu (GMT+03:00)",
+    "tzCode": "Africa/Mogadishu",
+    "name": {
+      "en": "(GMT+03:00) Mogadishu, Hargeysa, Berbera, Kismayo, Marka",
+      "uk": "(GMT+03:00) Могадішо, Харгейса, Бербера, Кісмаю, Марка"
+    },
+    "utc": "+03:00"
+  },
+  {
+    "label": "Africa/Nairobi (GMT+03:00)",
+    "tzCode": "Africa/Nairobi",
+    "name": {
+      "en": "(GMT+03:00) Nairobi, Mombasa, Nakuru, Eldoret, Kisumu",
+      "uk": "(GMT+03:00) Найробі, Момбаса, Накуру, Ельдорет, Кісуму"
+    },
+    "utc": "+03:00"
+  },
+  {
+    "label": "Antarctica/Syowa (GMT+03:00)",
+    "tzCode": "Antarctica/Syowa",
+    "name": {
+      "en": "(GMT+03:00) Syowa",
+      "uk": "(GMT+03:00) Сьова"
+    },
+    "utc": "+03:00"
+  },
+  {
+    "label": "Asia/Aden (GMT+03:00)",
+    "tzCode": "Asia/Aden",
+    "name": {
+      "en": "(GMT+03:00) Sanaa, Al Ḩudaydah, Taiz, Aden, Mukalla",
+      "uk": "(GMT+03:00) Сана, Аль-Худайда, Таїз, Аден, Мукалла"
+    },
+    "utc": "+03:00"
+  },
+  {
+    "label": "Asia/Baghdad (GMT+03:00)",
+    "tzCode": "Asia/Baghdad",
+    "name": {
+      "en": "(GMT+03:00) Baghdad, Basrah, Al Mawşil al Jadīdah, Al Başrah al Qadīmah, Mosul",
+      "uk": "(GMT+03:00) Багдад, Басра, Аль-Мавсіл-аль-Джадіда, Аль-Басра-аль-Кадіма, Мосул"
+    },
+    "utc": "+03:00"
+  },
+  {
+    "label": "Asia/Bahrain (GMT+03:00)",
+    "tzCode": "Asia/Bahrain",
+    "name": {
+      "en": "(GMT+03:00) Manama, Al Muharraq, Ar Rifā‘, Dār Kulayb, Madīnat Ḩamad",
+      "uk": "(GMT+03:00) Манама, Аль-Мухаррак, Ар-Ріфа‘, Дар-Кулаїб, Мадінат-Хамад"
+    },
+    "utc": "+03:00"
+  },
+  {
+    "label": "Asia/Kuwait (GMT+03:00)",
+    "tzCode": "Asia/Kuwait",
+    "name": {
+      "en": "(GMT+03:00) Al Aḩmadī, Ḩawallī, As Sālimīyah, Şabāḩ as Sālim, Al Farwānīyah",
+      "uk": "(GMT+03:00) Аль-Ахмаді, Хаваллі, Ас-Салімія, Сабах-ас-Салім, Аль-Фарванія"
+    },
+    "utc": "+03:00"
+  },
+  {
+    "label": "Asia/Qatar (GMT+03:00)",
+    "tzCode": "Asia/Qatar",
+    "name": {
+      "en": "(GMT+03:00) Doha, Ar Rayyān, Umm Şalāl Muḩammad, Al Wakrah, Al Khawr",
+      "uk": "(GMT+03:00) Доха, Ар-Райян, Умм-Салаль-Мухаммад, Аль-Вакра, Аль-Хавр"
+    },
+    "utc": "+03:00"
+  },
+  {
+    "label": "Asia/Riyadh (GMT+03:00)",
+    "tzCode": "Asia/Riyadh",
+    "name": {
+      "en": "(GMT+03:00) Riyadh, Jeddah, Mecca, Medina, Sulţānah",
+      "uk": "(GMT+03:00) Ріяд, Джидда, Мекка, Медина, Султана"
+    },
+    "utc": "+03:00"
+  },
+  {
+    "label": "Europe/Istanbul (GMT+03:00)",
+    "tzCode": "Europe/Istanbul",
+    "name": {
+      "en": "(GMT+03:00) Istanbul, Ankara, İzmir, Bursa, Adana",
+      "uk": "(GMT+03:00) Стамбул, Анкара, Ізмір, Бурса, Адана"
+    },
+    "utc": "+03:00"
+  },
+  {
+    "label": "Europe/Kirov (GMT+03:00)",
+    "tzCode": "Europe/Kirov",
+    "name": {
+      "en": "(GMT+03:00) Kirov, Kirovo-Chepetsk, Vyatskiye Polyany, Slobodskoy, Kotel’nich",
+      "uk": "(GMT+03:00) Кіров, Кірово-Чепецьк, В’яцькі Поляни, Слободський, Котельніч"
+    },
+    "utc": "+03:00"
+  },
+  {
+    "label": "Europe/Minsk (GMT+03:00)",
+    "tzCode": "Europe/Minsk",
+    "name": {
+      "en": "(GMT+03:00) Minsk, Homyel', Mahilyow, Vitebsk, Hrodna",
+      "uk": "(GMT+03:00) Мінськ, Гомель, Могилів, Віцебськ, Гродно"
+    },
+    "utc": "+03:00"
+  },
+  {
+    "label": "Europe/Moscow (GMT+03:00)",
+    "tzCode": "Europe/Moscow",
+    "name": {
+      "en": "(GMT+03:00) Moscow, Saint Petersburg, Nizhniy Novgorod, Kazan, Rostov-na-Donu",
+      "uk": "(GMT+03:00) Москва, Санкт-Петербург, Нижній Новгород, Казань, Ростов-на-Дону"
+    },
+    "utc": "+03:00"
+  },
+  {
+    "label": "Europe/Volgograd (GMT+03:00)",
+    "tzCode": "Europe/Volgograd",
+    "name": {
+      "en": "(GMT+03:00) Volgograd, Volzhskiy, Kamyshin, Mikhaylovka, Uryupinsk",
+      "uk": "(GMT+03:00) Волгоград, Волжський, Камишин, Михайлівка, Урюпінськ"
+    },
+    "utc": "+03:00"
+  },
+  {
+    "label": "Indian/Antananarivo (GMT+03:00)",
+    "tzCode": "Indian/Antananarivo",
+    "name": {
+      "en": "(GMT+03:00) Antananarivo, Toamasina, Antsirabe, Fianarantsoa, Mahajanga",
+      "uk": "(GMT+03:00) Антананаріву, Туамасіна, Анцірабе, Фіанаранцуа, Махадзянга"
+    },
+    "utc": "+03:00"
+  },
+  {
+    "label": "Indian/Comoro (GMT+03:00)",
+    "tzCode": "Indian/Comoro",
+    "name": {
+      "en": "(GMT+03:00) Moroni, Moutsamoudou, Fomboni, Domoni, Tsimbeo",
+      "uk": "(GMT+03:00) Мороні, Моутсамуду, Фомбоні, Домоні, Цімбео"
+    },
+    "utc": "+03:00"
+  },
+  {
+    "label": "Indian/Mayotte (GMT+03:00)",
+    "tzCode": "Indian/Mayotte",
+    "name": {
+      "en": "(GMT+03:00) Mamoudzou, Koungou, Dzaoudzi, Dembeni, Sada",
+      "uk": "(GMT+03:00) Мамудзу, Кунгу, Дзаудзі, Дембені, Сада"
+    },
+    "utc": "+03:00"
+  },
+  {
+    "label": "Asia/Tehran (GMT+03:30)",
+    "tzCode": "Asia/Tehran",
+    "name": {
+      "en": "(GMT+03:30) Tehran, Mashhad, Isfahan, Karaj, Tabriz",
+      "uk": "(GMT+03:30) Тегеран, Мешхед, Ісфахан, Карадж, Тебріз"
+    },
+    "utc": "+03:30"
+  },
+  {
+    "label": "Asia/Baku (GMT+04:00)",
+    "tzCode": "Asia/Baku",
+    "name": {
+      "en": "(GMT+04:00) Baku, Ganja, Sumqayıt, Lankaran, Yevlakh",
+      "uk": "(GMT+04:00) Баку, Гянджа, Сумгаїт, Ленкорань, Євлах"
+    },
+    "utc": "+04:00"
+  },
+  {
+    "label": "Asia/Dubai (GMT+04:00)",
+    "tzCode": "Asia/Dubai",
+    "name": {
+      "en": "(GMT+04:00) Dubai, Sharjah, Abu Dhabi, Ajman City, Ras Al Khaimah City",
+      "uk": "(GMT+04:00) Дубай, Шарджа, Абу-Дабі, Аджман, Рас-аль-Хайма"
+    },
+    "utc": "+04:00"
+  },
+  {
+    "label": "Asia/Muscat (GMT+04:00)",
+    "tzCode": "Asia/Muscat",
+    "name": {
+      "en": "(GMT+04:00) Muscat, Seeb, Şalālah, Bawshar, Sohar",
+      "uk": "(GMT+04:00) Маскат, Сіб, Салала, Бавшар, Сохар"
+    },
+    "utc": "+04:00"
+  },
+  {
+    "label": "Asia/Tbilisi (GMT+04:00)",
+    "tzCode": "Asia/Tbilisi",
+    "name": {
+      "en": "(GMT+04:00) Tbilisi, Kutaisi, Batumi, Sokhumi, Zugdidi",
+      "uk": "(GMT+04:00) Тбілісі, Кутаїсі, Батумі, Сухумі, Зугдіді"
+    },
+    "utc": "+04:00"
+  },
+  {
+    "label": "Asia/Yerevan (GMT+04:00)",
+    "tzCode": "Asia/Yerevan",
+    "name": {
+      "en": "(GMT+04:00) Yerevan, Gyumri, Vanadzor, Vagharshapat, Hrazdan",
+      "uk": "(GMT+04:00) Єреван, Гюмрі, Ванадзор, Вагаршапат, Граздан"
+    },
+    "utc": "+04:00"
+  },
+  {
+    "label": "Europe/Astrakhan (GMT+04:00)",
+    "tzCode": "Europe/Astrakhan",
+    "name": {
+      "en": "(GMT+04:00) Astrakhan, Akhtubinsk, Znamensk, Kharabali, Kamyzyak",
+      "uk": "(GMT+04:00) Астрахань, Ахтубінськ, Знаменськ, Харабалі, Камизяк"
+    },
+    "utc": "+04:00"
+  },
+  {
+    "label": "Europe/Samara (GMT+04:00)",
+    "tzCode": "Europe/Samara",
+    "name": {
+      "en": "(GMT+04:00) Samara, Togliatti-on-the-Volga, Izhevsk, Syzran’, Novokuybyshevsk",
+      "uk": "(GMT+04:00) Самара, Тольятті-на-Волзі, Іжевськ, Сизрань, Новокуйбишевськ"
+    },
+    "utc": "+04:00"
+  },
+  {
+    "label": "Europe/Saratov (GMT+04:00)",
+    "tzCode": "Europe/Saratov",
+    "name": {
+      "en": "(GMT+04:00) Saratov, Balakovo, Engel’s, Balashov, Vol’sk",
+      "uk": "(GMT+04:00) Саратов, Балаково, Енгельс, Балашов, Вольськ"
+    },
+    "utc": "+04:00"
+  },
+  {
+    "label": "Europe/Ulyanovsk (GMT+04:00)",
+    "tzCode": "Europe/Ulyanovsk",
+    "name": {
+      "en": "(GMT+04:00) Ulyanovsk, Dimitrovgrad, Inza, Barysh, Novoul’yanovsk",
+      "uk": "(GMT+04:00) Ульяновськ, Димитровград, Інза, Бариш, Новоульяновськ"
+    },
+    "utc": "+04:00"
+  },
+  {
+    "label": "Indian/Mahe (GMT+04:00)",
+    "tzCode": "Indian/Mahe",
+    "name": {
+      "en": "(GMT+04:00) Victoria, Anse Boileau, Bel Ombre, Beau Vallon, Cascade",
+      "uk": "(GMT+04:00) Вікторія, Анс-Буле, Бель-Омбр, Бо-Валлон, Каскад"
+    },
+    "utc": "+04:00"
+  },
+  {
+    "label": "Indian/Mauritius (GMT+04:00)",
+    "tzCode": "Indian/Mauritius",
+    "name": {
+      "en": "(GMT+04:00) Port Louis, Beau Bassin-Rose Hill, Vacoas, Curepipe, Quatre Bornes",
+      "uk": "(GMT+04:00) Порт-Луї, Бо-Бассен-Роуз-Хілл, Вакоас, Кюрпайп, Катр Борн"
+    },
+    "utc": "+04:00"
+  },
+  {
+    "label": "Indian/Reunion (GMT+04:00)",
+    "tzCode": "Indian/Reunion",
+    "name": {
+      "en": "(GMT+04:00) Saint-Denis, Saint-Paul, Saint-Pierre, Le Tampon, Saint-André",
+      "uk": "(GMT+04:00) Сен-Дені, Сен-Поль, Сен-П’єр, Ле-Тампон, Сен-Андре"
+    },
+    "utc": "+04:00"
+  },
+  {
+    "label": "Asia/Kabul (GMT+04:30)",
+    "tzCode": "Asia/Kabul",
+    "name": {
+      "en": "(GMT+04:30) Kabul, Kandahār, Mazār-e Sharīf, Herāt, Jalālābād",
+      "uk": "(GMT+04:30) Кабул, Кандагар, Мазар-і-Шаріф, Херат, Джалалабад"
+    },
+    "utc": "+04:30"
+  },
+  {
+    "label": "Antarctica/Mawson (GMT+05:00)",
+    "tzCode": "Antarctica/Mawson",
+    "name": {
+      "en": "(GMT+05:00) Mawson",
+      "uk": "(GMT+05:00) Моусон"
+    },
+    "utc": "+05:00"
+  },
+  {
+    "label": "Asia/Aqtau (GMT+05:00)",
+    "tzCode": "Asia/Aqtau",
+    "name": {
+      "en": "(GMT+05:00) Shevchenko, Zhanaozen, Beyneu, Shetpe, Yeraliyev",
+      "uk": "(GMT+05:00) Шевченко, Жанаозен, Бейнеу, Шетпе, Ералієв"
+    },
+    "utc": "+05:00"
+  },
+  {
+    "label": "Asia/Aqtobe (GMT+05:00)",
+    "tzCode": "Asia/Aqtobe",
+    "name": {
+      "en": "(GMT+05:00) Aktobe, Kandyagash, Shalqar, Khromtau, Embi",
+      "uk": "(GMT+05:00) Актобе, Кандягаш, Шалкар, Хромтау, Ембі"
+    },
+    "utc": "+05:00"
+  },
+  {
+    "label": "Asia/Ashgabat (GMT+05:00)",
+    "tzCode": "Asia/Ashgabat",
+    "name": {
+      "en": "(GMT+05:00) Ashgabat, Türkmenabat, Daşoguz, Mary, Balkanabat",
+      "uk": "(GMT+05:00) Ашгабат, Туркменабат, Дашогуз, Марі, Балканабат"
+    },
+    "utc": "+05:00"
+  },
+  {
+    "label": "Asia/Atyrau (GMT+05:00)",
+    "tzCode": "Asia/Atyrau",
+    "name": {
+      "en": "(GMT+05:00) Atyrau, Qulsary, Shalkar, Balykshi, Maqat",
+      "uk": "(GMT+05:00) Атирау, Кулсари, Шалкар, Баликши, Макат"
+    },
+    "utc": "+05:00"
+  },
+  {
+    "label": "Asia/Dushanbe (GMT+05:00)",
+    "tzCode": "Asia/Dushanbe",
+    "name": {
+      "en": "(GMT+05:00) Dushanbe, Khujand, Kŭlob, Bokhtar, Istaravshan",
+      "uk": "(GMT+05:00) Душанбе, Худжанд, Кулоб, Бохтар, Істаравшан"
+    },
+    "utc": "+05:00"
+  },
+  {
+    "label": "Asia/Karachi (GMT+05:00)",
+    "tzCode": "Asia/Karachi",
+    "name": {
+      "en": "(GMT+05:00) Karachi, Lahore, Faisalabad, Rawalpindi, Multan",
+      "uk": "(GMT+05:00) Карачі, Лахор, Фейсалабад, Равалпінді, Мултан"
+    },
+    "utc": "+05:00"
+  },
+  {
+    "label": "Asia/Oral (GMT+05:00)",
+    "tzCode": "Asia/Oral",
+    "name": {
+      "en": "(GMT+05:00) Oral, Aqsay, Zhänibek, Tasqala, Zhumysker",
+      "uk": "(GMT+05:00) Орал, Аксай, Жанібек, Таскала, Жумискер"
+    },
+    "utc": "+05:00"
+  },
+  {
+    "label": "Asia/Qyzylorda (GMT+05:00)",
+    "tzCode": "Asia/Qyzylorda",
+    "name": {
+      "en": "(GMT+05:00) Kyzylorda, Baikonur, Novokazalinsk, Aral, Chiili",
+      "uk": "(GMT+05:00) Кизилорда, Байконур, Новоказалінськ, Арал, Чілі"
+    },
+    "utc": "+05:00"
+  },
+  {
+    "label": "Asia/Samarkand (GMT+05:00)",
+    "tzCode": "Asia/Samarkand",
+    "name": {
+      "en": "(GMT+05:00) Samarkand, Bukhara, Nukus, Qarshi, Jizzax",
+      "uk": "(GMT+05:00) Самарканд, Бухара, Нукус, Карши, Джиззах"
+    },
+    "utc": "+05:00"
+  },
+  {
+    "label": "Asia/Tashkent (GMT+05:00)",
+    "tzCode": "Asia/Tashkent",
+    "name": {
+      "en": "(GMT+05:00) Tashkent, Namangan, Andijon, Qo‘qon, Chirchiq",
+      "uk": "(GMT+05:00) Ташкент, Наманган, Андижон, Коканд, Чирчик"
+    },
+    "utc": "+05:00"
+  },
+  {
+    "label": "Asia/Yekaterinburg (GMT+05:00)",
+    "tzCode": "Asia/Yekaterinburg",
+    "name": {
+      "en": "(GMT+05:00) Yekaterinburg, Chelyabinsk, Ufa, Perm, Orenburg",
+      "uk": "(GMT+05:00) Єкатеринбург, Челябінськ, Уфа, Пермь, Оренбург"
+    },
+    "utc": "+05:00"
+  },
+  {
+    "label": "Indian/Kerguelen (GMT+05:00)",
+    "tzCode": "Indian/Kerguelen",
+    "name": {
+      "en": "(GMT+05:00) Port-aux-Français",
+      "uk": "(GMT+05:00) Порт-о-Франсе"
+    },
+    "utc": "+05:00"
+  },
+  {
+    "label": "Indian/Maldives (GMT+05:00)",
+    "tzCode": "Indian/Maldives",
+    "name": {
+      "en": "(GMT+05:00) Male, Fuvahmulah, Hithadhoo, Kulhudhuffushi, Thinadhoo",
+      "uk": "(GMT+05:00) Мале, Фувахмула, Хітадху, Кулхудхуффуші, Тінадху"
+    },
+    "utc": "+05:00"
+  },
+  {
+    "label": "Asia/Colombo (GMT+05:30)",
+    "tzCode": "Asia/Colombo",
+    "name": {
+      "en": "(GMT+05:30) Colombo, Dehiwala-Mount Lavinia, Moratuwa, Jaffna, Negombo",
+      "uk": "(GMT+05:30) Коломбо, Дехівала-Маунт-Лавінія, Моратува, Джафна, Негомбо"
+    },
+    "utc": "+05:30"
+  },
+  {
+    "label": "Asia/Kolkata (GMT+05:30)",
+    "tzCode": "Asia/Kolkata",
+    "name": {
+      "en": "(GMT+05:30) Mumbai, Delhi, Bengaluru, Kolkata, Chennai",
+      "uk": "(GMT+05:30) Мумбаї, Делі, Бенгалуру, Калькутта, Ченнаї"
+    },
+    "utc": "+05:30"
+  },
+  {
+    "label": "Asia/Kathmandu (GMT+05:45)",
+    "tzCode": "Asia/Kathmandu",
+    "name": {
+      "en": "(GMT+05:45) Kathmandu, Pokhara, Pātan, Biratnagar, Birgañj",
+      "uk": "(GMT+05:45) Катманду, Покхара, Патан, Біратнагар, Біргандж"
+    },
+    "utc": "+05:45"
+  },
+  {
+    "label": "Antarctica/Vostok (GMT+06:00)",
+    "tzCode": "Antarctica/Vostok",
+    "name": {
+      "en": "(GMT+06:00) Vostok",
+      "uk": "(GMT+06:00) Восток"
+    },
+    "utc": "+06:00"
+  },
+  {
+    "label": "Asia/Almaty (GMT+06:00)",
+    "tzCode": "Asia/Almaty",
+    "name": {
+      "en": "(GMT+06:00) Almaty, Karagandy, Shymkent, Taraz, Nur-Sultan",
+      "uk": "(GMT+06:00) Алмати, Караганда, Шимкент, Тараз, Нур-Султан"
+    },
+    "utc": "+06:00"
+  },
+  {
+    "label": "Asia/Bishkek (GMT+06:00)",
+    "tzCode": "Asia/Bishkek",
+    "name": {
+      "en": "(GMT+06:00) Bishkek, Osh, Jalal-Abad, Karakol, Tokmok",
+      "uk": "(GMT+06:00) Бішкек, Ош, Джалал-Абад, Каракол, Токмок"
+    },
+    "utc": "+06:00"
+  },
+  {
+    "label": "Asia/Dhaka (GMT+06:00)",
+    "tzCode": "Asia/Dhaka",
+    "name": {
+      "en": "(GMT+06:00) Dhaka, Chattogram, Khulna, Rājshāhi, Comilla",
+      "uk": "(GMT+06:00) Дакка, Чаттаграм, Хулна, Раджшахі, Комілла"
+    },
+    "utc": "+06:00"
+  },
+  {
+    "label": "Asia/Omsk (GMT+06:00)",
+    "tzCode": "Asia/Omsk",
+    "name": {
+      "en": "(GMT+06:00) Omsk, Tara, Kalachinsk, Znamenskoye, Tavricheskoye",
+      "uk": "(GMT+06:00) Омськ, Тара, Калачінськ, Знам’янське, Тавричеське"
+    },
+    "utc": "+06:00"
+  },
+  {
+    "label": "Asia/Qostanay (GMT+06:00)",
+    "tzCode": "Asia/Qostanay",
+    "name": {
+      "en": "(GMT+06:00) Kostanay, Rudnyy, Dzhetygara, Arkalyk, Lisakovsk",
+      "uk": "(GMT+06:00) Костанай, Рудний, Джетигара, Аркалик, Лісаковськ"
+    },
+    "utc": "+06:00"
+  },
+  {
+    "label": "Asia/Thimphu (GMT+06:00)",
+    "tzCode": "Asia/Thimphu",
+    "name": {
+      "en": "(GMT+06:00) Thimphu, Punākha, Tsirang, Phuntsholing, Pemagatshel",
+      "uk": "(GMT+06:00) Тхімпху, Пунакха, Ціранг, Пхунтшолінг, Пемагатшел"
+    },
+    "utc": "+06:00"
+  },
+  {
+    "label": "Asia/Urumqi (GMT+06:00)",
+    "tzCode": "Asia/Urumqi",
+    "name": {
+      "en": "(GMT+06:00) Zhongshan, Ürümqi, Zhanjiang, Shihezi, Huocheng",
+      "uk": "(GMT+06:00) Чжуншан, Урумчі, Чжаньян, Шихезі, Хуочен"
+    },
+    "utc": "+06:00"
+  },
+  {
+    "label": "Indian/Chagos (GMT+06:00)",
+    "tzCode": "Indian/Chagos",
+    "name": {
+      "en": "(GMT+06:00) British Indian Ocean Territory",
+      "uk": "(GMT+06:00) Британська територія в Індійському океані"
+    },
+    "utc": "+06:00"
+  },
+  {
+    "label": "Asia/Yangon (GMT+06:30)",
+    "tzCode": "Asia/Yangon",
+    "name": {
+      "en": "(GMT+06:30) Yangon, Mandalay, Nay Pyi Taw, Mawlamyine, Kyain Seikgyi Township",
+      "uk": "(GMT+06:30) Янгон, Мандалай, Найпідо, Мавламьїн, Кяйн Сейкгі"
+    },
+    "utc": "+06:30"
+  },
+  {
+    "label": "Indian/Cocos (GMT+06:30)",
+    "tzCode": "Indian/Cocos",
+    "name": {
+      "en": "(GMT+06:30) West Island",
+      "uk": "(GMT+06:30) Західний острів"
+    },
+    "utc": "+06:30"
+  },
+  {
+    "label": "Antarctica/Davis (GMT+07:00)",
+    "tzCode": "Antarctica/Davis",
+    "name": {
+      "en": "(GMT+07:00) Davis",
+      "uk": "(GMT+07:00) Девіс"
+    },
+    "utc": "+07:00"
+  },
+  {
+    "label": "Asia/Bangkok (GMT+07:00)",
+    "tzCode": "Asia/Bangkok",
+    "name": {
+      "en": "(GMT+07:00) Bangkok, Hanoi, Haiphong, Samut Prakan, Mueang Nonthaburi",
+      "uk": "(GMT+07:00) Бангкок, Ханой, Хайфон, Самут Пракан, Муанг Нонтхабурі"
+    },
+    "utc": "+07:00"
+  },
+  {
+    "label": "Asia/Barnaul (GMT+07:00)",
+    "tzCode": "Asia/Barnaul",
+    "name": {
+      "en": "(GMT+07:00) Barnaul, Biysk, Rubtsovsk, Novoaltaysk, Gorno-Altaysk",
+      "uk": "(GMT+07:00) Барнаул, Бійськ, Рубцовськ, Новоалтайськ, Горно-Алтайськ"
+    },
+    "utc": "+07:00"
+  },
+  {
+    "label": "Asia/Hovd (GMT+07:00)",
+    "tzCode": "Asia/Hovd",
+    "name": {
+      "en": "(GMT+07:00) Khovd, Ölgii, Ulaangom, Uliastay, Altai",
+      "uk": "(GMT+07:00) Ховд, Олгій, Улаангом, Улястай, Алтай"
+    },
+    "utc": "+07:00"
+  },
+  {
+    "label": "Asia/Ho_Chi_Minh (GMT+07:00)",
+    "tzCode": "Asia/Ho_Chi_Minh",
+    "name": {
+      "en": "(GMT+07:00) Ho Chi Minh City, Da Nang, Biên Hòa, Nha Trang, Cần Thơ",
+      "uk": "(GMT+07:00) Хошимін, Да Нанг, Бієн Хоа, Нячанг, Кантхо"
+    },
+    "utc": "+07:00"
+  },
+  {
+    "label": "Asia/Jakarta (GMT+07:00)",
+    "tzCode": "Asia/Jakarta",
+    "name": {
+      "en": "(GMT+07:00) Jakarta, Surabaya, Medan, Bandung, Bekasi",
+      "uk": "(GMT+07:00) Джакарта, Сурабая, Медан, Бандунг, Бекасі"
+    },
+    "utc": "+07:00"
+  },
+  {
+    "label": "Asia/Krasnoyarsk (GMT+07:00)",
+    "tzCode": "Asia/Krasnoyarsk",
+    "name": {
+      "en": "(GMT+07:00) Krasnoyarsk, Abakan, Norilsk, Achinsk, Kyzyl",
+      "uk": "(GMT+07:00) Красноярськ, Абакан, Норильськ, Ачинськ, Кизил"
+    },
+    "utc": "+07:00"
+  },
+  {
+    "label": "Asia/Novokuznetsk (GMT+07:00)",
+    "tzCode": "Asia/Novokuznetsk",
+    "name": {
+      "en": "(GMT+07:00) Novokuznetsk, Kemerovo, Prokop’yevsk, Leninsk-Kuznetsky, Kiselëvsk",
+      "uk": "(GMT+07:00) Новокузнецьк, Кемерово, Прокоп’євськ, Ленінськ-Кузнецький, Кісельовськ"
+    },
+    "utc": "+07:00"
+  },
+  {
+    "label": "Asia/Novosibirsk (GMT+07:00)",
+    "tzCode": "Asia/Novosibirsk",
+    "name": {
+      "en": "(GMT+07:00) Novosibirsk, Berdsk, Iskitim, Akademgorodok, Kuybyshev",
+      "uk": "(GMT+07:00) Новосибірськ, Бердськ, Іскітім, Академгородок, Куйбишев"
+    },
+    "utc": "+07:00"
+  },
+  {
+    "label": "Asia/Phnom_Penh (GMT+07:00)",
+    "tzCode": "Asia/Phnom_Penh",
+    "name": {
+      "en": "(GMT+07:00) Phnom Penh, Takeo, Sihanoukville, Battambang, Siem Reap",
+      "uk": "(GMT+07:00) Пномпень, Такео, Сіхануквіль, Баттамбанг, Сіемреап"
+    },
+    "utc": "+07:00"
+  },
+  {
+    "label": "Asia/Pontianak (GMT+07:00)",
+    "tzCode": "Asia/Pontianak",
+    "name": {
+      "en": "(GMT+07:00) Pontianak, Tanjung Pinang, Palangkaraya, Singkawang, Sampit",
+      "uk": "(GMT+07:00) Понтианак, Танджунг Пінанг, Палангкарая, Сінгкаванг, Сампіт"
+    },
+    "utc": "+07:00"
+  },
+  {
+    "label": "Asia/Tomsk (GMT+07:00)",
+    "tzCode": "Asia/Tomsk",
+    "name": {
+      "en": "(GMT+07:00) Tomsk, Seversk, Strezhevoy, Kolpashevo, Asino",
+      "uk": "(GMT+07:00) Томськ, Северськ, Стрежевий, Колпашево, Асіно"
+    },
+    "utc": "+07:00"
+  },
+  {
+    "label": "Asia/Vientiane (GMT+07:00)",
+    "tzCode": "Asia/Vientiane",
+    "name": {
+      "en": "(GMT+07:00) Vientiane, Pakse, Thakhèk, Savannakhet, Luang Prabang",
+      "uk": "(GMT+07:00) В’єнтьян, Паксе, Такхек, Саваннакхет, Луангпрабанг"
+    },
+    "utc": "+07:00"
+  },
+  {
+    "label": "Indian/Christmas (GMT+07:00)",
+    "tzCode": "Indian/Christmas",
+    "name": {
+      "en": "(GMT+07:00) Flying Fish Cove",
+      "uk": "(GMT+07:00) Флайінг Фіш Коув"
+    },
+    "utc": "+07:00"
+  },
+  {
+    "label": "Asia/Brunei (GMT+08:00)",
+    "tzCode": "Asia/Brunei",
+    "name": {
+      "en": "(GMT+08:00) Bandar Seri Begawan, Kuala Belait, Seria, Tutong, Bangar",
+      "uk": "(GMT+08:00) Бандар Сері Бегаван, Куала Белайт, Серія, Тутонг, Бангар"
+    },
+    "utc": "+08:00"
+  },
+  {
+    "label": "Asia/Choibalsan (GMT+08:00)",
+    "tzCode": "Asia/Choibalsan",
+    "name": {
+      "en": "(GMT+08:00) Baruun-Urt, Choibalsan",
+      "uk": "(GMT+08:00) Баруун-Урт, Чойбалсан"
+    },
+    "utc": "+08:00"
+  },
+  {
+    "label": "Asia/Hong_Kong (GMT+08:00)",
+    "tzCode": "Asia/Hong_Kong",
+    "name": {
+      "en": "(GMT+08:00) Hong Kong, Kowloon, Tsuen Wan, Yuen Long Kau Hui, Tung Chung",
+      "uk": "(GMT+08:00) Гонконг, Каулун, Цюньван, Юен-Лонг-Кау-Хуї, Тунг-Чун"
+    },
+    "utc": "+08:00"
+  },
+  {
+    "label": "Asia/Irkutsk (GMT+08:00)",
+    "tzCode": "Asia/Irkutsk",
+    "name": {
+      "en": "(GMT+08:00) Irkutsk, Ulan-Ude, Bratsk, Angarsk, Ust’-Ilimsk",
+      "uk": "(GMT+08:00) Іркутськ, Улан-Удэ, Братськ, Ангарськ, Усть-Ілімськ"
+    },
+    "utc": "+08:00"
+  },
+  {
+    "label": "Asia/Kuala_Lumpur (GMT+08:00)",
+    "tzCode": "Asia/Kuala_Lumpur",
+    "name": {
+      "en": "(GMT+08:00) Kota Bharu, Kuala Lumpur, Klang, Kampung Baru Subang, Johor Bahru",
+      "uk": "(GMT+08:00) Кота-Бару, Куала-Лумпур, Кланг, Кампунг Бару Субанг, Джохор-Бару"
+    },
+    "utc": "+08:00"
+  },
+  {
+    "label": "Asia/Kuching (GMT+08:00)",
+    "tzCode": "Asia/Kuching",
+    "name": {
+      "en": "(GMT+08:00) Kuching, Kota Kinabalu, Sandakan, Tawau, Miri",
+      "uk": "(GMT+08:00) Кучінг, Кота-Кінабалу, Сандакан, Тавау, Мірі"
+    },
+    "utc": "+08:00"
+  },
+  {
+    "label": "Asia/Macau (GMT+08:00)",
+    "tzCode": "Asia/Macau",
+    "name": {
+      "en": "(GMT+08:00) Macau",
+      "uk": "(GMT+08:00) Макао"
+    },
+    "utc": "+08:00"
+  },
+  {
+    "label": "Asia/Makassar (GMT+08:00)",
+    "tzCode": "Asia/Makassar",
+    "name": {
+      "en": "(GMT+08:00) Makassar, Denpasar, City of Balikpapan, Banjarmasin, Manado",
+      "uk": "(GMT+08:00) Макассар, Денпасар, Балікпапан, Банджармасін, Манадо"
+    },
+    "utc": "+08:00"
+  },
+  {
+    "label": "Asia/Manila (GMT+08:00)",
+    "tzCode": "Asia/Manila",
+    "name": {
+      "en": "(GMT+08:00) Quezon City, Manila, Caloocan City, Budta, Davao",
+      "uk": "(GMT+08:00) Кесон-Сіті, Маніла, Калоокан, Будта, Давао"
+    },
+    "utc": "+08:00"
+  },
+  {
+    "label": "Asia/Shanghai (GMT+08:00)",
+    "tzCode": "Asia/Shanghai",
+    "name": {
+      "en": "(GMT+08:00) Shanghai, Beijing, Tianjin, Guangzhou, Shenzhen",
+      "uk": "(GMT+08:00) Шанхай, Пекін, Тяньцзінь, Гуанчжоу, Шеньчжень"
+    },
+    "utc": "+08:00"
+  },
+  {
+    "label": "Asia/Singapore (GMT+08:00)",
+    "tzCode": "Asia/Singapore",
+    "name": {
+      "en": "(GMT+08:00) Singapore, Woodlands",
+      "uk": "(GMT+08:00) Сінгапур, Вудлендс"
+    },
+    "utc": "+08:00"
+  },
+  {
+    "label": "Asia/Taipei (GMT+08:00)",
+    "tzCode": "Asia/Taipei",
+    "name": {
+      "en": "(GMT+08:00) Taipei, Kaohsiung, Taichung, Tainan, Banqiao",
+      "uk": "(GMT+08:00) Тайбей, Каохсіун, Тайчун, Тайнань, Банкяо"
+    },
+    "utc": "+08:00"
+  },
+  {
+    "label": "Asia/Ulaanbaatar (GMT+08:00)",
+    "tzCode": "Asia/Ulaanbaatar",
+    "name": {
+      "en": "(GMT+08:00) Ulan Bator, Erdenet, Darhan, Hovd, Mörön",
+      "uk": "(GMT+08:00) Улан-Батор, Ерденет, Дархан, Ховд, Морон"
+    },
+    "utc": "+08:00"
+  },
+  {
+    "label": "Australia/Perth (GMT+08:00)",
+    "tzCode": "Australia/Perth",
+    "name": {
+      "en": "(GMT+08:00) Perth, Rockingham, Mandurah, Bunbury, Albany",
+      "uk": "(GMT+08:00) Перт, Рокінгем, Мандура, Банбері, Олбані"
+    },
+    "utc": "+08:00"
+  },
+  {
+    "label": "Australia/Eucla (GMT+08:45)",
+    "tzCode": "Australia/Eucla",
+    "name": {
+      "en": "(GMT+08:45) Eucla",
+      "uk": "(GMT+08:45) Юкла"
+    },
+    "utc": "+08:45"
+  },
+  {
+    "label": "Asia/Chita (GMT+09:00)",
+    "tzCode": "Asia/Chita",
+    "name": {
+      "en": "(GMT+09:00) Chita, Krasnokamensk, Borzya, Petrovsk-Zabaykal’skiy, Aginskoye",
+      "uk": "(GMT+09:00) Чита, Краснокам’янськ, Борзя, Петровськ-Забайкальський, Агінське"
+    },
+    "utc": "+09:00"
+  },
+  {
+    "label": "Asia/Dili (GMT+09:00)",
+    "tzCode": "Asia/Dili",
+    "name": {
+      "en": "(GMT+09:00) Dili, Maliana, Suai, Likisá, Aileu",
+      "uk": "(GMT+09:00) Ділі, Маліана, Суаї, Лікіса, Аілеу"
+    },
+    "utc": "+09:00"
+  },
+  {
+    "label": "Asia/Jayapura (GMT+09:00)",
+    "tzCode": "Asia/Jayapura",
+    "name": {
+      "en": "(GMT+09:00) Ambon, Jayapura, Sorong, Ternate, Abepura",
+      "uk": "(GMT+09:00) Амбон, Джаяпура, Соронг, Тернате, Абепура"
+    },
+    "utc": "+09:00"
+  },
+  {
+    "label": "Asia/Khandyga (GMT+09:00)",
+    "tzCode": "Asia/Khandyga",
+    "name": {
+      "en": "(GMT+09:00) Khandyga",
+      "uk": "(GMT+09:00) Хандига"
+    },
+    "utc": "+09:00"
+  },
+  {
+    "label": "Asia/Pyongyang (GMT+09:00)",
+    "tzCode": "Asia/Pyongyang",
+    "name": {
+      "en": "(GMT+09:00) Pyongyang, Hamhŭng, Namp’o, Sunch’ŏn, Hŭngnam",
+      "uk": "(GMT+09:00) Пхеньян, Хамхун, Намп’о, Сунчхон, Хунгнам"
+    },
+    "utc": "+09:00"
+  },
+  {
+    "label": "Asia/Seoul (GMT+09:00)",
+    "tzCode": "Asia/Seoul",
+    "name": {
+      "en": "(GMT+09:00) Seoul, Busan, Incheon, Daegu, Daejeon",
+      "uk": "(GMT+09:00) Сеул, Пусан, Інчхон, Тэгу, Тэчжон"
+    },
+    "utc": "+09:00"
+  },
+  {
+    "label": "Asia/Tokyo (GMT+09:00)",
+    "tzCode": "Asia/Tokyo",
+    "name": {
+      "en": "(GMT+09:00) Tokyo, Yokohama, Osaka, Nagoya, Sapporo",
+      "uk": "(GMT+09:00) Токіо, Йокогама, Осака, Нагоя, Саппоро"
+    },
+    "utc": "+09:00"
+  },
+  {
+    "label": "Asia/Yakutsk (GMT+09:00)",
+    "tzCode": "Asia/Yakutsk",
+    "name": {
+      "en": "(GMT+09:00) Yakutsk, Blagoveshchensk, Belogorsk, Neryungri, Svobodnyy",
+      "uk": "(GMT+09:00) Якутськ, Благовєщенськ, Бєлогорськ, Нерюнгрі, Свободний"
+    },
+    "utc": "+09:00"
+  },
+  {
+    "label": "Pacific/Palau (GMT+09:00)",
+    "tzCode": "Pacific/Palau",
+    "name": {
+      "en": "(GMT+09:00) Koror, Koror Town, Kloulklubed, Ulimang, Mengellang",
+      "uk": "(GMT+09:00) Корор, Корор Таун, Клоулклубед, Уліманг, Менгелланг"
+    },
+    "utc": "+09:00"
+  },
+  {
+    "label": "Australia/Adelaide (GMT+09:30)",
+    "tzCode": "Australia/Adelaide",
+    "name": {
+      "en": "(GMT+09:30) Adelaide, Adelaide Hills, Mount Gambier, Morphett Vale, Gawler",
+      "uk": "(GMT+09:30) Аделаїда, Аделаїд-Хіллс, Маунт-Гамбіер, Морфетт-Вейл, Голер"
+    },
+    "utc": "+09:30"
+  },
+  {
+    "label": "Australia/Broken_Hill (GMT+09:30)",
+    "tzCode": "Australia/Broken_Hill",
+    "name": {
+      "en": "(GMT+09:30) Broken Hill",
+      "uk": "(GMT+09:30) Брокен-Хілл"
+    },
+    "utc": "+09:30"
+  },
+  {
+    "label": "Australia/Darwin (GMT+09:30)",
+    "tzCode": "Australia/Darwin",
+    "name": {
+      "en": "(GMT+09:30) Darwin, Alice Springs, Palmerston, Howard Springs",
+      "uk": "(GMT+09:30) Дарвін, Еліс-Спрінгс, Палмерстон, Говард-Спрінгс"
+    },
+    "utc": "+09:30"
+  },
+  {
+    "label": "Antarctica/DumontDUrville (GMT+10:00)",
+    "tzCode": "Antarctica/DumontDUrville",
+    "name": {
+      "en": "(GMT+10:00) DumontDUrville",
+      "uk": "(GMT+10:00) Дюмон-д’Юрвіль"
+    },
+    "utc": "+10:00"
+  },
+  {
+    "label": "Antarctica/Macquarie (GMT+10:00)",
+    "tzCode": "Antarctica/Macquarie",
+    "name": {
+      "en": "(GMT+10:00) Macquarie",
+      "uk": "(GMT+10:00) Маккуорі"
+    },
+    "utc": "+10:00"
+  },
+  {
+    "label": "Asia/Ust-Nera (GMT+10:00)",
+    "tzCode": "Asia/Ust-Nera",
+    "name": {
+      "en": "(GMT+10:00) Ust-Nera",
+      "uk": "(GMT+10:00) Усть-Нера"
+    },
+    "utc": "+10:00"
+  },
+  {
+    "label": "Asia/Vladivostok (GMT+10:00)",
+    "tzCode": "Asia/Vladivostok",
+    "name": {
+      "en": "(GMT+10:00) Vladivostok, Khabarovsk, Khabarovsk Vtoroy, Komsomolsk-on-Amur, Ussuriysk",
+      "uk": "(GMT+10:00) Владивосток, Хабаровськ, Хабаровськ Второй, Комсомольськ-на-Амурі, Уссурійськ"
+    },
+    "utc": "+10:00"
+  },
+  {
+    "label": "Australia/Brisbane (GMT+10:00)",
+    "tzCode": "Australia/Brisbane",
+    "name": {
+      "en": "(GMT+10:00) Brisbane, Gold Coast, Logan City, Townsville, Cairns",
+      "uk": "(GMT+10:00) Брісбен, Голд-Кост, Логан-Сіті, Таунсвілл, Кернс"
+    },
+    "utc": "+10:00"
+  },
+  {
+    "label": "Australia/Currie (GMT+10:00)",
+    "tzCode": "Australia/Currie",
+    "name": {
+      "en": "(GMT+10:00) Currie",
+      "uk": "(GMT+10:00) Керрі"
+    },
+    "utc": "+10:00"
+  },
+  {
+    "label": "Australia/Hobart (GMT+10:00)",
+    "tzCode": "Australia/Hobart",
+    "name": {
+      "en": "(GMT+10:00) Hobart, Launceston, Burnie, Devonport, Sandy Bay",
+      "uk": "(GMT+10:00) Гобарт, Лонсестон, Берні, Девонпорт, Сенді-Бей"
+    },
+    "utc": "+10:00"
+  },
+  {
+    "label": "Australia/Lindeman (GMT+10:00)",
+    "tzCode": "Australia/Lindeman",
+    "name": {
+      "en": "(GMT+10:00) Lindeman",
+      "uk": "(GMT+10:00) Ліндеман"
+    },
+    "utc": "+10:00"
+  },
+  {
+    "label": "Australia/Melbourne (GMT+10:00)",
+    "tzCode": "Australia/Melbourne",
+    "name": {
+      "en": "(GMT+10:00) Melbourne, Geelong, Bendigo, Ballarat, Melbourne City Centre",
+      "uk": "(GMT+10:00) Мельбурн, Джілонг, Бендіго, Балларат, Мельбурн Сіті Центр"
+    },
+    "utc": "+10:00"
+  },
+  {
+    "label": "Australia/Sydney (GMT+10:00)",
+    "tzCode": "Australia/Sydney",
+    "name": {
+      "en": "(GMT+10:00) Sydney, Canberra, Newcastle, Wollongong, Maitland",
+      "uk": "(GMT+10:00) Сідней, Канберра, Ньюкасл, Вуллонгонг, Мейтленд"
+    },
+    "utc": "+10:00"
+  },
+  {
+    "label": "Pacific/Chuuk (GMT+10:00)",
+    "tzCode": "Pacific/Chuuk",
+    "name": {
+      "en": "(GMT+10:00) Weno, Colonia",
+      "uk": "(GMT+10:00) Вено, Колонія"
+    },
+    "utc": "+10:00"
+  },
+  {
+    "label": "Pacific/Guam (GMT+10:00)",
+    "tzCode": "Pacific/Guam",
+    "name": {
+      "en": "(GMT+10:00) Dededo Village, Yigo Village, Tamuning, Tamuning-Tumon-Harmon Village, Mangilao Village",
+      "uk": "(GMT+10:00) Дедедо Віледж, Йіго Віледж, Тамунінг, Тамунінг-Тумон-Гармон Віледж, Мангілао Віледж"
+    },
+    "utc": "+10:00"
+  },
+  {
+    "label": "Pacific/Port_Moresby (GMT+10:00)",
+    "tzCode": "Pacific/Port_Moresby",
+    "name": {
+      "en": "(GMT+10:00) Port Moresby, Lae, Mount Hagen, Popondetta, Madang",
+      "uk": "(GMT+10:00) Порт-Морсбі, Лае, Маунт-Хаген, Попондетта, Маданг"
+    },
+    "utc": "+10:00"
+  },
+  {
+    "label": "Pacific/Saipan (GMT+10:00)",
+    "tzCode": "Pacific/Saipan",
+    "name": {
+      "en": "(GMT+10:00) Saipan, San Jose Village",
+      "uk": "(GMT+10:00) Сайпан, Сан-Хосе Віледж"
+    },
+    "utc": "+10:00"
+  },
+  {
+    "label": "Australia/Lord_Howe (GMT+10:30)",
+    "tzCode": "Australia/Lord_Howe",
+    "name": {
+      "en": "(GMT+10:30) Lord Howe",
+      "uk": "(GMT+10:30) Лорд-Хау"
+    },
+    "utc": "+10:30"
+  },
+  {
+    "label": "Antarctica/Casey (GMT+11:00)",
+    "tzCode": "Antarctica/Casey",
+    "name": {
+      "en": "(GMT+11:00) Casey",
+      "uk": "(GMT+11:00) Кейсі"
+    },
+    "utc": "+11:00"
+  },
+  {
+    "label": "Asia/Magadan (GMT+11:00)",
+    "tzCode": "Asia/Magadan",
+    "name": {
+      "en": "(GMT+11:00) Magadan, Ust-Nera, Susuman, Ola",
+      "uk": "(GMT+11:00) Магадан, Усть-Нера, Сусуман, Ола"
+    },
+    "utc": "+11:00"
+  },
+  {
+    "label": "Asia/Sakhalin (GMT+11:00)",
+    "tzCode": "Asia/Sakhalin",
+    "name": {
+      "en": "(GMT+11:00) Yuzhno-Sakhalinsk, Korsakov, Kholmsk, Okha, Nevel’sk",
+      "uk": "(GMT+11:00) Южно-Сахалінськ, Корсаков, Холмськ, Оха, Невельськ"
+    },
+    "utc": "+11:00"
+  },
+  {
+    "label": "Asia/Srednekolymsk (GMT+11:00)",
+    "tzCode": "Asia/Srednekolymsk",
+    "name": {
+      "en": "(GMT+11:00) Srednekolymsk",
+      "uk": "(GMT+11:00) Середньоколимськ"
+    },
+    "utc": "+11:00"
+  },
+  {
+    "label": "Pacific/Bougainville (GMT+11:00)",
+    "tzCode": "Pacific/Bougainville",
+    "name": {
+      "en": "(GMT+11:00) Arawa, Buka",
+      "uk": "(GMT+11:00) Арава, Бука"
+    },
+    "utc": "+11:00"
+  },
+  {
+    "label": "Pacific/Efate (GMT+11:00)",
+    "tzCode": "Pacific/Efate",
+    "name": {
+      "en": "(GMT+11:00) Port-Vila, Luganville, Isangel, Sola, Lakatoro",
+      "uk": "(GMT+11:00) Порт-Віла, Луганвілль, Ісангел, Сола, Лакаторо"
+    },
+    "utc": "+11:00"
+  },
+  {
+    "label": "Pacific/Guadalcanal (GMT+11:00)",
+    "tzCode": "Pacific/Guadalcanal",
+    "name": {
+      "en": "(GMT+11:00) Honiara, Malango, Auki, Gizo, Buala",
+      "uk": "(GMT+11:00) Гоніара, Маланго, Ауки, Гізо, Буала"
+    },
+    "utc": "+11:00"
+  },
+  {
+    "label": "Pacific/Kosrae (GMT+11:00)",
+    "tzCode": "Pacific/Kosrae",
+    "name": {
+      "en": "(GMT+11:00) Tofol",
+      "uk": "(GMT+11:00) Тофол"
+    },
+    "utc": "+11:00"
+  },
+  {
+    "label": "Pacific/Norfolk (GMT+11:00)",
+    "tzCode": "Pacific/Norfolk",
+    "name": {
+      "en": "(GMT+11:00) Kingston",
+      "uk": "(GMT+11:00) Кінгстон"
+    },
+    "utc": "+11:00"
+  },
+  {
+    "label": "Pacific/Noumea (GMT+11:00)",
+    "tzCode": "Pacific/Noumea",
+    "name": {
+      "en": "(GMT+11:00) Nouméa, Mont-Dore, Dumbéa, Païta, Wé",
+      "uk": "(GMT+11:00) Нумеа, Монт-Дор, Думбеа, Паїта, Ве"
+    },
+    "utc": "+11:00"
+  },
+  {
+    "label": "Pacific/Pohnpei (GMT+11:00)",
+    "tzCode": "Pacific/Pohnpei",
+    "name": {
+      "en": "(GMT+11:00) Kolonia, Kolonia Town, Palikir - National Government Center",
+      "uk": "(GMT+11:00) Колонія, Колонія Таун, Палікір - Національний урядовий центр"
+    },
+    "utc": "+11:00"
+  },
+  {
+    "label": "Antarctica/McMurdo (GMT+12:00)",
+    "tzCode": "Antarctica/McMurdo",
+    "name": {
+      "en": "(GMT+12:00) McMurdo",
+      "uk": "(GMT+12:00) Мак-Мердо"
+    },
+    "utc": "+12:00"
+  },
+  {
+    "label": "Asia/Anadyr (GMT+12:00)",
+    "tzCode": "Asia/Anadyr",
+    "name": {
+      "en": "(GMT+12:00) Anadyr, Bilibino",
+      "uk": "(GMT+12:00) Анадир, Білібіно"
+    },
+    "utc": "+12:00"
+  },
+  {
+    "label": "Asia/Kamchatka (GMT+12:00)",
+    "tzCode": "Asia/Kamchatka",
+    "name": {
+      "en": "(GMT+12:00) Petropavlovsk-Kamchatsky, Yelizovo, Vilyuchinsk, Klyuchi, Mil’kovo",
+      "uk": "(GMT+12:00) Петропавлівськ-Камчатський, Єлізово, Вілючинськ, Ключі, Мілково"
+    },
+    "utc": "+12:00"
+  },
+  {
+    "label": "Pacific/Auckland (GMT+12:00)",
+    "tzCode": "Pacific/Auckland",
+    "name": {
+      "en": "(GMT+12:00) Auckland, Wellington, Christchurch, Manukau City, North Shore",
+      "uk": "(GMT+12:00) Окленд, Веллінгтон, Крайстчерч, Манукау-Сіті, Норт-Шор"
+    },
+    "utc": "+12:00"
+  },
+  {
+    "label": "Pacific/Fiji (GMT+12:00)",
+    "tzCode": "Pacific/Fiji",
+    "name": {
+      "en": "(GMT+12:00) Suva, Lautoka, Nadi, Labasa, Ba",
+      "uk": "(GMT+12:00) Сува, Лаутока, Наді, Лабаса, Ба"
+    },
+    "utc": "+12:00"
+  },
+  {
+    "label": "Pacific/Funafuti (GMT+12:00)",
+    "tzCode": "Pacific/Funafuti",
+    "name": {
+      "en": "(GMT+12:00) Funafuti, Savave Village, Tanrake Village, Toga Village, Asau Village",
+      "uk": "(GMT+12:00) Фунафуті, Сававе Віледж, Танраке Віледж, Тога Віледж, Асау Віледж"
+    },
+    "utc": "+12:00"
+  },
+  {
+    "label": "Pacific/Kwajalein (GMT+12:00)",
+    "tzCode": "Pacific/Kwajalein",
+    "name": {
+      "en": "(GMT+12:00) Ebaye, Jabat",
+      "uk": "(GMT+12:00) Ебай, Джабат"
+    },
+    "utc": "+12:00"
+  },
+  {
+    "label": "Pacific/Majuro (GMT+12:00)",
+    "tzCode": "Pacific/Majuro",
+    "name": {
+      "en": "(GMT+12:00) Majuro, Arno, Jabor, Wotje, Mili",
+      "uk": "(GMT+12:00) Маджуро, Арно, Джабор, Вотже, Мілі"
+    },
+    "utc": "+12:00"
+  },
+  {
+    "label": "Pacific/Nauru (GMT+12:00)",
+    "tzCode": "Pacific/Nauru",
+    "name": {
+      "en": "(GMT+12:00) Yaren, Baiti, Anabar, Uaboe, Ijuw",
+      "uk": "(GMT+12:00) Ярен, Байті, Анабар, Уабо, Іджув"
+    },
+    "utc": "+12:00"
+  },
+  {
+    "label": "Pacific/Tarawa (GMT+12:00)",
+    "tzCode": "Pacific/Tarawa",
+    "name": {
+      "en": "(GMT+12:00) Tarawa, Betio Village, Bikenibeu Village",
+      "uk": "(GMT+12:00) Тарава, Бетіо Віледж, Бікенібеу Віледж"
+    },
+    "utc": "+12:00"
+  },
+  {
+    "label": "Pacific/Wake (GMT+12:00)",
+    "tzCode": "Pacific/Wake",
+    "name": {
+      "en": "(GMT+12:00) Wake",
+      "uk": "(GMT+12:00) Уейк"
+    },
+    "utc": "+12:00"
+  },
+  {
+    "label": "Pacific/Wallis (GMT+12:00)",
+    "tzCode": "Pacific/Wallis",
+    "name": {
+      "en": "(GMT+12:00) Mata-Utu, Leava, Alo",
+      "uk": "(GMT+12:00) Мата-Уту, Леава, Ало"
+    },
+    "utc": "+12:00"
+  },
+  {
+    "label": "Pacific/Chatham (GMT+12:45)",
+    "tzCode": "Pacific/Chatham",
+    "name": {
+      "en": "(GMT+12:45) Waitangi",
+      "uk": "(GMT+12:45) Вайтангі"
+    },
+    "utc": "+12:45"
+  },
+  {
+    "label": "Pacific/Apia (GMT+13:00)",
+    "tzCode": "Pacific/Apia",
+    "name": {
+      "en": "(GMT+13:00) Apia, Asau, Mulifanua, Afega, Leulumoega",
+      "uk": "(GMT+13:00) Апіа, Асау, Муліфануа, Афега, Леулумоега"
+    },
+    "utc": "+13:00"
+  },
+  {
+    "label": "Pacific/Enderbury (GMT+13:00)",
+    "tzCode": "Pacific/Enderbury",
+    "name": {
+      "en": "(GMT+13:00) Enderbury",
+      "uk": "(GMT+13:00) Ендербері"
+    },
+    "utc": "+13:00"
+  },
+  {
+    "label": "Pacific/Fakaofo (GMT+13:00)",
+    "tzCode": "Pacific/Fakaofo",
+    "name": {
+      "en": "(GMT+13:00) Atafu Village, Nukunonu, Fale old settlement",
+      "uk": "(GMT+13:00) Атафу Віледж, Нукунону, Фале старе поселення"
+    },
+    "utc": "+13:00"
+  },
+  {
+    "label": "Pacific/Tongatapu (GMT+13:00)",
+    "tzCode": "Pacific/Tongatapu",
+    "name": {
+      "en": "(GMT+13:00) Nuku‘alofa, Lapaha, Neiafu, Pangai, ‘Ohonua",
+      "uk": "(GMT+13:00) Нукуалофа, Лапаха, Неіафу, Пангай, Охонуа"
+    },
+    "utc": "+13:00"
+  },
+  {
+    "label": "Pacific/Kiritimati (GMT+14:00)",
+    "tzCode": "Pacific/Kiritimati",
+    "name": {
+      "en": "(GMT+14:00) Kiritimati",
+      "uk": "(GMT+14:00) Кірітіматі"
+    },
+    "utc": "+14:00"
+  }
+]

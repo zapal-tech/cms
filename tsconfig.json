@@ -1,0 +1,50 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "allowJs": true,
+    "strict": false,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "baseUrl": ".",
+    "module": "Node16",
+    "moduleResolution": "Node16",
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "react",
+    "sourceMap": true,
+    "paths": {
+      "payload/generated-types": ["./src/payload-types.ts"],
+      "assets": ["src/assets"],
+      "assets/*": ["src/assets/*"],
+      "components": ["src/components"],
+      "components/*": ["src/components/*"],
+      "collections": ["src/collections"],
+      "collections/*": ["src/collections/*"],
+      "fields": ["src/fields"],
+      "fields/*": ["src/fields/*"],
+      "globals": ["src/globals"],
+      "globals/*": ["src/globals/*"],
+      "hooks": ["src/hooks"],
+      "hooks/*": ["src/hooks/*"],
+      "types": ["src/types"],
+      "types/*": ["src/types/*"],
+      "utils": ["src/utils"],
+      "utils/*": ["src/utils/*"],
+      "public": ["src/public"],
+      "public/*": ["src/public/*"],
+      "locales": ["src/locales"],
+      "locales/*": ["src/locales/*"]
+    }
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist", "build"],
+  "ts-node": {
+    "require": ["tsconfig-paths/register"],
+    "transpileOnly": true,
+    "swc": true
+  }
+}

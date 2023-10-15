@@ -1,5 +1,4 @@
 FROM node:18.18-alpine as base
-# RUN apk update && apk add git
 
 FROM base as builder
 

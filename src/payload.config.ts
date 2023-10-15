@@ -15,8 +15,8 @@ import {
 
 import path from 'path';
 
-import validationEN from 'locales/en/validation.json';
-import validationUA from 'locales/ua/validation.json';
+import validationEN from 'locales/en/validation';
+import validationUA from 'locales/ua/validation';
 
 import Logo from 'components/Logo';
 

@@ -1,0 +1,9 @@
+node_modules
+.git
+.gitignore
+*.md
+
+.env*
+.flaskenv*
+!.env.project
+!.env.vault

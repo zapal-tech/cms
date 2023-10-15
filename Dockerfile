@@ -1,4 +1,4 @@
-FROM node:18.8-alpine as base
+FROM node:18-alpine as base
 
 FROM base as builder
 
@@ -24,6 +24,7 @@ RUN pnpm i -P --ignore-scripts
 COPY --from=builder /home/node/app/dist ./dist
 COPY --from=builder /home/node/app/build ./build
 
+# Set your own port
 EXPOSE 3000
 
 CMD ["node", "dist/server.js"]

@@ -13,7 +13,7 @@ the code and assets used to build and maintain front-end part of our website.
 ## 🛠️ Getting started
 
 1. Set own environment variables (from example file `.env.example`) in `.env` file
-2. Run the development server with `npm i && npm run dev` (or `docker-compose up`, see [Docker](#%F0%9F%90%B3%20Docker))
+2. Run the development server with `npm i && npm run dev` (or `docker-compose up`, see [Docker](#-docker))
 3. Open [http://localhost:3000/admin](http://localhost:3000/admin) in your browser to see the result.
 4. Create your first admin user using the form on the page
 
@@ -24,11 +24,10 @@ That's it! Changes made in `./src` will be reflected in your app.
 Alternatively, you can use [Docker](https://www.docker.com) to spin up this project locally. To do so, follow these
 steps:
 
-1. Follow [step 1 from above](#%F0%9F%9B%A0%EF%B8%8F%20Getting%20started), the docker-compose file will automatically
-   use the `.env` file in your project root
+1. Follow [step 1 from above](#%EF%B8%8F-getting-started), the docker-compose file will automatically use the `.env`
+   file in your project root
 2. Next run `docker-compose up`
-3. Follow [steps 3 and 4 from above](#%F0%9F%9B%A0%EF%B8%8F%20Getting%20started) to login and create your first admin
-   user
+3. Follow [steps 3 and 4 from above](#%EF%B8%8F-getting-started) to login and create your first admin user
 
 That's it! The Docker instance will help you get up and running quickly while also standardizing the development
 environment across your teams.

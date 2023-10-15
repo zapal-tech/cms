@@ -6,9 +6,8 @@ WORKDIR /home/node/app
 COPY package*.json ./
 
 COPY . .
-RUN npm install -g pnpm
-RUN pnpm i
-RUN pnpm run build
+RUN npm ci
+RUN npm run build
 
 FROM base as runtime
 
@@ -17,11 +16,8 @@ ENV PAYLOAD_CONFIG_PATH=dist/payload.config.js
 
 WORKDIR /home/node/app
 COPY package*.json  ./
-COPY pnpm-lock.yaml  ./
 
-RUN npm install -g pnpm
-RUN pnpm i sharp -P --ignore-scripts
-RUN pnpm i -P --ignore-scripts
+RUN npm ci
 COPY --from=builder /home/node/app/dist ./dist
 COPY --from=builder /home/node/app/build ./build
 

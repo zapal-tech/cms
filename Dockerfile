@@ -20,7 +20,7 @@ COPY package*.json  ./
 COPY pnpm-lock.yaml  ./
 
 RUN npm install -g pnpm
-RUN pnpm i
+RUN pnpm i -P --ignore-scripts
 COPY --from=builder /home/node/app/dist ./dist
 COPY --from=builder /home/node/app/build ./build
 

@@ -4,6 +4,7 @@ FROM base as builder
 
 WORKDIR /home/node/app
 COPY package*.json ./
+COPY .env.vault ./
 
 COPY . .
 RUN npm ci --legacy-peer-deps
@@ -16,6 +17,7 @@ ENV PAYLOAD_CONFIG_PATH=dist/payload.config.js
 
 WORKDIR /home/node/app
 COPY package*.json  ./
+COPY .env.vault ./
 
 RUN npm ci --legacy-peer-deps
 COPY --from=builder /home/node/app/dist ./dist

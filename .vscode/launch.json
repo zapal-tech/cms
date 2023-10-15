@@ -1,0 +1,19 @@
+{
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch app",
+      "runtimeExecutable": "${workspaceRoot}/node_modules/.bin/nodemon",
+      "runtimeArgs": ["--inspect=3000"],
+      "skipFiles": ["<node_internals>/**", "node_modules/**"],
+      "program": "${workspaceFolder}/src/server.ts",
+      "cwd": "${workspaceRoot}",
+      "restart": true,
+      "env": {
+        "PAYLOAD_CONFIG_PATH": "src/payload.config.ts"
+      },
+      "internalConsoleOptions": "openOnSessionStart"
+    }
+  ]
+}

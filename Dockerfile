@@ -8,6 +8,7 @@ COPY package*.json ./
 COPY . .
 RUN npm install -g pnpm
 RUN pnpm i
+RUN pnpm i sharp
 RUN pnpm run build
 
 FROM base as runtime
@@ -25,6 +26,6 @@ COPY --from=builder /home/node/app/dist ./dist
 COPY --from=builder /home/node/app/build ./build
 
 # Set your own port
-EXPOSE 3000
+EXPOSE 8080
 
 CMD ["node", "dist/server.js"]

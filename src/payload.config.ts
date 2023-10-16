@@ -120,7 +120,6 @@ export default buildConfig({
     bundler: webpackBundler(),
     webpack: (config) => {
       config.resolve.modules = [...config.resolve.modules, path.resolve(__dirname)];
-      config.resolve.preferAbsolute = true;
       config.resolve.extensions = [...config.resolve.extensions, '.ts', '.tsx', '.js', '.jsx', '.json'];
 
       return config;

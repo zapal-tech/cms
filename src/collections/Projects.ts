@@ -48,6 +48,7 @@ const Projects: CollectionConfig = {
                 en: 'Name',
                 ua: 'Назва',
               },
+              localized: true,
               required: true,
             },
             {
@@ -57,6 +58,7 @@ const Projects: CollectionConfig = {
                 en: 'Description',
                 ua: 'Опис',
               },
+              localized: true,
               required: true,
             },
             {
@@ -85,6 +87,7 @@ const Projects: CollectionConfig = {
                 en: 'Name',
                 ua: 'Назва',
               },
+              localized: true,
               required: true,
             },
             {
@@ -94,6 +97,7 @@ const Projects: CollectionConfig = {
                 en: 'Description',
                 ua: 'Опис',
               },
+              localized: true,
               required: true,
             },
           ],

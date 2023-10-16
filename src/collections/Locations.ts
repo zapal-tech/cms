@@ -36,6 +36,7 @@ const Locations: CollectionConfig = {
         en: 'Name',
         ua: 'Назва',
       },
+      localized: true,
       required: true,
     },
 

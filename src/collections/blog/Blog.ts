@@ -54,33 +54,26 @@ const Blog: CollectionConfig = {
               hasMany: true,
               required: true,
             },
+            {
+              name: 'author',
+              label: {
+                en: 'Author',
+                ua: 'Автор',
+              },
+              admin: {
+                position: 'sidebar',
+              },
+              type: 'relationship',
+              relationTo: Authors.slug,
+              hasMany: false,
+              required: true,
+            },
             richTextField({ name: 'content' }),
           ],
         },
-        // {
-        //   name: 'seo',
-        //   label: {
-        //     en: 'SEO',
-        //     ua: 'SEO',
-        //   },
-        // }
       ],
     },
     slugField(),
-    {
-      name: 'author',
-      label: {
-        en: 'Author',
-        ua: 'Автор',
-      },
-      admin: {
-        position: 'sidebar',
-      },
-      type: 'relationship',
-      relationTo: Authors.slug,
-      hasMany: false,
-      required: true,
-    },
   ],
 };
 

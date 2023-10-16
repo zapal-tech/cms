@@ -25,17 +25,7 @@ const AboutPage: GlobalConfig = {
       tabs: [
         {
           name: 'content',
-          fields: [
-            {
-              type: 'tabs',
-              tabs: [
-                {
-                  name: 'content',
-                  fields: [translationField()],
-                },
-              ],
-            },
-          ],
+          fields: [translationField()],
         },
       ],
     },

@@ -72,7 +72,7 @@ export default buildConfig({
   telemetry: false,
   csrf: [process.env.PAYLOAD_PUBLIC_SERVER_URL, process.env.PAYLOAD_PUBLIC_SITE_URL].filter(Boolean),
   rateLimit: {
-    max: 250,
+    max: 750,
   },
   db: mongooseAdapter({
     url: process.env.DATABASE_URI,

@@ -19,6 +19,7 @@ import validationEN from 'locales/en/validation';
 import validationUA from 'locales/ua/validation';
 
 import Logo from 'components/Logo';
+import NavLogo from 'components/NavLogo';
 
 import Admins from 'collections/Admins';
 import ContactFormLeads from 'collections/ContactFormLeads';
@@ -113,7 +114,7 @@ export default buildConfig({
     },
     components: {
       graphics: {
-        Icon: Logo,
+        Icon: NavLogo,
         Logo: Logo,
       },
     },

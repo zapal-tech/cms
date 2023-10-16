@@ -66,9 +66,10 @@ const googleCloudStorageAdapter = gcsAdapter({
 });
 
 export default buildConfig({
+  serverURL: process.env.PAYLOAD_PUBLIC_SERVER_URL,
   debug: process.env.NODE_ENV === 'development',
   telemetry: false,
-  csrf: [process.env.PAYLOAD_PUBLIC_SITE_URL],
+  csrf: [process.env.PAYLOAD_PUBLIC_SERVER_URL, process.env.PAYLOAD_PUBLIC_SITE_URL].filter(Boolean),
   rateLimit: {
     max: 250,
   },

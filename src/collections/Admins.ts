@@ -37,7 +37,6 @@ const Admins: CollectionConfig = {
           },
           type: 'text',
           required: true,
-          localized: true,
         },
         {
           name: 'title',
@@ -46,7 +45,6 @@ const Admins: CollectionConfig = {
             ua: 'Посада',
           },
           type: 'text',
-          localized: true,
         },
       ],
     },

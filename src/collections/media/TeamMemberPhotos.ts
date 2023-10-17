@@ -13,9 +13,6 @@ const TeamMemberPhotos: CollectionConfig = {
     plural: { en: 'Team photos', ua: 'Фото команди' },
   },
   upload: {
-    resizeOptions: {
-      fastShrinkOnLoad: false,
-    },
     mimeTypes: ['image/png', 'image/jpeg', 'image/webp', 'image/avif'],
     formatOptions: { format: 'webp', options: { smartSubsample: true, quality: 70 } },
     imageSizes: [

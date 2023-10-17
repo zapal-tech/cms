@@ -13,9 +13,6 @@ const ProjectImages: CollectionConfig = {
     plural: { en: "Projects' images", ua: 'Зображення проєктів' },
   },
   upload: {
-    resizeOptions: {
-      fastShrinkOnLoad: false,
-    },
     mimeTypes: ['image/png', 'image/jpeg', 'image/webp', 'image/avif'],
     formatOptions: { format: 'webp', options: { smartSubsample: true, quality: 70 } },
     imageSizes: [

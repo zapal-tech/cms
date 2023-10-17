@@ -14,7 +14,6 @@ const AuthorPhotos: CollectionConfig = {
   },
   upload: {
     resizeOptions: {
-      fastShrinkOnLoad: false,
       width: 400,
       height: 400,
     },

@@ -5,7 +5,8 @@ export const checkImageAspectRatio =
   async ({ data }) => {
     const imageAspectRatio = data?.width / data?.height;
     const requiredAspectRatio = x / y;
-    const isValidAspectRatio = imageAspectRatio - requiredAspectRatio < 0.001;
+    const isValidAspectRatio =
+      imageAspectRatio - requiredAspectRatio > -0.001 && imageAspectRatio - requiredAspectRatio < 0.001;
 
     if (!isValidAspectRatio) throw new Error(`Image aspect ratio must be ${x}:${y}`);
   };

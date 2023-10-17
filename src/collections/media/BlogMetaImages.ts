@@ -15,7 +15,7 @@ const BlogMetaImages: CollectionConfig = {
       width: 1200,
       height: 630,
     },
-    formatOptions: { format: 'webp', options: { smartSubsample: true, quality: 60 } },
+    formatOptions: { format: 'webp', options: { smartSubsample: true, quality: 85 } },
     mimeTypes: ['image/webp', 'image/jpeg', 'image/png'],
   },
   admin: {

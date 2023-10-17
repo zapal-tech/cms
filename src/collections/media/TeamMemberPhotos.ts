@@ -14,7 +14,7 @@ const TeamMemberPhotos: CollectionConfig = {
   },
   upload: {
     mimeTypes: ['image/png', 'image/jpeg', 'image/webp', 'image/avif'],
-    formatOptions: { format: 'webp', options: { smartSubsample: true, quality: 70 } },
+    formatOptions: { format: 'webp', options: { smartSubsample: true, quality: 85 } },
     imageSizes: [
       {
         name: '700',

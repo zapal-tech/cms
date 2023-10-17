@@ -14,6 +14,7 @@ import {
 } from '@payloadcms/richtext-lexical';
 
 import path from 'path';
+import computeBlurhash from 'payload-blurhash-plugin';
 
 import validationEN from 'locales/en/validation';
 import validationUA from 'locales/ua/validation';
@@ -299,6 +300,9 @@ export default buildConfig({
         new URL(`/[section]/${(doc as any)?.slug ? (doc as any).slug : '[slug]'}`, process.env.PAYLOAD_PUBLIC_SITE_URL)
           .href,
       tabbedUI: true,
+    }),
+    computeBlurhash({
+      collections: [AuthorPhotos.slug, PartnerLogos.slug, TeamMemberPhotos.slug],
     }),
   ],
 });

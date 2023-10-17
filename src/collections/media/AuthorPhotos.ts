@@ -18,7 +18,7 @@ const AuthorPhotos: CollectionConfig = {
       height: 400,
     },
     mimeTypes: ['image/png', 'image/jpeg', 'image/webp', 'image/avif'],
-    formatOptions: { format: 'webp', options: { smartSubsample: true, quality: 70 } },
+    formatOptions: { format: 'webp', options: { smartSubsample: true, quality: 85 } },
   },
   admin: {
     group: mediaGroup,

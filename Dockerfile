@@ -1,4 +1,4 @@
-FROM node:18.18-alpine as base
+FROM node:18.18-bookworm-slim as base
 
 FROM base as builder
 
@@ -7,6 +7,7 @@ COPY package*.json ./
 COPY .env.vault ./
 
 COPY . .
+ENV npm_config_libc=glibc
 RUN npm ci --legacy-peer-deps
 RUN npm run build
 
@@ -20,6 +21,7 @@ WORKDIR /app
 COPY package*.json  ./
 COPY .env.vault ./
 
+ENV npm_config_libc=glibc
 RUN npm ci --legacy-peer-deps
 COPY --from=builder /app/dist ./dist
 COPY --from=builder /app/build ./build

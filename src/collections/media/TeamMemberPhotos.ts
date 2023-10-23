@@ -2,8 +2,6 @@ import { CollectionConfig } from 'payload/types';
 
 import { altField } from 'fields/alt';
 
-import { checkImageAspectRatio } from 'hooks/checkImageAspectRatio';
-
 import { mediaGroup } from 'utils/groups';
 
 const TeamMemberPhotos: CollectionConfig = {
@@ -38,14 +36,11 @@ const TeamMemberPhotos: CollectionConfig = {
       },
     ],
   },
-  hooks: {
-    beforeValidate: [checkImageAspectRatio(4, 5)],
-  },
   admin: {
     group: mediaGroup,
     description: {
-      en: 'ONLY 4:5 aspect ratio images are allowed, error will be thrown otherwise',
-      ua: 'Дозволені тільки зображення зі співвідношенням сторін 4:5, інакше буде відображено повідомлення про помилку',
+      en: 'All team member photos need to be 4:5 aspect ratio',
+      ua: 'Всі фотографії членів команди повинні бути у співвідношенні сторін 4:5',
     },
   },
   fields: [altField()],

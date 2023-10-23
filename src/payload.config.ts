@@ -13,8 +13,8 @@ import {
   lexicalEditor,
 } from '@payloadcms/richtext-lexical';
 
+import { blurHash } from '@zapal/payload-blurhash-plugin';
 import path from 'path';
-import computeBlurhash from 'payload-blurhash-plugin';
 
 import validationEN from 'locales/en/validation';
 import validationUA from 'locales/ua/validation';
@@ -121,8 +121,8 @@ export default buildConfig({
     },
     bundler: webpackBundler(),
     webpack: (config) => {
-      config.resolve.modules = [...config.resolve.modules, path.resolve(__dirname)];
-      config.resolve.extensions = [...config.resolve.extensions, '.ts', '.tsx', '.js', '.jsx', '.json'];
+      config.resolve.modules = [...(config.resolve.modules || []), path.resolve(__dirname)];
+      config.resolve.extensions = [...(config.resolve.extensions || []), '.ts', '.tsx', '.js', '.jsx', '.json'];
 
       return config;
     },
@@ -301,7 +301,7 @@ export default buildConfig({
           .href,
       tabbedUI: true,
     }),
-    computeBlurhash({
+    blurHash({
       collections: [AuthorPhotos.slug, PartnerLogos.slug, TeamMemberPhotos.slug],
     }),
   ],

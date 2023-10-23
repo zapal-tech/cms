@@ -2,8 +2,6 @@ import { CollectionConfig } from 'payload/types';
 
 import { altField } from 'fields/alt';
 
-import { checkImageAspectRatio } from 'hooks/checkImageAspectRatio';
-
 import { mediaGroup } from 'utils/groups';
 
 const ProjectImages: CollectionConfig = {
@@ -38,14 +36,11 @@ const ProjectImages: CollectionConfig = {
       },
     ],
   },
-  hooks: {
-    beforeValidate: [checkImageAspectRatio(5, 4)],
-  },
   admin: {
     group: mediaGroup,
     description: {
-      en: 'ONLY 5:4 aspect ratio images are allowed, error will be thrown otherwise',
-      ua: 'Дозволені тільки зображення зі співвідношенням сторін 5:4, інакше буде відображено повідомлення про помилку',
+      en: 'All project images need to be 5:4 aspect ratio',
+      ua: 'Всі зображення повинні бути у співвідношенні сторін 5:4',
     },
   },
   fields: [altField()],

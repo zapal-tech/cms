@@ -2,8 +2,6 @@ import { CollectionConfig } from 'payload/types';
 
 import { altField } from 'fields/alt';
 
-import { checkImageAspectRatio } from 'hooks/checkImageAspectRatio';
-
 import { mediaGroup } from 'utils/groups';
 
 const AuthorPhotos: CollectionConfig = {
@@ -23,12 +21,9 @@ const AuthorPhotos: CollectionConfig = {
   admin: {
     group: mediaGroup,
     description: {
-      en: 'ONLY 1:1 aspect ratio images are allowed, error will be thrown otherwise',
-      ua: 'Дозволені тільки зображення зі співвідношенням сторін 1:1, інакше буде відображено повідомлення про помилку',
+      en: 'All author photos need to be 1:1 aspect ratio',
+      ua: 'Всі фото авторів повинні бути у співвідношенні сторін 1:1',
     },
-  },
-  hooks: {
-    beforeValidate: [checkImageAspectRatio(1, 1)],
   },
   fields: [altField()],
 };

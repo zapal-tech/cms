@@ -2,9 +2,11 @@
 
 [![](/github-banner.jpg)](https://www.zapal.tech)
 
-Welcome to the Zapal website repository! Zapal's front website is more than just a digital presence; it's a reflection
-of our unique style, core team, vision, mission, and the high-quality services we provide. This repository contains all
-the code and assets used to build and maintain front-end part of our website.
+Welcome to the Zapal CMS repository! Zapal's front website is more than just a digital presence; it's a reflection of
+our unique style, core team, vision, mission, and the high-quality services we provide. So here is the our CMS in place,
+helping us to keep our website up-to-date and relevant!
+
+This repository contains all the code and assets used to build and maintain back-end (CMS) part of our website.
 
 ## 🚀 Live website
 

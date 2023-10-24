@@ -12,27 +12,35 @@ const TeamMemberPhotos: CollectionConfig = {
   },
   upload: {
     mimeTypes: ['image/png', 'image/jpeg', 'image/webp', 'image/avif'],
-    formatOptions: { format: 'webp', options: { smartSubsample: true, quality: 85 } },
+    formatOptions: { format: 'webp', options: { lossless: true } },
     imageSizes: [
       {
         name: '700',
         width: 700,
-        height: 875,
+        // Payload bug, does not resize when width and height are specified
+        // height: 875,
+        formatOptions: { format: 'webp', options: { quality: 85 } },
       },
       {
         name: '800',
         width: 800,
-        height: 1000,
+        // Payload bug, does not resize when width and height are specified
+        // height: 1000,
+        formatOptions: { format: 'webp', options: { quality: 85 } },
       },
       {
         name: '1200',
         width: 1200,
-        height: 1500,
+        // Payload bug, does not resize when width and height are specified
+        // height: 1500,
+        formatOptions: { format: 'webp', options: { quality: 85 } },
       },
       {
         name: '1600',
         width: 1600,
-        height: 2000,
+        // Payload bug, does not resize when width and height are specified
+        // height: 2000,
+        formatOptions: { format: 'webp', options: { quality: 85 } },
       },
     ],
   },

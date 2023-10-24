@@ -12,27 +12,35 @@ const ProjectImages: CollectionConfig = {
   },
   upload: {
     mimeTypes: ['image/png', 'image/jpeg', 'image/webp', 'image/avif'],
-    formatOptions: { format: 'webp', options: { smartSubsample: true, quality: 85 } },
+    formatOptions: { format: 'webp', options: { lossless: true } },
     imageSizes: [
       {
         name: '700',
         width: 700,
-        height: 560,
+        // Payload bug, does not resize when width and height are specified
+        // height: 560,
+        formatOptions: { format: 'webp', options: { quality: 85 } },
       },
       {
         name: '800',
         width: 800,
-        height: 640,
+        // Payload bug, does not resize when width and height are specified
+        // height: 640,
+        formatOptions: { format: 'webp', options: { quality: 85 } },
       },
       {
         name: '1200',
         width: 1200,
-        height: 960,
+        // Payload bug, does not resize when width and height are specified
+        // height: 960,
+        formatOptions: { format: 'webp', options: { quality: 85 } },
       },
       {
         name: '1600',
         width: 1600,
-        height: 1280,
+        // Payload bug, does not resize when width and height are specified
+        // height: 1280,
+        formatOptions: { format: 'webp', options: { quality: 85 } },
       },
     ],
   },

@@ -1,7 +1,7 @@
 {
   "name": "@zapal/website-cms",
   "description": "Zapal's website CMS",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "main": "dist/server.js",
   "license": "MIT",
   "scripts": {

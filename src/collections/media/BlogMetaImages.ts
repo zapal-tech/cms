@@ -1,7 +1,6 @@
 import { CollectionConfig } from 'payload/types';
 
-import { altField } from 'fields/alt';
-
+import { publicUploadCollectionWithoutApiAccess } from 'utils/access';
 import { mediaGroup } from 'utils/groups';
 
 const BlogMetaImages: CollectionConfig = {
@@ -16,7 +15,10 @@ const BlogMetaImages: CollectionConfig = {
       height: 630,
     },
     formatOptions: { format: 'webp', options: { smartSubsample: true, quality: 85 } },
-    mimeTypes: ['image/webp', 'image/jpeg', 'image/png'],
+    mimeTypes: ['image/webp', 'image/jpeg', 'image/png', 'image/svg+xml'],
+  },
+  access: {
+    read: publicUploadCollectionWithoutApiAccess,
   },
   admin: {
     group: mediaGroup,

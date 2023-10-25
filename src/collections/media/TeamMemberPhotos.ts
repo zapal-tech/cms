@@ -1,8 +1,11 @@
+import payload from 'payload';
 import { CollectionConfig } from 'payload/types';
 
 import { altField } from 'fields/alt';
 
+import { publicUploadCollectionWithoutApiAccess } from 'utils/access';
 import { mediaGroup } from 'utils/groups';
+import { defaultPhotoMimeTypes } from 'utils/mimeTypes';
 
 const TeamMemberPhotos: CollectionConfig = {
   slug: 'team-member-photos',
@@ -11,7 +14,7 @@ const TeamMemberPhotos: CollectionConfig = {
     plural: { en: 'Team photos', ua: 'Фото команди' },
   },
   upload: {
-    mimeTypes: ['image/png', 'image/jpeg', 'image/webp', 'image/avif'],
+    mimeTypes: defaultPhotoMimeTypes,
     formatOptions: { format: 'webp', options: { lossless: true } },
     imageSizes: [
       {
@@ -50,6 +53,9 @@ const TeamMemberPhotos: CollectionConfig = {
       en: 'All team member photos need to be 4:5 aspect ratio',
       ua: 'Всі фотографії членів команди повинні бути у співвідношенні сторін 4:5',
     },
+  },
+  access: {
+    read: publicUploadCollectionWithoutApiAccess,
   },
   fields: [altField()],
 };

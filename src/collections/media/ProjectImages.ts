@@ -2,7 +2,9 @@ import { CollectionConfig } from 'payload/types';
 
 import { altField } from 'fields/alt';
 
+import { publicUploadCollectionWithoutApiAccess } from 'utils/access';
 import { mediaGroup } from 'utils/groups';
+import { defaultPhotoMimeTypes } from 'utils/mimeTypes';
 
 const ProjectImages: CollectionConfig = {
   slug: 'project-images',
@@ -11,7 +13,7 @@ const ProjectImages: CollectionConfig = {
     plural: { en: "Projects' images", ua: 'Зображення проєктів' },
   },
   upload: {
-    mimeTypes: ['image/png', 'image/jpeg', 'image/webp', 'image/avif'],
+    mimeTypes: defaultPhotoMimeTypes,
     formatOptions: { format: 'webp', options: { lossless: true } },
     imageSizes: [
       {
@@ -43,6 +45,9 @@ const ProjectImages: CollectionConfig = {
         formatOptions: { format: 'webp', options: { quality: 85 } },
       },
     ],
+  },
+  access: {
+    read: publicUploadCollectionWithoutApiAccess,
   },
   admin: {
     group: mediaGroup,

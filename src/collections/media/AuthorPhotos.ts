@@ -3,6 +3,7 @@ import { CollectionConfig } from 'payload/types';
 import { altField } from 'fields/alt';
 
 import { mediaGroup } from 'utils/groups';
+import { defaultPhotoMimeTypes } from 'utils/mimeTypes';
 
 const AuthorPhotos: CollectionConfig = {
   slug: 'author-photos',
@@ -15,7 +16,7 @@ const AuthorPhotos: CollectionConfig = {
       width: 400,
       height: 400,
     },
-    mimeTypes: ['image/png', 'image/jpeg', 'image/webp', 'image/avif'],
+    mimeTypes: defaultPhotoMimeTypes,
     formatOptions: { format: 'webp', options: { quality: 80 } },
   },
   admin: {

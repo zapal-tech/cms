@@ -2,6 +2,7 @@ import { CollectionConfig } from 'payload/types';
 
 import { altField } from 'fields/alt';
 
+import { publicUploadCollectionWithoutApiAccess } from 'utils/access';
 import { mediaGroup } from 'utils/groups';
 
 const TechnologyLogos: CollectionConfig = {
@@ -12,6 +13,9 @@ const TechnologyLogos: CollectionConfig = {
   },
   upload: {
     mimeTypes: ['image/svg+xml'],
+  },
+  access: {
+    read: publicUploadCollectionWithoutApiAccess,
   },
   admin: {
     group: mediaGroup,

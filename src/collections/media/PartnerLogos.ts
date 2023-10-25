@@ -2,6 +2,7 @@ import { CollectionConfig } from 'payload/types';
 
 import { altField } from 'fields/alt';
 
+import { publicUploadCollectionWithoutApiAccess } from 'utils/access';
 import { mediaGroup } from 'utils/groups';
 
 const PartnerLogos: CollectionConfig = {
@@ -12,6 +13,9 @@ const PartnerLogos: CollectionConfig = {
   },
   upload: {
     mimeTypes: ['image/webp', 'image/jpeg', 'image/png', 'image/svg+xml'],
+  },
+  access: {
+    read: publicUploadCollectionWithoutApiAccess,
   },
   admin: {
     group: mediaGroup,

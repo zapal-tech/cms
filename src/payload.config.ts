@@ -293,6 +293,7 @@ export default buildConfig({
             en: 'Canonical URL',
             ua: '"Канонічне" посилання',
           },
+          localized: true,
         }),
       ],
       generateTitle: ({ doc }) => (doc as any)?.title || '',

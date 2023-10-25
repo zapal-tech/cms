@@ -7,4 +7,5 @@ export const translationField = (): JSONField => ({
     en: 'Translation',
     ua: 'Переклад',
   },
+  localized: true,
 });

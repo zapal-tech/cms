@@ -14,7 +14,8 @@ const AuthorPhotos: CollectionConfig = {
   upload: {
     resizeOptions: {
       width: 400,
-      height: 400,
+      // Payload bug, does not resize when width and height are specified
+      // height: 400,
     },
     mimeTypes: defaultPhotoMimeTypes,
     formatOptions: { format: 'webp', options: { quality: 80 } },

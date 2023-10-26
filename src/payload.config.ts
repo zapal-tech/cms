@@ -298,7 +298,6 @@ export default buildConfig({
       globals: [
         AboutPage.slug,
         BlogPage.slug,
-        Common.slug,
         ContactsPage.slug,
         CookiesPolicyPage.slug,
         HomePage.slug,

@@ -3,22 +3,20 @@ import { CollectionConfig } from 'payload/types';
 import { altField } from 'fields/alt';
 
 import { publicUploadCollectionWithoutApiAccess } from 'utils/access';
-import { mediaGroup } from 'utils/groups';
+import { projectsGroup } from 'utils/groups';
 
 const ProjectAssets: CollectionConfig = {
   slug: 'project-assets',
   labels: {
-    singular: { en: 'Project Asset', ua: 'Дані проєкту' },
-    plural: { en: 'Project Assets', ua: 'Дані проєкту' },
+    singular: { en: 'Project Asset', ua: 'Файл проєкту' },
+    plural: { en: 'Project Assets', ua: 'Файли проєктів' },
   },
-  upload: {
-    mimeTypes: ['image/webp', 'image/jpeg', 'image/png', 'image/svg+xml'],
-  },
+  upload: true,
   access: {
     read: publicUploadCollectionWithoutApiAccess,
   },
   admin: {
-    group: mediaGroup,
+    group: projectsGroup,
   },
   fields: [altField()],
 };

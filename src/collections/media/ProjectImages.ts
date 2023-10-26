@@ -3,7 +3,7 @@ import { CollectionConfig } from 'payload/types';
 import { altField } from 'fields/alt';
 
 import { publicUploadCollectionWithoutApiAccess } from 'utils/access';
-import { mediaGroup } from 'utils/groups';
+import { projectsGroup } from 'utils/groups';
 import { defaultPhotoMimeTypes } from 'utils/mimeTypes';
 
 const ProjectImages: CollectionConfig = {
@@ -50,7 +50,7 @@ const ProjectImages: CollectionConfig = {
     read: publicUploadCollectionWithoutApiAccess,
   },
   admin: {
-    group: mediaGroup,
+    group: projectsGroup,
     description: {
       en: 'All project images need to be 5:4 aspect ratio',
       ua: 'Всі зображення повинні бути у співвідношенні сторін 5:4',

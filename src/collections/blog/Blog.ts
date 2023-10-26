@@ -1,4 +1,7 @@
+import payload from 'payload';
 import { CollectionConfig } from 'payload/types';
+
+import BlogCoverImages from 'collections/media/BlogCoverImages';
 
 import { richTextField } from 'fields/richText';
 import { slugField } from 'fields/slug';
@@ -24,6 +27,29 @@ const Blog: CollectionConfig = {
     useAsTitle: 'content.title',
     group: blogGroup,
   },
+  versions: {
+    drafts: {
+      autosave: true,
+    },
+    maxPerDoc: 5,
+  },
+  endpoints: [
+    {
+      path: '/slug/:slug',
+      method: 'get',
+      handler: async (req, res) => {
+        const data = await payload.find({
+          collection: 'blog-posts',
+          where: { slug: { equals: req.params.slug } },
+          limit: 1,
+        });
+
+        if (data.docs.length) return res.status(200).send(data.docs[0]);
+
+        res.status(404).send({ error: 'Not found' });
+      },
+    },
+  ],
   fields: [
     {
       type: 'tabs',
@@ -42,32 +68,77 @@ const Blog: CollectionConfig = {
                 en: 'Title',
                 ua: 'Заголовок',
               },
-            },
-            {
-              name: 'tags',
-              label: {
-                en: 'Tags',
-                ua: 'Теги',
-              },
-              type: 'relationship',
-              relationTo: Tags.slug,
-              hasMany: true,
               required: true,
             },
             {
-              name: 'author',
+              type: 'textarea',
+              name: 'description',
               label: {
-                en: 'Author',
-                ua: 'Автор',
+                en: 'Description',
+                ua: 'Опис',
               },
-              admin: {
-                position: 'sidebar',
-              },
-              type: 'relationship',
-              relationTo: Authors.slug,
-              hasMany: false,
               required: true,
             },
+            {
+              type: 'row',
+              fields: [
+                {
+                  name: 'tags',
+                  label: {
+                    en: 'Tags',
+                    ua: 'Теги',
+                  },
+                  type: 'relationship',
+                  relationTo: Tags.slug,
+                  hasMany: true,
+                  required: true,
+                },
+                {
+                  name: 'author',
+                  label: {
+                    en: 'Author',
+                    ua: 'Автор',
+                  },
+                  type: 'relationship',
+                  relationTo: Authors.slug,
+                  hasMany: false,
+                  required: true,
+                },
+              ],
+            },
+            {
+              type: 'upload',
+              name: 'landscape',
+              relationTo: BlogCoverImages.slug,
+              label: {
+                en: 'Cover (shown on devices with landscape orientation)',
+                ua: 'Обкладинка (відображається на пристроях з альбомною орієнтацією)',
+              },
+            },
+            // {
+            //   type: 'group',
+            //   name: 'cover',
+            //   fields: [
+            //     {
+            //       type: 'upload',
+            //       name: 'landscape',
+            //       relationTo: BlogCoverImages.slug,
+            //       label: {
+            //         en: 'Cover (shown on devices with landscape orientation)',
+            //         ua: 'Обкладинка (відображається на пристроях з альбомною орієнтацією)',
+            //       },
+            //     },
+            //     {
+            //       type: 'upload',
+            //       name: 'portrait',
+            //       relationTo: BlogCoverImages.slug,
+            //       label: {
+            //         en: 'Cover (shown on devices with portrait orientation)',
+            //         ua: 'Обкладинка (відображається на пристроях з портретною орієнтацією)',
+            //       },
+            //     },
+            //   ],
+            // },
             richTextField({ name: 'content' }),
           ],
         },

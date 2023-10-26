@@ -10,22 +10,24 @@ export interface Config {
   collections: {
     admins: Admin;
     'contact-form-leads': ContactFormLead;
-    team: Team;
-    technologies: Technology;
-    'technology-logos': TechnologyLogo;
-    'team-member-photos': TeamMemberPhoto;
-    'blog-posts': BlogPost;
-    'blog-tags': BlogTag;
     'blog-authors': BlogAuthor;
-    'blog-meta-images': BlogMetaImage;
     'author-photos': AuthorPhoto;
+    'blog-posts': BlogPost;
+    'blog-cover-images': BlogCoverImage;
+    'blog-tags': BlogTag;
     locations: Location;
+    'open-graph-images': OpenGraphImage;
     'partner-logos': PartnerLogo;
     partners: Partner;
+    projects: Project;
+    'project-images': ProjectImage;
+    'project-assets': ProjectAsset;
     'service-icons': ServiceIcon;
     services: Service;
-    'project-images': ProjectImage;
-    projects: Project;
+    team: Team;
+    'team-member-photos': TeamMemberPhoto;
+    technologies: Technology;
+    'technology-logos': TechnologyLogo;
     'payload-preferences': PayloadPreference;
     'payload-migrations': PayloadMigration;
   };
@@ -34,6 +36,8 @@ export interface Config {
     'blog-page': BlogPage;
     'contacts-page': ContactsPage;
     'cookies-policy-page': CookiesPolicyPage;
+    footer: Footer;
+    general: General;
     'home-page': HomePage;
     'privacy-policy-page': PrivacyPolicyPage;
     'projects-page': ProjectsPage;
@@ -41,10 +45,8 @@ export interface Config {
     'sitemap-page': SitemapPage;
     'support-ukraine-page': SupportUkrainePage;
     'terms-of-use-page': TermsOfUsePage;
-    general: General;
-    navigation: Navigation;
     languages: Language;
-    footer: Footer;
+    navigation: Navigation;
   };
 }
 export interface Admin {
@@ -78,26 +80,61 @@ export interface ContactFormLead {
   updatedAt: string;
   createdAt: string;
 }
-export interface Team {
+export interface BlogAuthor {
   id: string;
   slug?: string;
-  order: number;
-  photo: string | TeamMemberPhoto;
-  firstName: string;
-  lastName?: string;
-  title: string;
-  fullTitle: string;
-  about?: string;
-  links?: {
-    name: string;
-    url: string;
-    id?: string;
-  }[];
+  photo: string | AuthorPhoto;
+  name: string;
+  email: string;
+  updatedAt: string;
+  createdAt: string;
+}
+export interface AuthorPhoto {
+  id: string;
+  alt?: string;
+  prefix?: string;
+  blurhash?: string;
+  updatedAt: string;
+  createdAt: string;
+  url?: string;
+  filename?: string;
+  mimeType?: string;
+  filesize?: number;
+  width?: number;
+  height?: number;
+}
+export interface BlogPost {
+  id: string;
+  content: {
+    title: string;
+    description: string;
+    tags: string[] | BlogTag[];
+    author: string | BlogAuthor;
+    landscape?: string | BlogCoverImage;
+    content?: {
+      [k: string]: unknown;
+    }[];
+  };
+  meta?: {
+    title?: string;
+    description?: string;
+    image?: string | OpenGraphImage;
+    keywords?: string;
+    canonical?: string;
+  };
+  slug?: string;
   updatedAt: string;
   createdAt: string;
   _status?: 'draft' | 'published';
 }
-export interface TeamMemberPhoto {
+export interface BlogTag {
+  id: string;
+  name: string;
+  slug?: string;
+  updatedAt: string;
+  createdAt: string;
+}
+export interface BlogCoverImage {
   id: string;
   alt?: string;
   prefix?: string;
@@ -144,83 +181,8 @@ export interface TeamMemberPhoto {
     };
   };
 }
-export interface Technology {
+export interface OpenGraphImage {
   id: string;
-  slug?: string;
-  order: number;
-  name: string;
-  logo: string | TechnologyLogo;
-  description: string;
-  updatedAt: string;
-  createdAt: string;
-  _status?: 'draft' | 'published';
-}
-export interface TechnologyLogo {
-  id: string;
-  alt?: string;
-  prefix?: string;
-  updatedAt: string;
-  createdAt: string;
-  url?: string;
-  filename?: string;
-  mimeType?: string;
-  filesize?: number;
-  width?: number;
-  height?: number;
-}
-export interface BlogPost {
-  id: string;
-  content: {
-    title?: string;
-    tags: string[] | BlogTag[];
-    author: string | BlogAuthor;
-    content?: {
-      [k: string]: unknown;
-    }[];
-  };
-  meta?: {
-    title?: string;
-    description?: string;
-    image?: string | BlogMetaImage;
-    keywords?: string;
-    canonical?: string;
-  };
-  slug?: string;
-  updatedAt: string;
-  createdAt: string;
-}
-export interface BlogTag {
-  id: string;
-  name: string;
-  slug?: string;
-  updatedAt: string;
-  createdAt: string;
-}
-export interface BlogAuthor {
-  id: string;
-  slug?: string;
-  photo: string | AuthorPhoto;
-  name: string;
-  email: string;
-  updatedAt: string;
-  createdAt: string;
-}
-export interface AuthorPhoto {
-  id: string;
-  alt?: string;
-  prefix?: string;
-  updatedAt: string;
-  createdAt: string;
-  url?: string;
-  filename?: string;
-  mimeType?: string;
-  filesize?: number;
-  width?: number;
-  height?: number;
-}
-export interface BlogMetaImage {
-  id: string;
-  prefix?: string;
   updatedAt: string;
   createdAt: string;
   url?: string;
@@ -677,6 +639,7 @@ export interface PartnerLogo {
   id: string;
   alt?: string;
   prefix?: string;
+  blurhash?: string;
   updatedAt: string;
   createdAt: string;
   url?: string;
@@ -697,26 +660,26 @@ export interface Partner {
   updatedAt: string;
   createdAt: string;
 }
-export interface ServiceIcon {
+export interface Project {
   id: string;
-  alt?: string;
-  prefix?: string;
-  updatedAt: string;
-  createdAt: string;
-  url?: string;
-  filename?: string;
-  mimeType?: string;
-  filesize?: number;
-  width?: number;
-  height?: number;
-}
-export interface Service {
-  id: string;
+  preview: {
+    name: string;
+    description: string;
+    image: string | ProjectImage;
+  };
+  content: {
+    name: string;
+    description: string;
+  };
+  meta?: {
+    title?: string;
+    description?: string;
+    image?: string | OpenGraphImage;
+    keywords?: string;
+    canonical?: string;
+  };
   slug?: string;
   order: number;
-  icon: string | ServiceIcon;
-  name: string;
-  description: string;
   updatedAt: string;
   createdAt: string;
   _status?: 'draft' | 'published';
@@ -724,6 +687,7 @@ export interface Service {
 export interface ProjectImage {
   id: string;
   alt?: string;
+  prefix?: string;
   updatedAt: string;
   createdAt: string;
   url?: string;
@@ -767,29 +731,137 @@ export interface ProjectImage {
     };
   };
 }
-export interface Project {
+export interface ProjectAsset {
   id: string;
-  preview: {
-    name: string;
-    description: string;
-    image: string | ProjectImage;
-  };
-  content: {
-    name: string;
-    description: string;
-  };
-  meta?: {
-    title?: string;
-    description?: string;
-    image?: string | BlogMetaImage;
-    keywords?: string;
-    canonical?: string;
-  };
+  alt?: string;
+  prefix?: string;
+  updatedAt: string;
+  createdAt: string;
+  url?: string;
+  filename?: string;
+  mimeType?: string;
+  filesize?: number;
+  width?: number;
+  height?: number;
+}
+export interface ServiceIcon {
+  id: string;
+  alt?: string;
+  prefix?: string;
+  updatedAt: string;
+  createdAt: string;
+  url?: string;
+  filename?: string;
+  mimeType?: string;
+  filesize?: number;
+  width?: number;
+  height?: number;
+}
+export interface Service {
+  id: string;
   slug?: string;
   order: number;
+  icon: string | ServiceIcon;
+  name: string;
+  description: string;
   updatedAt: string;
   createdAt: string;
   _status?: 'draft' | 'published';
+}
+export interface Team {
+  id: string;
+  slug?: string;
+  order: number;
+  photo: string | TeamMemberPhoto;
+  firstName: string;
+  lastName?: string;
+  title: string;
+  fullTitle: string;
+  about?: string;
+  links?: {
+    name: string;
+    url: string;
+    id?: string;
+  }[];
+  updatedAt: string;
+  createdAt: string;
+  _status?: 'draft' | 'published';
+}
+export interface TeamMemberPhoto {
+  id: string;
+  alt?: string;
+  prefix?: string;
+  blurhash?: string;
+  updatedAt: string;
+  createdAt: string;
+  url?: string;
+  filename?: string;
+  mimeType?: string;
+  filesize?: number;
+  width?: number;
+  height?: number;
+  sizes?: {
+    '700'?: {
+      blurhash?: string;
+      url?: string;
+      width?: number;
+      height?: number;
+      mimeType?: string;
+      filesize?: number;
+      filename?: string;
+    };
+    '800'?: {
+      blurhash?: string;
+      url?: string;
+      width?: number;
+      height?: number;
+      mimeType?: string;
+      filesize?: number;
+      filename?: string;
+    };
+    '1200'?: {
+      blurhash?: string;
+      url?: string;
+      width?: number;
+      height?: number;
+      mimeType?: string;
+      filesize?: number;
+      filename?: string;
+    };
+    '1600'?: {
+      blurhash?: string;
+      url?: string;
+      width?: number;
+      height?: number;
+      mimeType?: string;
+      filesize?: number;
+      filename?: string;
+    };
+  };
+}
+export interface Technology {
+  id: string;
+  slug?: string;
+  order: number;
+  name: string;
+  logo: string | TechnologyLogo;
+  description: string;
+  updatedAt: string;
+  createdAt: string;
+  _status?: 'draft' | 'published';
+}
+export interface TechnologyLogo {
+  id: string;
+  alt?: string;
+  prefix?: string;
+  updatedAt: string;
+  createdAt: string;
+  url?: string;
+  filename?: string;
+  mimeType?: string;
+  filesize?: number;
+  width?: number;
+  height?: number;
 }
 export interface PayloadPreference {
   id: string;
@@ -833,7 +905,7 @@ export interface AboutPage {
   meta?: {
     title?: string;
     description?: string;
-    image?: string | BlogMetaImage;
+    image?: string | OpenGraphImage;
     keywords?: string;
     canonical?: string;
   };
@@ -857,7 +929,7 @@ export interface BlogPage {
   meta?: {
     title?: string;
     description?: string;
-    image?: string | BlogMetaImage;
+    image?: string | OpenGraphImage;
     keywords?: string;
     canonical?: string;
   };
@@ -881,7 +953,7 @@ export interface ContactsPage {
   meta?: {
     title?: string;
     description?: string;
-    image?: string | BlogMetaImage;
+    image?: string | OpenGraphImage;
     keywords?: string;
     canonical?: string;
   };
@@ -905,10 +977,33 @@ export interface CookiesPolicyPage {
   meta?: {
     title?: string;
     description?: string;
-    image?: string | BlogMetaImage;
+    image?: string | OpenGraphImage;
     keywords?: string;
     canonical?: string;
   };
+  _status?: 'draft' | 'published';
+  updatedAt?: string;
+  createdAt?: string;
+}
+export interface Footer {
+  id: string;
+  translation?:
+    | {
+        [k: string]: unknown;
+      }
+    | unknown[]
+    | string
+    | number
+    | boolean
+    | null;
+  _status?: 'draft' | 'published';
+  updatedAt?: string;
+  createdAt?: string;
+}
+export interface General {
+  id: string;
+  phone: string;
+  email: string;
   _status?: 'draft' | 'published';
   updatedAt?: string;
   createdAt?: string;
@@ -929,7 +1024,7 @@ export interface HomePage {
   meta?: {
     title?: string;
     description?: string;
-    image?: string | BlogMetaImage;
+    image?: string | OpenGraphImage;
     keywords?: string;
     canonical?: string;
   };
@@ -953,7 +1048,7 @@ export interface PrivacyPolicyPage {
   meta?: {
     title?: string;
     description?: string;
-    image?: string | BlogMetaImage;
+    image?: string | OpenGraphImage;
     keywords?: string;
     canonical?: string;
   };
@@ -977,7 +1072,7 @@ export interface ProjectsPage {
   meta?: {
     title?: string;
     description?: string;
-    image?: string | BlogMetaImage;
+    image?: string | OpenGraphImage;
     keywords?: string;
     canonical?: string;
   };
@@ -1001,7 +1096,7 @@ export interface ScheduleMeetingPage {
   meta?: {
     title?: string;
     description?: string;
-    image?: string | BlogMetaImage;
+    image?: string | OpenGraphImage;
     keywords?: string;
     canonical?: string;
   };
@@ -1025,7 +1120,7 @@ export interface SitemapPage {
   meta?: {
     title?: string;
     description?: string;
-    image?: string | BlogMetaImage;
+    image?: string | OpenGraphImage;
     keywords?: string;
     canonical?: string;
   };
@@ -1049,7 +1144,7 @@ export interface SupportUkrainePage {
   meta?: {
     title?: string;
     description?: string;
-    image?: string | BlogMetaImage;
+    image?: string | OpenGraphImage;
     keywords?: string;
     canonical?: string;
   };
@@ -1073,33 +1168,10 @@ export interface TermsOfUsePage {
   meta?: {
     title?: string;
     description?: string;
-    image?: string | BlogMetaImage;
+    image?: string | OpenGraphImage;
     keywords?: string;
     canonical?: string;
   };
-  _status?: 'draft' | 'published';
-  updatedAt?: string;
-  createdAt?: string;
-}
-export interface General {
-  id: string;
-  phone: string;
-  email: string;
-  _status?: 'draft' | 'published';
-  updatedAt?: string;
-  createdAt?: string;
-}
-export interface Navigation {
-  id: string;
-  translation?:
-    | {
-        [k: string]: unknown;
-      }
-    | unknown[]
-    | string
-    | number
-    | boolean
-    | null;
   _status?: 'draft' | 'published';
   updatedAt?: string;
   createdAt?: string;
@@ -1118,7 +1190,7 @@ export interface Language {
   updatedAt?: string;
   createdAt?: string;
 }
-export interface Footer {
+export interface Navigation {
   id: string;
   translation?:
     | {
@@ -1140,22 +1212,24 @@ declare module 'payload' {
     collections: {
       'admins': Admin
       'contact-form-leads': ContactFormLead
-      'team': Team
-      'technologies': Technology
-      'technology-logos': TechnologyLogo
-      'team-member-photos': TeamMemberPhoto
-      'blog-posts': BlogPost
-      'blog-tags': BlogTag
       'blog-authors': BlogAuthor
-      'blog-meta-images': BlogMetaImage
       'author-photos': AuthorPhoto
+      'blog-posts': BlogPost
+      'blog-cover-images': BlogCoverImage
+      'blog-tags': BlogTag
       'locations': Location
+      'open-graph-images': OpenGraphImage
       'partner-logos': PartnerLogo
       'partners': Partner
+      'projects': Project
+      'project-images': ProjectImage
+      'project-assets': ProjectAsset
       'service-icons': ServiceIcon
       'services': Service
-      'project-images': ProjectImage
-      'projects': Project
+      'team': Team
+      'team-member-photos': TeamMemberPhoto
+      'technologies': Technology
+      'technology-logos': TechnologyLogo
       'payload-preferences': PayloadPreference
       'payload-migrations': PayloadMigration
     }
@@ -1164,6 +1238,8 @@ declare module 'payload' {
       'blog-page': BlogPage
       'contacts-page': ContactsPage
       'cookies-policy-page': CookiesPolicyPage
+      'footer': Footer
+      'general': General
       'home-page': HomePage
       'privacy-policy-page': PrivacyPolicyPage
       'projects-page': ProjectsPage
@@ -1171,10 +1247,8 @@ declare module 'payload' {
       'sitemap-page': SitemapPage
       'support-ukraine-page': SupportUkrainePage
       'terms-of-use-page': TermsOfUsePage
-      'general': General
-      'navigation': Navigation
       'languages': Language
-      'footer': Footer
+      'navigation': Navigation
     }
   }
 }

@@ -345,7 +345,7 @@ export default buildConfig({
       tabbedUI: true,
     }),
     blurHash({
-      collections: [AuthorPhotos.slug, PartnerLogos.slug, TeamMemberPhotos.slug],
+      collections: [AuthorPhotos.slug, PartnerLogos.slug, TeamMemberPhotos.slug, BlogCoverImages.slug],
     }),
   ],
 });

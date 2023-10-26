@@ -36,7 +36,8 @@
       "public": ["src/public"],
       "public/*": ["src/public/*"],
       "locales": ["src/locales"],
-      "locales/*": ["src/locales/*"]
+      "locales/*": ["src/locales/*"],
+      "i18n": ["src/i18n.ts"]
     }
   },
   "include": ["src"],

@@ -1,6 +1,6 @@
 import { Validate } from 'payload/types';
 
-import { Namespace } from 'types/namespace';
+import { Namespace } from 'i18n';
 
 import { httpOrHttpsUrlRegEx, urlSlugRegEx } from './regex';
 
@@ -25,6 +25,8 @@ export const validateInteger = (value: number, options): true | string => {
 };
 
 export const validateUrl = (value: string, options): true | string => {
+  if (!value) return true;
+
   try {
     httpOrHttpsUrlRegEx.exec(value);
 

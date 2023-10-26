@@ -47,6 +47,7 @@ import TeamMemberPhotos from 'collections/media/TeamMemberPhotos';
 import TechnologyLogos from 'collections/media/TechnologyLogos';
 
 import Common from 'globals/Common';
+import ContactForm from 'globals/ContactForm';
 import Footer from 'globals/Footer';
 import GeneralInfo from 'globals/GeneralInfo';
 import Languages from 'globals/Languages';
@@ -195,6 +196,7 @@ export default buildConfig({
     AboutPage,
     BlogPage,
     Common,
+    ContactForm,
     ContactsPage,
     CookiesPolicyPage,
     Footer,

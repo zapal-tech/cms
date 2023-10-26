@@ -4,11 +4,11 @@ import { translationField } from 'fields/translation';
 
 import { generalGroup } from 'utils/groups';
 
-const Common: GlobalConfig = {
-  slug: 'common',
+const ContactForm: GlobalConfig = {
+  slug: 'contact-form',
   label: {
-    en: 'Common (localization)',
-    ua: 'Загальне (локалізація)',
+    en: 'Contact form (localization)',
+    ua: 'Форма контактів (локалізація)',
   },
   admin: {
     group: generalGroup,
@@ -22,4 +22,4 @@ const Common: GlobalConfig = {
   fields: [translationField()],
 };
 
-export default Common;
+export default ContactForm;

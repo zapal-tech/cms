@@ -10,6 +10,7 @@
     "^(^types$)|(^types/(.*)$)$",
     "^(^assets$)|(^assets/(.*)$)$",
     "^(^locales$)|(^locales/(.*)$)$",
+    "^i18n$",
     "^(^components$)|(^components/(.*)$)$",
     "^(^collections$)|(^collections/(.*)$)$",
     "^(^globals$)|(^globals/(.*)$)$",

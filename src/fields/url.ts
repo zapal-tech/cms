@@ -10,5 +10,6 @@ export const urlField = (data?: Partial<Omit<TextField, 'type'>>): TextField => 
     ua: 'Посилання',
   },
   validate: validateUrl,
+  required: false,
   ...data,
 });

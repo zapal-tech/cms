@@ -13,6 +13,11 @@ export const blogGroup = {
   ua: 'Блог',
 };
 
+export const projectsGroup = {
+  en: 'Projects',
+  ua: 'Проєкти',
+};
+
 export const pagesGroup = {
   en: 'Pages',
   ua: 'Сторінки',

@@ -19,6 +19,8 @@ import path from 'path';
 import validationEN from 'locales/en/validation';
 import validationUA from 'locales/ua/validation';
 
+import { defaultLocale, locales } from 'i18n';
+
 import Logo from 'components/Logo';
 import NavLogo from 'components/NavLogo';
 
@@ -34,8 +36,11 @@ import Authors from 'collections/blog/Authors';
 import Blog from 'collections/blog/Blog';
 import Tags from 'collections/blog/Tags';
 import AuthorPhotos from 'collections/media/AuthorPhotos';
-import BlogMetaImages from 'collections/media/BlogMetaImages';
+import BlogAssets from 'collections/media/BlogAssets';
+import BlogCoverImages from 'collections/media/BlogCoverImages';
+import OpenGraphImages from 'collections/media/OpenGraphImages';
 import PartnerLogos from 'collections/media/PartnerLogos';
+import ProjectAssets from 'collections/media/ProjectAssets';
 import ProjectImages from 'collections/media/ProjectImages';
 import ServiceIcons from 'collections/media/ServiceIcons';
 import TeamMemberPhotos from 'collections/media/TeamMemberPhotos';
@@ -121,10 +126,12 @@ export default buildConfig({
     },
     bundler: webpackBundler(),
     webpack: (config) => {
-      config.resolve.modules = [...(config.resolve.modules || []), path.resolve(__dirname)];
-      config.resolve.extensions = [...(config.resolve.extensions || []), '.ts', '.tsx', '.js', '.jsx', '.json'];
+      const newConfig = { ...config };
 
-      return config;
+      newConfig.resolve.modules = [...(config.resolve.modules || []), path.resolve(__dirname)];
+      newConfig.resolve.extensions = [...(config.resolve.extensions || []), '.ts', '.tsx', '.js', '.jsx', '.json'];
+
+      return newConfig;
     },
     // livePreview: {
     //   url: ({
@@ -164,28 +171,32 @@ export default buildConfig({
   collections: [
     Admins,
     ContactFormLeads,
-    Team,
-    Technologies,
-    TechnologyLogos,
-    TeamMemberPhotos,
-    Blog,
-    Tags,
     Authors,
-    BlogMetaImages,
     AuthorPhotos,
+    Blog,
+    BlogCoverImages,
+    Tags,
     Locations,
+    OpenGraphImages,
     PartnerLogos,
     Partners,
+    Projects,
+    ProjectImages,
+    ProjectAssets,
     ServiceIcons,
     Services,
-    ProjectImages,
-    Projects,
+    Team,
+    TeamMemberPhotos,
+    Technologies,
+    TechnologyLogos,
   ],
   globals: [
     AboutPage,
     BlogPage,
     ContactsPage,
     CookiesPolicyPage,
+    Footer,
+    GeneralInfo,
     HomePage,
     PrivacyPolicyPage,
     ProjectsPage,
@@ -193,14 +204,12 @@ export default buildConfig({
     SitemapPage,
     SupportUkrainePage,
     TermsOfUsePage,
-    GeneralInfo,
-    Navigation,
     Languages,
-    Footer,
+    Navigation,
   ],
   localization: {
-    locales: ['en', 'uk'],
-    defaultLocale: 'en',
+    locales,
+    defaultLocale,
     fallback: true,
   },
   i18n: {
@@ -247,17 +256,29 @@ export default buildConfig({
           adapter: googleCloudStorageAdapter,
           prefix: 'media/author-photos',
         },
-        [BlogMetaImages.slug]: {
+        [BlogAssets.slug]: {
           adapter: googleCloudStorageAdapter,
-          prefix: 'media/blog-meta-images',
+          prefix: 'media/blog-assets',
+        },
+        [BlogCoverImages.slug]: {
+          adapter: googleCloudStorageAdapter,
+          prefix: 'media/blog-cover-images',
+        },
+        [ServiceIcons.slug]: {
+          adapter: googleCloudStorageAdapter,
+          prefix: 'media/service-icons',
         },
         [PartnerLogos.slug]: {
           adapter: googleCloudStorageAdapter,
           prefix: 'media/partner-logos',
         },
-        [ServiceIcons.slug]: {
+        [ProjectImages.slug]: {
           adapter: googleCloudStorageAdapter,
-          prefix: 'media/service-icons',
+          prefix: 'media/project-images',
+        },
+        [ProjectAssets.slug]: {
+          adapter: googleCloudStorageAdapter,
+          prefix: 'media/project-assets',
         },
         [TeamMemberPhotos.slug]: {
           adapter: googleCloudStorageAdapter,
@@ -271,7 +292,7 @@ export default buildConfig({
     }),
     seo({
       collections: [Blog.slug, Projects.slug],
-      uploadsCollection: BlogMetaImages.slug,
+      uploadsCollection: OpenGraphImages.slug,
       globals: [
         AboutPage.slug,
         BlogPage.slug,
@@ -293,17 +314,38 @@ export default buildConfig({
             en: 'Canonical URL',
             ua: '"Канонічне" посилання',
           },
+          required: false,
           localized: true,
         }),
       ],
       generateTitle: ({ doc }) => (doc as any)?.title || '',
-      generateURL: ({ doc }) =>
-        new URL(`/[section]/${(doc as any)?.slug ? (doc as any).slug : '[slug]'}`, process.env.PAYLOAD_PUBLIC_SITE_URL)
-          .href,
+      generateURL: ({ doc, slug, locale }) => {
+        const document = doc as Record<string, any>;
+        const localePrefix = locale === defaultLocale ? '' : locale;
+        const documentSlug = document?.slug ? slug : '[slug]';
+        let section = '';
+
+        switch (slug) {
+          case Blog.slug:
+            section = 'blog';
+            break;
+
+          case Projects.slug:
+            section = 'blog';
+            break;
+
+          default:
+            break;
+        }
+
+        const url = new URL(path.join(localePrefix, section, documentSlug), process.env.PAYLOAD_PUBLIC_SITE_URL).href;
+
+        return url;
+      },
       tabbedUI: true,
     }),
     blurHash({
-      collections: [AuthorPhotos.slug, PartnerLogos.slug, TeamMemberPhotos.slug],
+      collections: [AuthorPhotos.slug, PartnerLogos.slug, TeamMemberPhotos.slug, BlogCoverImages.slug],
     }),
   ],
 });

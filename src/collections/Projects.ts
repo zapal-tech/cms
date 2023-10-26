@@ -1,9 +1,10 @@
+import payload from 'payload';
 import { CollectionConfig } from 'payload/types';
 
 import { orderField } from 'fields/order';
 import { slugField } from 'fields/slug';
 
-import { generalGroup } from 'utils/groups';
+import { projectsGroup } from 'utils/groups';
 
 import ProjectImages from './media/ProjectImages';
 
@@ -22,7 +23,7 @@ const Projects: CollectionConfig = {
   admin: {
     useAsTitle: 'preview.name',
     defaultColumns: ['order', 'preview.name'],
-    group: generalGroup,
+    group: projectsGroup,
   },
   versions: {
     drafts: {
@@ -30,6 +31,23 @@ const Projects: CollectionConfig = {
     },
     maxPerDoc: 5,
   },
+  endpoints: [
+    {
+      path: '/slug/:slug',
+      method: 'get',
+      handler: async (req, res) => {
+        const data = await payload.find({
+          collection: 'projects',
+          where: { slug: { equals: req.params.slug } },
+          limit: 1,
+        });
+
+        if (data.docs.length) return res.status(200).send(data.docs[0]);
+
+        res.status(404).send({ error: 'Not found' });
+      },
+    },
+  ],
   fields: [
     {
       type: 'tabs',

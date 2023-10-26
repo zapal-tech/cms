@@ -138,6 +138,7 @@ export interface BlogCoverImage {
   id: string;
   alt?: string;
   prefix?: string;
+  blurhash?: string;
   updatedAt: string;
   createdAt: string;
   url?: string;
@@ -148,6 +149,7 @@ export interface BlogCoverImage {
   height?: number;
   sizes?: {
     '700'?: {
+      blurhash?: string;
       url?: string;
       width?: number;
       height?: number;
@@ -156,6 +158,7 @@ export interface BlogCoverImage {
       filename?: string;
     };
     '800'?: {
+      blurhash?: string;
       url?: string;
       width?: number;
       height?: number;
@@ -164,6 +167,7 @@ export interface BlogCoverImage {
       filename?: string;
     };
     '1200'?: {
+      blurhash?: string;
       url?: string;
       width?: number;
       height?: number;
@@ -172,6 +176,7 @@ export interface BlogCoverImage {
       filename?: string;
     };
     '1600'?: {
+      blurhash?: string;
       url?: string;
       width?: number;
       height?: number;

@@ -46,6 +46,7 @@ import ServiceIcons from 'collections/media/ServiceIcons';
 import TeamMemberPhotos from 'collections/media/TeamMemberPhotos';
 import TechnologyLogos from 'collections/media/TechnologyLogos';
 
+import Common from 'globals/Common';
 import Footer from 'globals/Footer';
 import GeneralInfo from 'globals/GeneralInfo';
 import Languages from 'globals/Languages';
@@ -296,6 +297,7 @@ export default buildConfig({
       globals: [
         AboutPage.slug,
         BlogPage.slug,
+        Common.slug,
         ContactsPage.slug,
         CookiesPolicyPage.slug,
         HomePage.slug,

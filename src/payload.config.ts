@@ -194,6 +194,7 @@ export default buildConfig({
   globals: [
     AboutPage,
     BlogPage,
+    Common,
     ContactsPage,
     CookiesPolicyPage,
     Footer,

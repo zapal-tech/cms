@@ -214,7 +214,6 @@ export default buildConfig({
   localization: {
     locales,
     defaultLocale,
-    fallback: true,
   },
   i18n: {
     resources: {

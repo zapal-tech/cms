@@ -34,6 +34,8 @@ export interface Config {
   globals: {
     'about-page': AboutPage;
     'blog-page': BlogPage;
+    common: Common;
+    'contact-form': ContactForm;
     'contacts-page': ContactsPage;
     'cookies-policy-page': CookiesPolicyPage;
     footer: Footer;
@@ -110,7 +112,7 @@ export interface BlogPost {
     description: string;
     tags: string[] | BlogTag[];
     author: string | BlogAuthor;
-    landscape?: string | BlogCoverImage;
+    cover?: string | BlogCoverImage;
     content?: {
       [k: string]: unknown;
     }[];
@@ -942,6 +944,36 @@ export interface BlogPage {
   updatedAt?: string;
   createdAt?: string;
 }
+export interface Common {
+  id: string;
+  translation?:
+    | {
+        [k: string]: unknown;
+      }
+    | unknown[]
+    | string
+    | number
+    | boolean
+    | null;
+  _status?: 'draft' | 'published';
+  updatedAt?: string;
+  createdAt?: string;
+}
+export interface ContactForm {
+  id: string;
+  translation?:
+    | {
+        [k: string]: unknown;
+      }
+    | unknown[]
+    | string
+    | number
+    | boolean
+    | null;
+  _status?: 'draft' | 'published';
+  updatedAt?: string;
+  createdAt?: string;
+}
 export interface ContactsPage {
   id: string;
   content: {
@@ -1241,6 +1273,8 @@ declare module 'payload' {
     globals: {
       'about-page': AboutPage
       'blog-page': BlogPage
+      'common': Common
+      'contact-form': ContactForm
       'contacts-page': ContactsPage
       'cookies-policy-page': CookiesPolicyPage
       'footer': Footer

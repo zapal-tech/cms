@@ -1,6 +1,6 @@
 import { GlobalConfig } from 'payload/types';
 
-import { phoneField } from 'payload-plugin-phone-field';
+import { phoneField } from 'fields/phone';
 
 import { generalGroup } from 'utils/groups';
 

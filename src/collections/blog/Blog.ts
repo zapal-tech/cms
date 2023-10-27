@@ -108,11 +108,11 @@ const Blog: CollectionConfig = {
             },
             {
               type: 'upload',
-              name: 'landscape',
+              name: 'cover',
               relationTo: BlogCoverImages.slug,
               label: {
-                en: 'Cover (shown on devices with landscape orientation)',
-                ua: 'Обкладинка (відображається на пристроях з альбомною орієнтацією)',
+                en: 'Cover',
+                ua: 'Обкладинка',
               },
             },
             // {

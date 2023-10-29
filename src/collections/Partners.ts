@@ -23,7 +23,7 @@ const Partners: CollectionConfig = {
   },
   admin: {
     useAsTitle: 'name',
-    defaultColumns: ['order', 'name', 'url', 'viewType'],
+    defaultColumns: ['name', 'order', 'url', 'viewType'],
     group: generalGroup,
   },
   fields: [

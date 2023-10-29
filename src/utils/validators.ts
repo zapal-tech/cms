@@ -1,14 +1,17 @@
+import payload from 'payload';
 import { Validate } from 'payload/types';
 
 import { Namespace } from 'i18n';
 
+import { getSlugifiableData } from './getSlugifiableData';
 import { httpOrHttpsUrlRegEx, urlSlugRegEx } from './regex';
 
 export const isValidSlug = (value: string): boolean => urlSlugRegEx.test(value);
 
 export const validateSlug: Validate<string> = (value, options): true | string => {
-  if (!value && options.operation === 'create') {
-    if (options.data.name) return true;
+  // update operation as workaround for autosaved docs
+  if (!value && ['create', 'update'].includes(options.operation)) {
+    if (getSlugifiableData(options.data)) return true;
 
     return options.t('slug.unableToAutofill', { ns: Namespace.VALIDATION });
   }

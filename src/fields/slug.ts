@@ -1,7 +1,5 @@
 import { TextField } from 'payload/types';
 
-import { Role } from 'types/role';
-
 import { slugifyNameHook } from 'hooks/slugifyName';
 
 import { rootAccessLevel } from 'utils/access';

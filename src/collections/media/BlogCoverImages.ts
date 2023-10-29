@@ -19,22 +19,22 @@ const BlogCoverImages: CollectionConfig = {
       {
         name: '700',
         width: 700,
-        formatOptions: { format: 'webp', options: { quality: 85 } },
+        formatOptions: { format: 'webp', options: { quality: 80 } },
       },
       {
         name: '800',
         width: 800,
-        formatOptions: { format: 'webp', options: { quality: 85 } },
+        formatOptions: { format: 'webp', options: { quality: 80 } },
       },
       {
         name: '1200',
         width: 1200,
-        formatOptions: { format: 'webp', options: { quality: 85 } },
+        formatOptions: { format: 'webp', options: { quality: 80 } },
       },
       {
         name: '1600',
         width: 1600,
-        formatOptions: { format: 'webp', options: { quality: 85 } },
+        formatOptions: { format: 'webp', options: { quality: 80 } },
       },
     ],
   },

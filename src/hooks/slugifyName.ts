@@ -1,4 +1,7 @@
-import type { FieldHook, TextField } from 'payload/types';
+import payload from 'payload';
+import type { FieldHook } from 'payload/types';
+
+import { getSlugifiableData } from 'utils/getSlugifiableData';
 
 import { slugify } from '../utils/helpers';
 
@@ -18,9 +21,9 @@ type SlugifyNameHook = FieldHook<DocumentType, string, any>;
 export const slugifyNameHook: SlugifyNameHook = (args) => {
   const { value, data, operation } = args;
 
-  const autoSlugData = data.name || data.firstName || data.title || data.content?.name;
+  const autoSlugData = getSlugifiableData(data);
 
-  if (operation === 'create' && autoSlugData && !value?.length) return slugify(autoSlugData);
+  if (['create', 'update'].includes(operation) && autoSlugData && !value?.length) return slugify(autoSlugData);
 
   return value;
 };

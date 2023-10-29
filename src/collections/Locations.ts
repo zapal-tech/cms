@@ -22,7 +22,7 @@ const Locations: CollectionConfig = {
   },
   admin: {
     useAsTitle: 'name',
-    defaultColumns: ['order', 'name', 'address', 'fullName'],
+    defaultColumns: ['name', 'order', 'address', 'fullName'],
     group: generalGroup,
   },
   fields: [

@@ -21,7 +21,7 @@ const Services: CollectionConfig = {
   },
   admin: {
     useAsTitle: 'name',
-    defaultColumns: ['order', 'name', 'description'],
+    defaultColumns: ['name', 'order', 'description'],
     group: generalGroup,
   },
   versions: {

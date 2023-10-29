@@ -27,7 +27,7 @@ const Technologies: CollectionConfig = {
   },
   admin: {
     useAsTitle: 'name',
-    defaultColumns: ['order', 'name'],
+    defaultColumns: ['name', 'order'],
     group: generalGroup,
   },
   fields: [

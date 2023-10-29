@@ -26,6 +26,8 @@ const Blog: CollectionConfig = {
   admin: {
     useAsTitle: 'content.title',
     group: blogGroup,
+    defaultColumns: ['slug', 'status', 'createdAt', 'updatedAt'],
+    listSearchableFields: ['slug'],
   },
   versions: {
     drafts: {
@@ -77,7 +79,6 @@ const Blog: CollectionConfig = {
                 en: 'Description',
                 ua: 'Опис',
               },
-              required: true,
             },
             {
               type: 'row',
@@ -115,30 +116,6 @@ const Blog: CollectionConfig = {
                 ua: 'Обкладинка',
               },
             },
-            // {
-            //   type: 'group',
-            //   name: 'cover',
-            //   fields: [
-            //     {
-            //       type: 'upload',
-            //       name: 'landscape',
-            //       relationTo: BlogCoverImages.slug,
-            //       label: {
-            //         en: 'Cover (shown on devices with landscape orientation)',
-            //         ua: 'Обкладинка (відображається на пристроях з альбомною орієнтацією)',
-            //       },
-            //     },
-            //     {
-            //       type: 'upload',
-            //       name: 'portrait',
-            //       relationTo: BlogCoverImages.slug,
-            //       label: {
-            //         en: 'Cover (shown on devices with portrait orientation)',
-            //         ua: 'Обкладинка (відображається на пристроях з портретною орієнтацією)',
-            //       },
-            //     },
-            //   ],
-            // },
             richTextField({ name: 'content' }),
           ],
         },

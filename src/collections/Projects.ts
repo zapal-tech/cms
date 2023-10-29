@@ -22,7 +22,7 @@ const Projects: CollectionConfig = {
   },
   admin: {
     useAsTitle: 'preview.name',
-    defaultColumns: ['order', 'preview.name'],
+    defaultColumns: ['slug', 'order'],
     group: projectsGroup,
   },
   versions: {

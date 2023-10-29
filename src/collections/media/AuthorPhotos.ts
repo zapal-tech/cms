@@ -2,6 +2,7 @@ import { CollectionConfig } from 'payload/types';
 
 import { altField } from 'fields/alt';
 
+import { publicUploadCollectionWithoutApiAccess } from 'utils/access';
 import { mediaGroup } from 'utils/groups';
 import { defaultPhotoMimeTypes } from 'utils/mimeTypes';
 

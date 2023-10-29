@@ -27,6 +27,9 @@ const AuthorPhotos: CollectionConfig = {
       ua: 'Всі фото авторів повинні бути у співвідношенні сторін 1:1',
     },
   },
+  access: {
+    read: publicUploadCollectionWithoutApiAccess,
+  },
   fields: [altField()],
 };
 

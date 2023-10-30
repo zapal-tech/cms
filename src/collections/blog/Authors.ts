@@ -1,6 +1,6 @@
 import { CollectionConfig } from 'payload/types';
 
-import AuthorPhotos from 'collections/media/AuthorPhotos';
+import AuthorPhotos from 'collections/blog/AuthorPhotos';
 
 import { slugField } from 'fields/slug';
 

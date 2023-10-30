@@ -3,7 +3,7 @@ import { CollectionConfig } from 'payload/types';
 import { altField } from 'fields/alt';
 
 import { publicUploadCollectionWithoutApiAccess } from 'utils/access';
-import { mediaGroup } from 'utils/groups';
+import { blogGroup } from 'utils/groups';
 import { defaultPhotoMimeTypes } from 'utils/mimeTypes';
 
 const AuthorPhotos: CollectionConfig = {
@@ -22,7 +22,7 @@ const AuthorPhotos: CollectionConfig = {
     formatOptions: { format: 'webp', options: { quality: 80 } },
   },
   admin: {
-    group: mediaGroup,
+    group: blogGroup,
     description: {
       en: 'All author photos need to be 1:1 aspect ratio',
       ua: 'Всі фото авторів повинні бути у співвідношенні сторін 1:1',

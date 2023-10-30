@@ -71,6 +71,7 @@ const Blog: CollectionConfig = {
                 ua: 'Заголовок',
               },
               required: true,
+              localized: true,
             },
             {
               type: 'textarea',
@@ -79,6 +80,7 @@ const Blog: CollectionConfig = {
                 en: 'Description',
                 ua: 'Опис',
               },
+              localized: true,
             },
             {
               type: 'row',
@@ -93,6 +95,7 @@ const Blog: CollectionConfig = {
                   relationTo: Tags.slug,
                   hasMany: true,
                   required: true,
+                  localized: true,
                 },
                 {
                   name: 'author',
@@ -104,6 +107,7 @@ const Blog: CollectionConfig = {
                   relationTo: Authors.slug,
                   hasMany: false,
                   required: true,
+                  localized: true,
                 },
               ],
             },
@@ -115,8 +119,9 @@ const Blog: CollectionConfig = {
                 en: 'Cover',
                 ua: 'Обкладинка',
               },
+              localized: true,
             },
-            richTextField({ name: 'content' }),
+            richTextField({ name: 'content', localized: true }),
           ],
         },
       ],

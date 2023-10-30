@@ -1,3 +1,4 @@
+import { Admin } from 'payload/generated-types';
 import { CollectionConfig } from 'payload/types';
 
 import { Role } from 'types/role';
@@ -22,6 +23,7 @@ const Admins: CollectionConfig = {
   admin: {
     useAsTitle: 'name',
     disableDuplicate: true,
+    hidden: ({ user }) => (user as any as Admin).role !== Role.ROOT,
     defaultColumns: ['name', 'title', 'email'],
     group: generalGroup,
   },

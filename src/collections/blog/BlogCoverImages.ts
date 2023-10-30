@@ -23,17 +23,17 @@ const BlogCoverImages: CollectionConfig = {
       },
       {
         name: '800',
-        width: 800,
+        width: 1440,
         formatOptions: { format: 'webp', options: { quality: 80 } },
       },
       {
         name: '1200',
-        width: 1200,
+        width: 1920,
         formatOptions: { format: 'webp', options: { quality: 80 } },
       },
       {
         name: '1600',
-        width: 1600,
+        width: 2560,
         formatOptions: { format: 'webp', options: { quality: 80 } },
       },
     ],

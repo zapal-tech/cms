@@ -1,7 +1,7 @@
 import payload from 'payload';
 import { CollectionConfig } from 'payload/types';
 
-import BlogCoverImages from 'collections/media/BlogCoverImages';
+import BlogCoverImages from 'collections/blog/BlogCoverImages';
 
 import { richTextField } from 'fields/richText';
 import { slugField } from 'fields/slug';

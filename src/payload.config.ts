@@ -135,40 +135,80 @@ export default buildConfig({
 
       return newConfig;
     },
-    // livePreview: {
-    //   url: ({
-    //   data,
-    //   documentInfo,
-    //   locale
-    // }) => `${data.tenant.url}${documentInfo.slug === Blog.slug ? `/blog/${locale?.code !== 'en' ? `${locale.code}/` : ''}${data.slug}` : ''}`,
-    //   breakpoints: [
-    //     {
-    //       label: 'Mobile',
-    //       name: 'mobile',
-    //       width: 375,
-    //       height: 667,
-    //     },
-    //     {
-    //       label: 'Tablet',
-    //       name: 'tablet',
-    //       width: 768,
-    //       height: 1024,
-    //     },
-    //     {
-    //       label: 'Laptop',
-    //       name: 'laptop',
-    //       width: 1280,
-    //       height: 655,
-    //     },
-    //     {
-    //       label: 'Desktop',
-    //       name: 'desktop',
-    //       width: 1920,
-    //       height: 980,
-    //     },
-    //   ],
-    //   collections: [Blog.slug],
-    // },
+    livePreview: {
+      url: ({ data, documentInfo, locale }) => {
+        let localePrefix = '';
+        let section = '';
+        const documentSlug = data.slug || '[slug]';
+
+        switch (documentInfo.slug) {
+          case Blog.slug:
+            section = 'blog';
+            break;
+
+          case Projects.slug:
+            section = 'projects';
+            break;
+        }
+
+        if (locale?.code !== defaultLocale) localePrefix = `/${locale.code}`;
+
+        const url = new URL(path.join(localePrefix, section, documentSlug), process.env.PAYLOAD_PUBLIC_SITE_URL).href;
+
+        return url;
+      },
+      breakpoints: [
+        {
+          label: 'iPhone 6',
+          name: 'iphone-6',
+          width: 375,
+          height: 667,
+        },
+        {
+          label: 'Pixel 3',
+          name: 'pixel-3',
+          width: 393,
+          height: 786,
+        },
+        {
+          label: 'Pixel 6',
+          name: 'pixel-6',
+          width: 412,
+          height: 915,
+        },
+        {
+          label: 'Tablet',
+          name: 'tablet',
+          width: 768,
+          height: 1024,
+        },
+        {
+          label: 'Small Laptop',
+          name: 'small-laptop',
+          width: 1280,
+          height: 625,
+        },
+        {
+          label: 'Laptop',
+          name: 'laptop',
+          width: 1440,
+          height: 705,
+        },
+        {
+          label: 'Large Laptop',
+          name: 'large-laptop',
+          width: 1680,
+          height: 825,
+        },
+        {
+          label: 'Desktop',
+          name: 'desktop',
+          width: 1920,
+          height: 900,
+        },
+      ],
+      collections: [Projects.slug, Blog.slug],
+    },
   },
   collections: [
     Admins,

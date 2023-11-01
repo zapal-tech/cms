@@ -76,6 +76,8 @@ const googleCloudStorageAdapter = gcsAdapter({
 
 export default buildConfig({
   serverURL: process.env.SERVER_URL,
+  defaultDepth: 5,
+  cookiePrefix: 'zapal',
   debug: process.env.NODE_ENV === 'development',
   telemetry: false,
   csrf: [process.env.SERVER_URL, process.env.PAYLOAD_PUBLIC_SITE_URL].filter(Boolean),

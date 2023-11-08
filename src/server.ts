@@ -15,7 +15,7 @@ app.get('/', (_, res) => {
 });
 
 app.get('/favicon.ico', async (_, res) => {
-  const favicon = await readFile(path.resolve(__dirname, 'favicon.ico'));
+  const favicon = await readFile(path.resolve(__dirname, './assets/favicon.ico'));
 
   res.setHeader('X-Robots-Tag', 'noindex, nofollow');
   res.setHeader('Content-Type', 'image/x-icon');
@@ -23,7 +23,7 @@ app.get('/favicon.ico', async (_, res) => {
 });
 
 app.get('/og-image.webp', async (_, res) => {
-  const ogImage = await readFile(path.resolve(__dirname, 'og-image.webp'));
+  const ogImage = await readFile(path.resolve(__dirname, './assets/og-image.webp'));
 
   res.setHeader('X-Robots-Tag', 'noindex, nofollow');
   res.setHeader('Content-Type', 'image/x-icon');

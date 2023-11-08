@@ -25,6 +25,8 @@
       "collections/*": ["src/collections/*"],
       "fields": ["src/fields"],
       "fields/*": ["src/fields/*"],
+      "blocks": ["src/blocks"],
+      "blocks/*": ["src/blocks/*"],
       "globals": ["src/globals"],
       "globals/*": ["src/globals/*"],
       "hooks": ["src/hooks"],

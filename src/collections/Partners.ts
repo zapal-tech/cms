@@ -80,6 +80,7 @@ const Partners: CollectionConfig = {
           required: true,
         },
         urlField({
+          name: 'url',
           label: {
             en: 'Website URL',
             ua: 'Посилання на сайт',

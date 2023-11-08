@@ -14,6 +14,7 @@
     "^(^components$)|(^components/(.*)$)$",
     "^(^collections$)|(^collections/(.*)$)$",
     "^(^globals$)|(^globals/(.*)$)$",
+    "^(^blocks$)|(^blocks/(.*)$)$",
     "^(^fields$)|(^fields/(.*)$)$",
     "^(^hooks$)|(^hooks/(.*)$)$",
     "^(^utils$)|(^utils/(.*)$)$",

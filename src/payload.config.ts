@@ -28,7 +28,6 @@ import Admins from 'collections/Admins';
 import ContactFormLeads from 'collections/ContactFormLeads';
 import Locations from 'collections/Locations';
 import Partners from 'collections/Partners';
-import Projects from 'collections/Projects';
 import Services from 'collections/Services';
 import Team from 'collections/Team';
 import Technologies from 'collections/Technologies';
@@ -40,11 +39,12 @@ import BlogCoverImages from 'collections/blog/BlogCoverImages';
 import Tags from 'collections/blog/Tags';
 import OpenGraphImages from 'collections/media/OpenGraphImages';
 import PartnerLogos from 'collections/media/PartnerLogos';
-import ProjectAssets from 'collections/media/ProjectAssets';
-import ProjectImages from 'collections/media/ProjectImages';
 import ServiceIcons from 'collections/media/ServiceIcons';
 import TeamMemberPhotos from 'collections/media/TeamMemberPhotos';
 import TechnologyLogos from 'collections/media/TechnologyLogos';
+import ProjectAssets from 'collections/projects/ProjectAssets';
+import ProjectImages from 'collections/projects/ProjectImages';
+import Projects from 'collections/projects/Projects';
 
 import Common from 'globals/Common';
 import ContactForm from 'globals/ContactForm';
@@ -52,12 +52,14 @@ import Footer from 'globals/Footer';
 import GeneralInfo from 'globals/GeneralInfo';
 import Languages from 'globals/Languages';
 import Navigation from 'globals/Navigation';
+import ProjectFooter from 'globals/ProjectFooter';
 import AboutPage from 'globals/pages/AboutPage';
 import BlogPage from 'globals/pages/BlogPage';
 import ContactsPage from 'globals/pages/ContactsPage';
 import CookiesPolicyPage from 'globals/pages/CookiesPolicyPage';
 import HomePage from 'globals/pages/HomePage';
 import PrivacyPolicyPage from 'globals/pages/PrivacyPolicyPage';
+import ProjectPage from 'globals/pages/ProjectPage';
 import ProjectsPage from 'globals/pages/ProjectsPage';
 import ScheduleMeetingPage from 'globals/pages/ScheduleMeetingPage';
 import SitemapPage from 'globals/pages/SitemapPage';
@@ -76,6 +78,8 @@ const googleCloudStorageAdapter = gcsAdapter({
 
 export default buildConfig({
   serverURL: process.env.SERVER_URL,
+  defaultDepth: 5,
+  cookiePrefix: 'zapal',
   debug: process.env.NODE_ENV === 'development',
   telemetry: false,
   csrf: [process.env.SERVER_URL, process.env.PAYLOAD_PUBLIC_SITE_URL].filter(Boolean),
@@ -137,7 +141,7 @@ export default buildConfig({
     },
     livePreview: {
       url: ({ data, documentInfo, locale }) => {
-        let localePrefix = '';
+        const localePrefix = locale?.code === defaultLocale ? '' : locale.code;
         let section = '';
         const documentSlug = data.slug || '[slug]';
 
@@ -151,24 +155,22 @@ export default buildConfig({
             break;
         }
 
-        if (locale?.code !== defaultLocale) localePrefix = `/${locale.code}`;
-
         const url = new URL(path.join(localePrefix, section, documentSlug), process.env.PAYLOAD_PUBLIC_SITE_URL).href;
 
         return url;
       },
       breakpoints: [
         {
+          label: 'Smallest phone (default)',
+          name: 'default',
+          width: 320,
+          height: 568,
+        },
+        {
           label: 'iPhone 6',
           name: 'iphone-6',
           width: 375,
           height: 667,
-        },
-        {
-          label: 'Pixel 3',
-          name: 'pixel-3',
-          width: 393,
-          height: 786,
         },
         {
           label: 'Pixel 6',
@@ -183,14 +185,20 @@ export default buildConfig({
           height: 1024,
         },
         {
-          label: 'Small Laptop',
-          name: 'small-laptop',
-          width: 1280,
-          height: 625,
+          label: 'Large Tablet',
+          name: 'large-tablet',
+          width: 1024,
+          height: 1366,
         },
         {
           label: 'Laptop',
           name: 'laptop',
+          width: 1280,
+          height: 625,
+        },
+        {
+          label: 'Medium Laptop',
+          name: 'medium-laptop',
           width: 1440,
           height: 705,
         },
@@ -243,6 +251,8 @@ export default buildConfig({
     GeneralInfo,
     HomePage,
     PrivacyPolicyPage,
+    ProjectFooter,
+    ProjectPage,
     ProjectsPage,
     ScheduleMeetingPage,
     SitemapPage,

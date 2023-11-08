@@ -22,7 +22,7 @@ export const validateSlug: Validate<string> = (value, options): true | string =>
 };
 
 export const validateInteger = (value: number, options): true | string => {
-  if (Number.isInteger(value)) return true;
+  if (!value || Number.isInteger(value)) return true;
 
   return options.t('number.integer', { ns: Namespace.VALIDATION });
 };

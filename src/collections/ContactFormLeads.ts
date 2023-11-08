@@ -43,12 +43,12 @@ const ContactFormLeads: CollectionConfig = {
       type: 'row',
       fields: [
         {
+          type: 'text',
           name: 'firstName',
           label: {
             en: 'First Name',
             ua: "Ім'я",
           },
-          type: 'text',
           required: true,
         },
         {
@@ -65,31 +65,31 @@ const ContactFormLeads: CollectionConfig = {
       type: 'row',
       fields: [
         {
+          type: 'email',
           name: 'email',
           label: {
             en: 'Email',
             ua: 'Електронна пошта',
           },
-          type: 'email',
           required: true,
         },
         {
+          type: 'text',
           name: 'company',
           label: {
             en: 'Company',
             ua: 'Компанія',
           },
-          type: 'text',
         },
       ],
     },
     {
+      type: 'textarea',
       name: 'message',
       label: {
         en: 'Message',
         ua: 'Повідомлення',
       },
-      type: 'textarea',
       required: true,
     },
     {

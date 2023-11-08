@@ -1,0 +1,1353 @@
+[
+  {
+    "value": "af",
+    "name": {
+      "en": "Afghanistan",
+      "uk": "Афганістан"
+    }
+  },
+  {
+    "value": "al",
+    "name": {
+      "en": "Albania",
+      "uk": "Албанія"
+    }
+  },
+  {
+    "value": "dz",
+    "name": {
+      "en": "Algeria",
+      "uk": "Алжир"
+    }
+  },
+  {
+    "value": "ad",
+    "name": {
+      "en": "Andorra",
+      "uk": "Андорра"
+    }
+  },
+  {
+    "value": "ao",
+    "name": {
+      "en": "Angola",
+      "uk": "Ангола"
+    }
+  },
+  {
+    "value": "ag",
+    "name": {
+      "en": "Antigua and Barbuda",
+      "uk": "Антигуа і Барбуда"
+    }
+  },
+  {
+    "value": "ar",
+    "name": {
+      "en": "Argentina",
+      "uk": "Аргентина"
+    }
+  },
+  {
+    "value": "am",
+    "name": {
+      "en": "Armenia",
+      "uk": "Вірменія"
+    }
+  },
+  {
+    "value": "au",
+    "name": {
+      "en": "Australia",
+      "uk": "Австралія"
+    }
+  },
+  {
+    "value": "at",
+    "name": {
+      "en": "Austria",
+      "uk": "Австрія"
+    }
+  },
+  {
+    "value": "az",
+    "name": {
+      "en": "Azerbaijan",
+      "uk": "Азербайджан"
+    }
+  },
+  {
+    "value": "bs",
+    "name": {
+      "en": "Bahamas",
+      "uk": "Багамські Острови"
+    }
+  },
+  {
+    "value": "bh",
+    "name": {
+      "en": "Bahrain",
+      "uk": "Бахрейн"
+    }
+  },
+  {
+    "value": "bd",
+    "name": {
+      "en": "Bangladesh",
+      "uk": "Бангладеш"
+    }
+  },
+  {
+    "value": "bb",
+    "name": {
+      "en": "Barbados",
+      "uk": "Барбадос"
+    }
+  },
+  {
+    "value": "by",
+    "name": {
+      "en": "Belarus",
+      "uk": "Білорусь"
+    }
+  },
+  {
+    "value": "be",
+    "name": {
+      "en": "Belgium",
+      "uk": "Бельгія"
+    }
+  },
+  {
+    "value": "bz",
+    "name": {
+      "en": "Belize",
+      "uk": "Беліз"
+    }
+  },
+  {
+    "value": "bj",
+    "name": {
+      "en": "Benin",
+      "uk": "Бенін"
+    }
+  },
+  {
+    "value": "bt",
+    "name": {
+      "en": "Bhutan",
+      "uk": "Бутан"
+    }
+  },
+  {
+    "value": "bo",
+    "name": {
+      "en": "Bolivia (Plurinational State of)",
+      "uk": "Болівія"
+    }
+  },
+  {
+    "value": "ba",
+    "name": {
+      "en": "Bosnia and Herzegovina",
+      "uk": "Боснія і Герцеговина"
+    }
+  },
+  {
+    "value": "bw",
+    "name": {
+      "en": "Botswana",
+      "uk": "Ботсвана"
+    }
+  },
+  {
+    "value": "br",
+    "name": {
+      "en": "Brazil",
+      "uk": "Бразилія"
+    }
+  },
+  {
+    "value": "bn",
+    "name": {
+      "en": "Brunei Darussalam",
+      "uk": "Бруней"
+    }
+  },
+  {
+    "value": "bg",
+    "name": {
+      "en": "Bulgaria",
+      "uk": "Болгарія"
+    }
+  },
+  {
+    "value": "bf",
+    "name": {
+      "en": "Burkina Faso",
+      "uk": "Буркіна-Фасо"
+    }
+  },
+  {
+    "value": "bi",
+    "name": {
+      "en": "Burundi",
+      "uk": "Бурунді"
+    }
+  },
+  {
+    "value": "cv",
+    "name": {
+      "en": "Cabo Verde",
+      "uk": "Кабо-Верде"
+    }
+  },
+  {
+    "value": "kh",
+    "name": {
+      "en": "Cambodia",
+      "uk": "Камбоджа"
+    }
+  },
+  {
+    "value": "cm",
+    "name": {
+      "en": "Cameroon",
+      "uk": "Камерун"
+    }
+  },
+  {
+    "value": "ca",
+    "name": {
+      "en": "Canada",
+      "uk": "Канада"
+    }
+  },
+  {
+    "value": "cf",
+    "name": {
+      "en": "Central African Republic",
+      "uk": "Центральноафриканська Республіка"
+    }
+  },
+  {
+    "value": "td",
+    "name": {
+      "en": "Chad",
+      "uk": "Чад"
+    }
+  },
+  {
+    "value": "cl",
+    "name": {
+      "en": "Chile",
+      "uk": "Чилі"
+    }
+  },
+  {
+    "value": "cn",
+    "name": {
+      "en": "China",
+      "uk": "Китайська Народна Республіка"
+    }
+  },
+  {
+    "value": "co",
+    "name": {
+      "en": "Colombia",
+      "uk": "Колумбія"
+    }
+  },
+  {
+    "value": "km",
+    "name": {
+      "en": "Comoros",
+      "uk": "Коморські Острови"
+    }
+  },
+  {
+    "value": "cg",
+    "name": {
+      "en": "Congo",
+      "uk": "Республіка Конго"
+    }
+  },
+  {
+    "value": "cd",
+    "name": {
+      "en": "Congo, Democratic Republic of the",
+      "uk": "ДР Конго"
+    }
+  },
+  {
+    "value": "cr",
+    "name": {
+      "en": "Costa Rica",
+      "uk": "Коста-Рика"
+    }
+  },
+  {
+    "value": "ci",
+    "name": {
+      "en": "Côte d'Ivoire",
+      "uk": "Кот-д'Івуар"
+    }
+  },
+  {
+    "value": "hr",
+    "name": {
+      "en": "Croatia",
+      "uk": "Хорватія"
+    }
+  },
+  {
+    "value": "cu",
+    "name": {
+      "en": "Cuba",
+      "uk": "Куба"
+    }
+  },
+  {
+    "value": "cy",
+    "name": {
+      "en": "Cyprus",
+      "uk": "Кіпр"
+    }
+  },
+  {
+    "value": "cz",
+    "name": {
+      "en": "Czechia",
+      "uk": "Чехія"
+    }
+  },
+  {
+    "value": "dk",
+    "name": {
+      "en": "Denmark",
+      "uk": "Данія"
+    }
+  },
+  {
+    "value": "dj",
+    "name": {
+      "en": "Djibouti",
+      "uk": "Джибуті"
+    }
+  },
+  {
+    "value": "dm",
+    "name": {
+      "en": "Dominica",
+      "uk": "Домініка"
+    }
+  },
+  {
+    "value": "do",
+    "name": {
+      "en": "Dominican Republic",
+      "uk": "Домініканська Республіка"
+    }
+  },
+  {
+    "value": "ec",
+    "name": {
+      "en": "Ecuador",
+      "uk": "Еквадор"
+    }
+  },
+  {
+    "value": "eg",
+    "name": {
+      "en": "Egypt",
+      "uk": "Єгипет"
+    }
+  },
+  {
+    "value": "sv",
+    "name": {
+      "en": "El Salvador",
+      "uk": "Сальвадор"
+    }
+  },
+  {
+    "value": "gq",
+    "name": {
+      "en": "Equatorial Guinea",
+      "uk": "Екваторіальна Гвінея"
+    }
+  },
+  {
+    "value": "er",
+    "name": {
+      "en": "Eritrea",
+      "uk": "Еритрея"
+    }
+  },
+  {
+    "value": "ee",
+    "name": {
+      "en": "Estonia",
+      "uk": "Естонія"
+    }
+  },
+  {
+    "value": "sz",
+    "name": {
+      "en": "Eswatini",
+      "uk": "Есватіні"
+    }
+  },
+  {
+    "value": "et",
+    "name": {
+      "en": "Ethiopia",
+      "uk": "Ефіопія"
+    }
+  },
+  {
+    "value": "fj",
+    "name": {
+      "en": "Fiji",
+      "uk": "Фіджі"
+    }
+  },
+  {
+    "value": "fi",
+    "name": {
+      "en": "Finland",
+      "uk": "Фінляндія"
+    }
+  },
+  {
+    "value": "fr",
+    "name": {
+      "en": "France",
+      "uk": "Франція"
+    }
+  },
+  {
+    "value": "ga",
+    "name": {
+      "en": "Gabon",
+      "uk": "Габон"
+    }
+  },
+  {
+    "value": "gm",
+    "name": {
+      "en": "Gambia",
+      "uk": "Гамбія"
+    }
+  },
+  {
+    "value": "ge",
+    "name": {
+      "en": "Georgia",
+      "uk": "Грузія"
+    }
+  },
+  {
+    "value": "de",
+    "name": {
+      "en": "Germany",
+      "uk": "Німеччина"
+    }
+  },
+  {
+    "value": "gh",
+    "name": {
+      "en": "Ghana",
+      "uk": "Гана"
+    }
+  },
+  {
+    "value": "gr",
+    "name": {
+      "en": "Greece",
+      "uk": "Греція"
+    }
+  },
+  {
+    "value": "gd",
+    "name": {
+      "en": "Grenada",
+      "uk": "Гренада"
+    }
+  },
+  {
+    "value": "gt",
+    "name": {
+      "en": "Guatemala",
+      "uk": "Гватемала"
+    }
+  },
+  {
+    "value": "gn",
+    "name": {
+      "en": "Guinea",
+      "uk": "Гвінея"
+    }
+  },
+  {
+    "value": "gw",
+    "name": {
+      "en": "Guinea-Bissau",
+      "uk": "Гвінея-Бісау"
+    }
+  },
+  {
+    "value": "gy",
+    "name": {
+      "en": "Guyana",
+      "uk": "Гаяна"
+    }
+  },
+  {
+    "value": "ht",
+    "name": {
+      "en": "Haiti",
+      "uk": "Гаїті"
+    }
+  },
+  {
+    "value": "hn",
+    "name": {
+      "en": "Honduras",
+      "uk": "Гондурас"
+    }
+  },
+  {
+    "value": "hu",
+    "name": {
+      "en": "Hungary",
+      "uk": "Угорщина"
+    }
+  },
+  {
+    "value": "is",
+    "name": {
+      "en": "Iceland",
+      "uk": "Ісландія"
+    }
+  },
+  {
+    "value": "in",
+    "name": {
+      "en": "India",
+      "uk": "Індія"
+    }
+  },
+  {
+    "value": "id",
+    "name": {
+      "en": "Indonesia",
+      "uk": "Індонезія"
+    }
+  },
+  {
+    "value": "ir",
+    "name": {
+      "en": "Iran (Islamic Republic of)",
+      "uk": "Іран"
+    }
+  },
+  {
+    "value": "iq",
+    "name": {
+      "en": "Iraq",
+      "uk": "Ірак"
+    }
+  },
+  {
+    "value": "ie",
+    "name": {
+      "en": "Ireland",
+      "uk": "Ірландія"
+    }
+  },
+  {
+    "value": "il",
+    "name": {
+      "en": "Israel",
+      "uk": "Ізраїль"
+    }
+  },
+  {
+    "value": "it",
+    "name": {
+      "en": "Italy",
+      "uk": "Італія"
+    }
+  },
+  {
+    "value": "jm",
+    "name": {
+      "en": "Jamaica",
+      "uk": "Ямайка"
+    }
+  },
+  {
+    "value": "jp",
+    "name": {
+      "en": "Japan",
+      "uk": "Японія"
+    }
+  },
+  {
+    "value": "jo",
+    "name": {
+      "en": "Jordan",
+      "uk": "Йорданія"
+    }
+  },
+  {
+    "value": "kz",
+    "name": {
+      "en": "Kazakhstan",
+      "uk": "Казахстан"
+    }
+  },
+  {
+    "value": "ke",
+    "name": {
+      "en": "Kenya",
+      "uk": "Кенія"
+    }
+  },
+  {
+    "value": "ki",
+    "name": {
+      "en": "Kiribati",
+      "uk": "Кірибаті"
+    }
+  },
+  {
+    "value": "kp",
+    "name": {
+      "en": "Korea (Democratic People's Republic of)",
+      "uk": "Північна Корея"
+    }
+  },
+  {
+    "value": "kr",
+    "name": {
+      "en": "Korea, Republic of",
+      "uk": "Південна Корея"
+    }
+  },
+  {
+    "value": "kw",
+    "name": {
+      "en": "Kuwait",
+      "uk": "Кувейт"
+    }
+  },
+  {
+    "value": "kg",
+    "name": {
+      "en": "Kyrgyzstan",
+      "uk": "Киргизстан"
+    }
+  },
+  {
+    "value": "la",
+    "name": {
+      "en": "Lao People's Democratic Republic",
+      "uk": "Лаос"
+    }
+  },
+  {
+    "value": "lv",
+    "name": {
+      "en": "Latvia",
+      "uk": "Латвія"
+    }
+  },
+  {
+    "value": "lb",
+    "name": {
+      "en": "Lebanon",
+      "uk": "Ліван"
+    }
+  },
+  {
+    "value": "ls",
+    "name": {
+      "en": "Lesotho",
+      "uk": "Лесото"
+    }
+  },
+  {
+    "value": "lr",
+    "name": {
+      "en": "Liberia",
+      "uk": "Ліберія"
+    }
+  },
+  {
+    "value": "ly",
+    "name": {
+      "en": "Libya",
+      "uk": "Лівія"
+    }
+  },
+  {
+    "value": "li",
+    "name": {
+      "en": "Liechtenstein",
+      "uk": "Ліхтенштейн"
+    }
+  },
+  {
+    "value": "lt",
+    "name": {
+      "en": "Lithuania",
+      "uk": "Литва"
+    }
+  },
+  {
+    "value": "lu",
+    "name": {
+      "en": "Luxembourg",
+      "uk": "Люксембург"
+    }
+  },
+  {
+    "value": "mg",
+    "name": {
+      "en": "Madagascar",
+      "uk": "Мадагаскар"
+    }
+  },
+  {
+    "value": "mw",
+    "name": {
+      "en": "Malawi",
+      "uk": "Малаві"
+    }
+  },
+  {
+    "value": "my",
+    "name": {
+      "en": "Malaysia",
+      "uk": "Малайзія"
+    }
+  },
+  {
+    "value": "mv",
+    "name": {
+      "en": "Maldives",
+      "uk": "Мальдіви"
+    }
+  },
+  {
+    "value": "ml",
+    "name": {
+      "en": "Mali",
+      "uk": "Малі"
+    }
+  },
+  {
+    "value": "mt",
+    "name": {
+      "en": "Malta",
+      "uk": "Мальта"
+    }
+  },
+  {
+    "value": "mh",
+    "name": {
+      "en": "Marshall Islands",
+      "uk": "Маршаллові Острови"
+    }
+  },
+  {
+    "value": "mr",
+    "name": {
+      "en": "Mauritania",
+      "uk": "Мавританія"
+    }
+  },
+  {
+    "value": "mu",
+    "name": {
+      "en": "Mauritius",
+      "uk": "Маврикій"
+    }
+  },
+  {
+    "value": "mx",
+    "name": {
+      "en": "Mexico",
+      "uk": "Мексика"
+    }
+  },
+  {
+    "value": "fm",
+    "name": {
+      "en": "Micronesia (Federated States of)",
+      "uk": "Федеративні Штати Мікронезії"
+    }
+  },
+  {
+    "value": "md",
+    "name": {
+      "en": "Moldova, Republic of",
+      "uk": "Молдова"
+    }
+  },
+  {
+    "value": "mc",
+    "name": {
+      "en": "Monaco",
+      "uk": "Монако"
+    }
+  },
+  {
+    "value": "mn",
+    "name": {
+      "en": "Mongolia",
+      "uk": "Монголія"
+    }
+  },
+  {
+    "value": "me",
+    "name": {
+      "en": "Montenegro",
+      "uk": "Чорногорія"
+    }
+  },
+  {
+    "value": "ma",
+    "name": {
+      "en": "Morocco",
+      "uk": "Марокко"
+    }
+  },
+  {
+    "value": "mz",
+    "name": {
+      "en": "Mozambique",
+      "uk": "Мозамбік"
+    }
+  },
+  {
+    "value": "mm",
+    "name": {
+      "en": "Myanmar",
+      "uk": "М'янма"
+    }
+  },
+  {
+    "value": "na",
+    "name": {
+      "en": "Namibia",
+      "uk": "Намібія"
+    }
+  },
+  {
+    "value": "nr",
+    "name": {
+      "en": "Nauru",
+      "uk": "Науру"
+    }
+  },
+  {
+    "value": "np",
+    "name": {
+      "en": "Nepal",
+      "uk": "Непал"
+    }
+  },
+  {
+    "value": "nl",
+    "name": {
+      "en": "Netherlands",
+      "uk": "Нідерланди"
+    }
+  },
+  {
+    "value": "nz",
+    "name": {
+      "en": "New Zealand",
+      "uk": "Нова Зеландія"
+    }
+  },
+  {
+    "value": "ni",
+    "name": {
+      "en": "Nicaragua",
+      "uk": "Нікарагуа"
+    }
+  },
+  {
+    "value": "ne",
+    "name": {
+      "en": "Niger",
+      "uk": "Нігер"
+    }
+  },
+  {
+    "value": "ng",
+    "name": {
+      "en": "Nigeria",
+      "uk": "Нігерія"
+    }
+  },
+  {
+    "value": "mk",
+    "name": {
+      "en": "North Macedonia",
+      "uk": "Північна Македонія"
+    }
+  },
+  {
+    "value": "no",
+    "name": {
+      "en": "Norway",
+      "uk": "Норвегія"
+    }
+  },
+  {
+    "value": "om",
+    "name": {
+      "en": "Oman",
+      "uk": "Оман"
+    }
+  },
+  {
+    "value": "pk",
+    "name": {
+      "en": "Pakistan",
+      "uk": "Пакистан"
+    }
+  },
+  {
+    "value": "pw",
+    "name": {
+      "en": "Palau",
+      "uk": "Палау"
+    }
+  },
+  {
+    "value": "pa",
+    "name": {
+      "en": "Panama",
+      "uk": "Панама"
+    }
+  },
+  {
+    "value": "pg",
+    "name": {
+      "en": "Papua New Guinea",
+      "uk": "Папуа Нова Гвінея"
+    }
+  },
+  {
+    "value": "py",
+    "name": {
+      "en": "Paraguay",
+      "uk": "Парагвай"
+    }
+  },
+  {
+    "value": "pe",
+    "name": {
+      "en": "Peru",
+      "uk": "Перу"
+    }
+  },
+  {
+    "value": "ph",
+    "name": {
+      "en": "Philippines",
+      "uk": "Філіппіни"
+    }
+  },
+  {
+    "value": "pl",
+    "name": {
+      "en": "Poland",
+      "uk": "Польща"
+    }
+  },
+  {
+    "value": "pt",
+    "name": {
+      "en": "Portugal",
+      "uk": "Португалія"
+    }
+  },
+  {
+    "value": "qa",
+    "name": {
+      "en": "Qatar",
+      "uk": "Катар"
+    }
+  },
+  {
+    "value": "ro",
+    "name": {
+      "en": "Romania",
+      "uk": "Румунія"
+    }
+  },
+  {
+    "value": "ru",
+    "name": {
+      "en": "Russian Federation",
+      "uk": "Росія"
+    }
+  },
+  {
+    "value": "rw",
+    "name": {
+      "en": "Rwanda",
+      "uk": "Руанда"
+    }
+  },
+  {
+    "value": "kn",
+    "name": {
+      "en": "Saint Kitts and Nevis",
+      "uk": "Сент-Кіттс і Невіс"
+    }
+  },
+  {
+    "value": "lc",
+    "name": {
+      "en": "Saint Lucia",
+      "uk": "Сент-Люсія"
+    }
+  },
+  {
+    "value": "vc",
+    "name": {
+      "en": "Saint Vincent and the Grenadines",
+      "uk": "Сент-Вінсент і Гренадини"
+    }
+  },
+  {
+    "value": "ws",
+    "name": {
+      "en": "Samoa",
+      "uk": "Самоа"
+    }
+  },
+  {
+    "value": "sm",
+    "name": {
+      "en": "San Marino",
+      "uk": "Сан-Марино"
+    }
+  },
+  {
+    "value": "st",
+    "name": {
+      "en": "Sao Tome and Principe",
+      "uk": "Сан-Томе і Принсіпі"
+    }
+  },
+  {
+    "value": "sa",
+    "name": {
+      "en": "Saudi Arabia",
+      "uk": "Саудівська Аравія"
+    }
+  },
+  {
+    "value": "sn",
+    "name": {
+      "en": "Senegal",
+      "uk": "Сенегал"
+    }
+  },
+  {
+    "value": "rs",
+    "name": {
+      "en": "Serbia",
+      "uk": "Сербія"
+    }
+  },
+  {
+    "value": "sc",
+    "name": {
+      "en": "Seychelles",
+      "uk": "Сейшельські Острови"
+    }
+  },
+  {
+    "value": "sl",
+    "name": {
+      "en": "Sierra Leone",
+      "uk": "Сьєрра-Леоне"
+    }
+  },
+  {
+    "value": "sg",
+    "name": {
+      "en": "Singapore",
+      "uk": "Сінгапур"
+    }
+  },
+  {
+    "value": "sk",
+    "name": {
+      "en": "Slovakia",
+      "uk": "Словаччина"
+    }
+  },
+  {
+    "value": "si",
+    "name": {
+      "en": "Slovenia",
+      "uk": "Словенія"
+    }
+  },
+  {
+    "value": "sb",
+    "name": {
+      "en": "Solomon Islands",
+      "uk": "Соломонові Острови"
+    }
+  },
+  {
+    "value": "so",
+    "name": {
+      "en": "Somalia",
+      "uk": "Сомалі"
+    }
+  },
+  {
+    "value": "za",
+    "name": {
+      "en": "South Africa",
+      "uk": "ПАР"
+    }
+  },
+  {
+    "value": "ss",
+    "name": {
+      "en": "South Sudan",
+      "uk": "Південний Судан"
+    }
+  },
+  {
+    "value": "es",
+    "name": {
+      "en": "Spain",
+      "uk": "Іспанія"
+    }
+  },
+  {
+    "value": "lk",
+    "name": {
+      "en": "Sri Lanka",
+      "uk": "Шрі-Ланка"
+    }
+  },
+  {
+    "value": "sd",
+    "name": {
+      "en": "Sudan",
+      "uk": "Судан"
+    }
+  },
+  {
+    "value": "sr",
+    "name": {
+      "en": "Suriname",
+      "uk": "Суринам"
+    }
+  },
+  {
+    "value": "se",
+    "name": {
+      "en": "Sweden",
+      "uk": "Швеція"
+    }
+  },
+  {
+    "value": "ch",
+    "name": {
+      "en": "Switzerland",
+      "uk": "Швейцарія"
+    }
+  },
+  {
+    "value": "sy",
+    "name": {
+      "en": "Syrian Arab Republic",
+      "uk": "Сирія"
+    }
+  },
+  {
+    "value": "tj",
+    "name": {
+      "en": "Tajikistan",
+      "uk": "Таджикистан"
+    }
+  },
+  {
+    "value": "tz",
+    "name": {
+      "en": "Tanzania, United Republic of",
+      "uk": "Танзанія"
+    }
+  },
+  {
+    "value": "th",
+    "name": {
+      "en": "Thailand",
+      "uk": "Таїланд"
+    }
+  },
+  {
+    "value": "tl",
+    "name": {
+      "en": "Timor-Leste",
+      "uk": "Східний Тимор"
+    }
+  },
+  {
+    "value": "tg",
+    "name": {
+      "en": "Togo",
+      "uk": "Того"
+    }
+  },
+  {
+    "value": "to",
+    "name": {
+      "en": "Tonga",
+      "uk": "Тонга"
+    }
+  },
+  {
+    "value": "tt",
+    "name": {
+      "en": "Trinidad and Tobago",
+      "uk": "Тринідад і Тобаго"
+    }
+  },
+  {
+    "value": "tn",
+    "name": {
+      "en": "Tunisia",
+      "uk": "Туніс"
+    }
+  },
+  {
+    "value": "tr",
+    "name": {
+      "en": "Türkiye",
+      "uk": "Туреччина"
+    }
+  },
+  {
+    "value": "tm",
+    "name": {
+      "en": "Turkmenistan",
+      "uk": "Туркменістан"
+    }
+  },
+  {
+    "value": "tv",
+    "name": {
+      "en": "Tuvalu",
+      "uk": "Тувалу"
+    }
+  },
+  {
+    "value": "ug",
+    "name": {
+      "en": "Uganda",
+      "uk": "Уганда"
+    }
+  },
+  {
+    "value": "ua",
+    "name": {
+      "en": "Ukraine",
+      "uk": "Україна"
+    }
+  },
+  {
+    "value": "ae",
+    "name": {
+      "en": "United Arab Emirates",
+      "uk": "ОАЕ"
+    }
+  },
+  {
+    "value": "gb",
+    "name": {
+      "en": "United Kingdom of Great Britain and Northern Ireland",
+      "uk": "Велика Британія"
+    }
+  },
+  {
+    "value": "us",
+    "name": {
+      "en": "United States of America",
+      "uk": "США"
+    }
+  },
+  {
+    "value": "uy",
+    "name": {
+      "en": "Uruguay",
+      "uk": "Уругвай"
+    }
+  },
+  {
+    "value": "uz",
+    "name": {
+      "en": "Uzbekistan",
+      "uk": "Узбекистан"
+    }
+  },
+  {
+    "value": "vu",
+    "name": {
+      "en": "Vanuatu",
+      "uk": "Вануату"
+    }
+  },
+  {
+    "value": "ve",
+    "name": {
+      "en": "Venezuela (Bolivarian Republic of)",
+      "uk": "Венесуела"
+    }
+  },
+  {
+    "value": "vn",
+    "name": {
+      "en": "Viet Nam",
+      "uk": "В'єтнам"
+    }
+  },
+  {
+    "value": "ye",
+    "name": {
+      "en": "Yemen",
+      "uk": "Ємен"
+    }
+  },
+  {
+    "value": "zm",
+    "name": {
+      "en": "Zambia",
+      "uk": "Замбія"
+    }
+  },
+  {
+    "value": "zw",
+    "name": {
+      "en": "Zimbabwe",
+      "uk": "Зімбабве"
+    }
+  }
+]

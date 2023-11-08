@@ -2,9 +2,8 @@ import { TextField } from 'payload/types';
 
 import { validateUrl } from 'utils/validators';
 
-export const urlField = (data?: Partial<Omit<TextField, 'type'>>): TextField => ({
+export const urlField = (data?: Omit<TextField, 'type'>): TextField => ({
   type: 'text',
-  name: 'url',
   label: {
     en: 'URL',
     ua: 'Посилання',
@@ -12,4 +11,8 @@ export const urlField = (data?: Partial<Omit<TextField, 'type'>>): TextField => 
   validate: validateUrl,
   required: false,
   ...data,
+  admin: {
+    placeholder: 'https://...',
+    ...data?.admin,
+  },
 });

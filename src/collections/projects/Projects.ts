@@ -209,6 +209,7 @@ const Projects: CollectionConfig = {
                         en: 'Industry',
                         uk: 'Індустрія',
                       },
+                      localized: true,
                       required: true,
                     },
                     {
@@ -218,6 +219,7 @@ const Projects: CollectionConfig = {
                         en: 'Project type',
                         uk: 'Тип проєкту',
                       },
+                      localized: true,
                       required: true,
                     },
                   ],
@@ -229,6 +231,7 @@ const Projects: CollectionConfig = {
                     en: 'Services provided',
                     uk: 'Надані послуги',
                   },
+                  localized: true,
                   required: true,
                 },
                 {

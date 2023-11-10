@@ -22,8 +22,9 @@ export const slugifyNameHook: SlugifyNameHook = (args) => {
   const { value, data, operation } = args;
 
   const autoSlugData = getSlugifiableData(data);
+  const slug = slugify(autoSlugData);
 
-  if (['create', 'update'].includes(operation) && autoSlugData && !value?.length) return slugify(autoSlugData);
+  if (['create', 'update'].includes(operation) && autoSlugData && slug && !value?.length) return slug;
 
   return value;
 };

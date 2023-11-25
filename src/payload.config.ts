@@ -82,7 +82,7 @@ export default buildConfig({
   cookiePrefix: 'zapal',
   debug: process.env.NODE_ENV === 'development',
   telemetry: false,
-  csrf: [process.env.SERVER_URL, process.env.PAYLOAD_PUBLIC_SITE_URL, 'https://www.zapal.tech'].filter(Boolean),
+  // csrf: [process.env.SERVER_URL, process.env.PAYLOAD_PUBLIC_SITE_URL, 'https://www.zapal.tech'].filter(Boolean),
   rateLimit: {
     max: 750,
   },

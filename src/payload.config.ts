@@ -82,7 +82,7 @@ export default buildConfig({
   cookiePrefix: 'zapal',
   debug: process.env.NODE_ENV === 'development',
   telemetry: false,
-  csrf: [process.env.SERVER_URL, process.env.PAYLOAD_PUBLIC_SITE_URL].filter(Boolean),
+  csrf: [process.env.SERVER_URL, process.env.PAYLOAD_PUBLIC_SITE_URL, 'https://www.zapal.tech'].filter(Boolean),
   rateLimit: {
     max: 750,
   },
@@ -155,7 +155,7 @@ export default buildConfig({
             break;
         }
 
-        const url = `${process.env.PAYLOAD_PUBLIC_SITE_URL}/${localePrefix ? `${localePrefix}/` : ''}${
+        const url = `https://www.zapal.tech/${localePrefix ? `${localePrefix}/` : ''}${
           section ? `${section}/` : ''
         }${documentSlug}`;
 

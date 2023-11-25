@@ -26,7 +26,7 @@ app.get('/og-image.webp', async (_, res) => {
   const ogImage = await readFile(path.resolve(__dirname, './assets/og-image.webp'));
 
   res.setHeader('X-Robots-Tag', 'noindex, nofollow');
-  res.setHeader('Content-Type', 'image/x-icon');
+  res.setHeader('Content-Type', 'image/webp');
   res.send(ogImage);
 });
 

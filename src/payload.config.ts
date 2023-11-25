@@ -143,7 +143,7 @@ export default buildConfig({
       url: ({ data, documentInfo, locale }) => {
         const localePrefix = locale?.code === defaultLocale ? '' : locale.code;
         let section = '';
-        const documentSlug = data.slug || '[slug]';
+        const documentSlug = data.slug || '';
 
         switch (documentInfo.slug) {
           case Blog.slug:
@@ -155,7 +155,9 @@ export default buildConfig({
             break;
         }
 
-        const url = new URL(path.join(localePrefix, section, documentSlug), process.env.PAYLOAD_PUBLIC_SITE_URL).href;
+        const url = `${process.env.PAYLOAD_PUBLIC_SITE_URL}/${localePrefix ? `${localePrefix}/` : ''}${
+          section ? `${section}/` : ''
+        }${documentSlug}`;
 
         return url;
       },

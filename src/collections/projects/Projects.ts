@@ -47,6 +47,7 @@ const Projects: CollectionConfig = {
       handler: async (req, res) => {
         const data = await payload.find({
           collection: 'projects',
+          locale: req.locale,
           where: { slug: { equals: req.params.slug } },
           limit: 1,
         });

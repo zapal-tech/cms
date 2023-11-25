@@ -48,6 +48,7 @@ const Projects: CollectionConfig = {
         const data = await payload.find({
           collection: 'projects',
           locale: req.locale,
+          fallbackLocale: 'en',
           where: { slug: { equals: req.params.slug } },
           limit: 1,
         });

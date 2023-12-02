@@ -1,6 +1,5 @@
 import { CollectionConfig } from 'payload/types';
 
-import { publicUploadCollectionWithoutApiAccess } from 'utils/access';
 import { blogGroup } from 'utils/groups';
 
 const BlogAssets: CollectionConfig = {
@@ -11,7 +10,7 @@ const BlogAssets: CollectionConfig = {
   },
   upload: true,
   access: {
-    read: publicUploadCollectionWithoutApiAccess,
+    read: () => true,
   },
   admin: {
     group: blogGroup,

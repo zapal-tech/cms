@@ -28,7 +28,7 @@ const Services: CollectionConfig = {
     drafts: {
       autosave: true,
     },
-    maxPerDoc: 5,
+    maxPerDoc: 10,
   },
   fields: [
     slugField(),

@@ -39,7 +39,7 @@ const ProjectAssets: CollectionConfig = {
     ],
   },
   access: {
-    read: publicUploadCollectionWithoutApiAccess,
+    read: () => true,
   },
   admin: {
     group: projectsGroup,

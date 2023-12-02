@@ -13,7 +13,7 @@ const Technologies: CollectionConfig = {
     drafts: {
       autosave: true,
     },
-    maxPerDoc: 5,
+    maxPerDoc: 10,
   },
   labels: {
     singular: {

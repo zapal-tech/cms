@@ -33,7 +33,10 @@ const Blog: CollectionConfig = {
     drafts: {
       autosave: true,
     },
-    maxPerDoc: 5,
+    maxPerDoc: 10,
+  },
+  access: {
+    read: () => true,
   },
   endpoints: [
     {

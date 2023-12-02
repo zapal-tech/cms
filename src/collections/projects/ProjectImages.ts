@@ -2,7 +2,6 @@ import { CollectionConfig } from 'payload/types';
 
 import { altField } from 'fields/alt';
 
-import { publicUploadCollectionWithoutApiAccess } from 'utils/access';
 import { projectsGroup } from 'utils/groups';
 import { defaultPhotoMimeTypes } from 'utils/mimeTypes';
 
@@ -47,7 +46,7 @@ const ProjectImages: CollectionConfig = {
     ],
   },
   access: {
-    read: publicUploadCollectionWithoutApiAccess,
+    read: () => true,
   },
   admin: {
     group: projectsGroup,

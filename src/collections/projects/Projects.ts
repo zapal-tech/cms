@@ -34,11 +34,14 @@ const Projects: CollectionConfig = {
     defaultColumns: ['slug', 'order'],
     group: projectsGroup,
   },
+  access: {
+    read: ({ req }): boolean => true,
+  },
   versions: {
     drafts: {
       autosave: true,
     },
-    maxPerDoc: 5,
+    maxPerDoc: 10,
   },
   endpoints: [
     {

@@ -155,9 +155,9 @@ export default buildConfig({
             break;
         }
 
-        const url = `https://www.zapal.tech/${localePrefix ? `${localePrefix}/` : ''}${
-          section ? `${section}/` : ''
-        }${documentSlug}`;
+        const url = `${process.env.PAYLOAD_PUBLIC_SITE_URL || 'https://www.zapal.tech'}/${
+          localePrefix ? `${localePrefix}/` : ''
+        }${section ? `${section}/` : ''}${documentSlug}`;
 
         return url;
       },

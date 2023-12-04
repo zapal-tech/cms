@@ -2,7 +2,7 @@ import { TextField } from 'payload/types';
 
 import { slugifyNameHook } from 'hooks/slugifyName';
 
-import { rootAccessLevel } from 'utils/access';
+import { adminAccessLevel } from 'utils/access';
 import { validateSlug } from 'utils/validators';
 
 export const slugField = (
@@ -23,7 +23,7 @@ export const slugField = (
     beforeValidate: [slugifyNameHook, ...(data?.hooks?.beforeValidate || [])],
   },
   access: {
-    update: rootAccessLevel,
+    update: adminAccessLevel,
   },
   admin: {
     position: 'sidebar',

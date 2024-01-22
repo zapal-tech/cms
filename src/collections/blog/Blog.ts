@@ -45,6 +45,8 @@ const Blog: CollectionConfig = {
       handler: async (req, res) => {
         const data = await payload.find({
           collection: 'blog-posts',
+          locale: req.locale,
+          fallbackLocale: 'en',
           where: { slug: { equals: req.params.slug } },
           limit: 1,
         });

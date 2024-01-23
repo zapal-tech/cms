@@ -33,11 +33,17 @@ const Blog: CollectionConfig = {
   },
   hooks: {
     afterChange: [
-      async ({ doc, operation }) => {
+      async ({ doc, operation, req }) => {
         if (operation === 'update' && doc._status === 'published') {
-          await revalidateUrl(`/blog/${doc.slug}`);
-          await revalidateUrl(`/blog`);
-          await revalidateUrl('/');
+          await revalidateUrl(`/${req.locale}/blog/${doc.slug}`);
+          await revalidateUrl(`/${req.locale}/blog`);
+          await revalidateUrl(`/${req.locale}`);
+
+          if (req.locale === defaultLocale) {
+            await revalidateUrl(`/blog/${doc.slug}`);
+            await revalidateUrl(`/blog`);
+            await revalidateUrl('/');
+          }
         }
 
         return doc;
@@ -46,7 +52,7 @@ const Blog: CollectionConfig = {
   },
   versions: {
     drafts: {
-      autosave: true,
+      autosave: true as IncomingCollectionVersions,
     },
     maxPerDoc: 10,
   },

@@ -39,11 +39,17 @@ const Projects: CollectionConfig = {
   },
   hooks: {
     afterChange: [
-      async ({ doc, operation }) => {
+      async ({ doc, operation, req }) => {
         if (operation === 'update' && doc._status === 'published') {
-          await revalidateUrl(`/projects/${doc.slug}`);
-          await revalidateUrl(`/projects`);
-          await revalidateUrl('/');
+          await revalidateUrl(`/${req.locale}/projects/${doc.slug}`);
+          await revalidateUrl(`/${req.locale}/projects`);
+          await revalidateUrl(`/${req.locale}`);
+
+          if (req.locale === defaultLocale) {
+            await revalidateUrl(`/projects/${doc.slug}`);
+            await revalidateUrl(`/projects`);
+            await revalidateUrl('/');
+          }
         }
 
         return doc;

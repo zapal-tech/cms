@@ -52,7 +52,7 @@ const Blog: CollectionConfig = {
   },
   versions: {
     drafts: {
-      autosave: true as IncomingCollectionVersions,
+      autosave: true,
     },
     maxPerDoc: 10,
   },

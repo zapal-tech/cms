@@ -5,4 +5,7 @@ export const phoneField = (options?: Omit<TextField, 'type'>): TextField => ({
   name: 'phone',
   label: { en: 'Phone', ua: 'Телефон' },
   ...options,
+  hasMany: false,
+  maxRows: undefined,
+  minRows: undefined,
 });

@@ -30,4 +30,7 @@ export const slugField = (
     autoComplete: 'off',
     ...data?.admin,
   },
+  hasMany: false,
+  maxRows: undefined,
+  minRows: undefined,
 });

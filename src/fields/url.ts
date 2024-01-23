@@ -15,4 +15,7 @@ export const urlField = (data?: Omit<TextField, 'type'>): TextField => ({
     placeholder: 'https://...',
     ...data?.admin,
   },
+  hasMany: false,
+  maxRows: undefined,
+  minRows: undefined,
 });

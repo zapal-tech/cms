@@ -8,4 +8,7 @@ export const altField = (data?: Omit<TextField, 'type' | 'name' | 'label'>): Tex
     ua: 'Альтернативний текст',
   },
   ...data,
+  hasMany: false,
+  maxRows: undefined,
+  minRows: undefined,
 });

@@ -8,4 +8,7 @@ export const keywordsField = (data?: Omit<TextField, 'type' | 'name' | 'label'>)
     ua: 'Ключові слова',
   },
   ...data,
+  hasMany: false,
+  maxRows: undefined,
+  minRows: undefined,
 });

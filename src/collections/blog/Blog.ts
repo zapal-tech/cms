@@ -1,12 +1,15 @@
 import payload from 'payload';
 import { CollectionConfig } from 'payload/types';
 
+import { defaultLocale } from 'i18n';
+
 import BlogCoverImages from 'collections/blog/BlogCoverImages';
 
 import { richTextField } from 'fields/richText';
 import { slugField } from 'fields/slug';
 
 import { blogGroup } from 'utils/groups';
+import { revalidateUrl } from 'utils/revalidateUrl';
 
 import Authors from './Authors';
 import Tags from './Tags';
@@ -19,15 +22,27 @@ const Blog: CollectionConfig = {
       ua: 'Пост',
     },
     plural: {
-      en: 'Post',
-      ua: 'Пости',
+      en: 'Blog',
+      ua: 'Блог',
     },
   },
   admin: {
     useAsTitle: 'content.title',
     group: blogGroup,
-    defaultColumns: ['slug', 'status', 'createdAt', 'updatedAt'],
-    listSearchableFields: ['slug'],
+    defaultColumns: ['slug', 'order', 'status', 'createdAt', 'updatedAt'],
+  },
+  hooks: {
+    afterChange: [
+      async ({ doc, operation }) => {
+        if (operation === 'update' && doc._status === 'published') {
+          await revalidateUrl(`/blog/${doc.slug}`);
+          await revalidateUrl(`/blog`);
+          await revalidateUrl('/');
+        }
+
+        return doc;
+      },
+    ],
   },
   versions: {
     drafts: {

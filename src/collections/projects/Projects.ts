@@ -1,6 +1,8 @@
 import payload from 'payload';
 import { CollectionConfig } from 'payload/types';
 
+import { defaultLocale } from 'i18n';
+
 import { CircleElement } from 'blocks/circleElement';
 import { Columns } from 'blocks/columns';
 import { RichText } from 'blocks/rich-text';
@@ -13,6 +15,7 @@ import { urlField } from 'fields/url';
 import { yearField } from 'fields/year';
 
 import { projectsGroup } from 'utils/groups';
+import { revalidateUrl } from 'utils/revalidateUrl';
 
 import ProjectAssets from './ProjectAssets';
 import ProjectImages from './ProjectImages';
@@ -31,8 +34,21 @@ const Projects: CollectionConfig = {
   },
   admin: {
     useAsTitle: 'preview.name',
-    defaultColumns: ['slug', 'order'],
+    defaultColumns: ['slug', 'order', 'status', 'createdAt', 'updatedAt'],
     group: projectsGroup,
+  },
+  hooks: {
+    afterChange: [
+      async ({ doc, operation }) => {
+        if (operation === 'update' && doc._status === 'published') {
+          await revalidateUrl(`/projects/${doc.slug}`);
+          await revalidateUrl(`/projects`);
+          await revalidateUrl('/');
+        }
+
+        return doc;
+      },
+    ],
   },
   access: {
     read: ({ req }): boolean => true,

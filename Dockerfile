@@ -30,4 +30,4 @@ COPY --from=builder /app/build ./build
 # Set your own port
 EXPOSE 8080
 
-CMD ["node", "dist/server.js"]
+CMD ["npm", "run", "serve"]

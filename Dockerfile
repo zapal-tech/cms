@@ -12,6 +12,7 @@ RUN npm ci --legacy-peer-deps
 RUN npm run build
 
 FROM base as runtime
+RUN apt update && apt install curl -y
 
 ENV NODE_ENV=production
 ENV NODE_PATH=/app/dist

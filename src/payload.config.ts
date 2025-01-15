@@ -315,10 +315,10 @@ export default buildConfig({
           adapter: googleCloudStorageAdapter,
           prefix: 'media/author-photos',
         },
-        [BlogAssets.slug]: {
-          adapter: googleCloudStorageAdapter,
-          prefix: 'media/blog-assets',
-        },
+        // [BlogAssets.slug]: {
+        //   adapter: googleCloudStorageAdapter,
+        //   prefix: 'media/blog-assets',
+        // },
         [BlogCoverImages.slug]: {
           adapter: googleCloudStorageAdapter,
           prefix: 'media/blog-cover-images',

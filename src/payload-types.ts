@@ -9,21 +9,21 @@
 export interface Config {
   collections: {
     admins: Admin;
-    'contact-form-leads': ContactFormLead;
     'blog-authors': BlogAuthor;
     'author-photos': AuthorPhoto;
     'blog-posts': BlogPost;
     'blog-cover-images': BlogCoverImage;
+    'contact-form-leads': ContactFormLead;
     'blog-tags': BlogTag;
     locations: Location;
     'open-graph-images': OpenGraphImage;
-    'partner-logos': PartnerLogo;
     partners: Partner;
+    'partner-logos': PartnerLogo;
     projects: Project;
-    'project-images': ProjectImage;
     'project-assets': ProjectAsset;
-    'service-icons': ServiceIcon;
+    'project-images': ProjectImage;
     services: Service;
+    'service-icons': ServiceIcon;
     team: Team;
     'team-member-photos': TeamMemberPhoto;
     technologies: Technology;
@@ -53,6 +53,10 @@ export interface Config {
     navigation: Navigation;
   };
 }
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "admins".
+ */
 export interface Admin {
   id: string;
   name: string;
@@ -72,18 +76,10 @@ export interface Admin {
   lockUntil?: string | null;
   password?: string | null;
 }
-export interface ContactFormLead {
-  id: string;
-  firstName: string;
-  lastName?: string | null;
-  email: string;
-  company?: string | null;
-  message: string;
-  comeFromPage?: string | null;
-  comeFromLanguage: 'en' | 'uk' | 'unknown';
-  updatedAt: string;
-  createdAt: string;
-}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "blog-authors".
+ */
 export interface BlogAuthor {
   id: string;
   slug?: string | null;
@@ -93,6 +89,10 @@ export interface BlogAuthor {
   updatedAt: string;
   createdAt: string;
 }
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "author-photos".
+ */
 export interface AuthorPhoto {
   id: string;
   alt?: string | null;
@@ -106,7 +106,13 @@ export interface AuthorPhoto {
   filesize?: number | null;
   width?: number | null;
   height?: number | null;
+  focalX?: number | null;
+  focalY?: number | null;
 }
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "blog-posts".
+ */
 export interface BlogPost {
   id: string;
   content: {
@@ -115,11 +121,21 @@ export interface BlogPost {
     tags: (string | BlogTag)[];
     author: string | BlogAuthor;
     cover?: string | BlogCoverImage | null;
-    content?:
-      | {
+    content?: {
+      root: {
+        type: string;
+        children: {
+          type: string;
+          version: number;
           [k: string]: unknown;
-        }[]
-      | null;
+        }[];
+        direction: ('ltr' | 'rtl') | null;
+        format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+        indent: number;
+        version: number;
+      };
+      [k: string]: unknown;
+    } | null;
   };
   meta?: {
     title?: string | null;
@@ -133,6 +149,10 @@ export interface BlogPost {
   createdAt: string;
   _status?: ('draft' | 'published') | null;
 }
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "blog-tags".
+ */
 export interface BlogTag {
   id: string;
   name: string;
@@ -140,6 +160,10 @@ export interface BlogTag {
   updatedAt: string;
   createdAt: string;
 }
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "blog-cover-images".
+ */
 export interface BlogCoverImage {
   id: string;
   alt?: string | null;
@@ -153,6 +177,8 @@ export interface BlogCoverImage {
   filesize?: number | null;
   width?: number | null;
   height?: number | null;
+  focalX?: number | null;
+  focalY?: number | null;
   sizes?: {
     '700'?: {
       blurhash?: string | null;
@@ -192,6 +218,10 @@ export interface BlogCoverImage {
     };
   };
 }
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "open-graph-images".
+ */
 export interface OpenGraphImage {
   id: string;
   updatedAt: string;
@@ -202,7 +232,29 @@ export interface OpenGraphImage {
   filesize?: number | null;
   width?: number | null;
   height?: number | null;
+  focalX?: number | null;
+  focalY?: number | null;
 }
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "contact-form-leads".
+ */
+export interface ContactFormLead {
+  id: string;
+  firstName: string;
+  lastName?: string | null;
+  email: string;
+  company?: string | null;
+  message: string;
+  comeFromPage?: string | null;
+  comeFromLanguage: 'en' | 'uk' | 'unknown';
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "locations".
+ */
 export interface Location {
   id: string;
   slug?: string | null;
@@ -646,6 +698,25 @@ export interface Location {
   updatedAt: string;
   createdAt: string;
 }
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "partners".
+ */
+export interface Partner {
+  id: string;
+  slug?: string | null;
+  order: number;
+  viewType: 'default' | 'big';
+  logo: string | PartnerLogo;
+  name: string;
+  url: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "partner-logos".
+ */
 export interface PartnerLogo {
   id: string;
   alt?: string | null;
@@ -659,18 +730,13 @@ export interface PartnerLogo {
   filesize?: number | null;
   width?: number | null;
   height?: number | null;
+  focalX?: number | null;
+  focalY?: number | null;
 }
-export interface Partner {
-  id: string;
-  slug?: string | null;
-  order: number;
-  viewType: 'default' | 'big';
-  logo: string | PartnerLogo;
-  name: string;
-  url: string;
-  updatedAt: string;
-  createdAt: string;
-}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "projects".
+ */
 export interface Project {
   id: string;
   preview: {
@@ -904,8 +970,20 @@ export interface Project {
         }
       | {
           content: {
+            root: {
+              type: string;
+              children: {
+                type: string;
+                version: number;
+                [k: string]: unknown;
+              }[];
+              direction: ('ltr' | 'rtl') | null;
+              format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+              indent: number;
+              version: number;
+            };
             [k: string]: unknown;
-          }[];
+          };
           id?: string | null;
           blockName?: string | null;
           blockType: 'rich-text';
@@ -1075,8 +1153,20 @@ export interface Project {
                   | (
                       | {
                           content: {
+                            root: {
+                              type: string;
+                              children: {
+                                type: string;
+                                version: number;
+                                [k: string]: unknown;
+                              }[];
+                              direction: ('ltr' | 'rtl') | null;
+                              format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                              indent: number;
+                              version: number;
+                            };
                             [k: string]: unknown;
-                          }[];
+                          };
                           id?: string | null;
                           blockName?: string | null;
                           blockType: 'rich-text';
@@ -1111,6 +1201,10 @@ export interface Project {
   createdAt: string;
   _status?: ('draft' | 'published') | null;
 }
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "project-images".
+ */
 export interface ProjectImage {
   id: string;
   alt?: string | null;
@@ -1123,6 +1217,8 @@ export interface ProjectImage {
   filesize?: number | null;
   width?: number | null;
   height?: number | null;
+  focalX?: number | null;
+  focalY?: number | null;
   sizes?: {
     '700'?: {
       url?: string | null;
@@ -1158,6 +1254,10 @@ export interface ProjectImage {
     };
   };
 }
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "project-assets".
+ */
 export interface ProjectAsset {
   id: string;
   alt?: string | null;
@@ -1170,6 +1270,8 @@ export interface ProjectAsset {
   filesize?: number | null;
   width?: number | null;
   height?: number | null;
+  focalX?: number | null;
+  focalY?: number | null;
   sizes?: {
     '700'?: {
       url?: string | null;
@@ -1205,6 +1307,25 @@ export interface ProjectAsset {
     };
   };
 }
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "services".
+ */
+export interface Service {
+  id: string;
+  slug?: string | null;
+  order: number;
+  icon: string | ServiceIcon;
+  name: string;
+  description: string;
+  updatedAt: string;
+  createdAt: string;
+  _status?: ('draft' | 'published') | null;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "service-icons".
+ */
 export interface ServiceIcon {
   id: string;
   alt?: string | null;
@@ -1217,18 +1338,13 @@ export interface ServiceIcon {
   filesize?: number | null;
   width?: number | null;
   height?: number | null;
+  focalX?: number | null;
+  focalY?: number | null;
 }
-export interface Service {
-  id: string;
-  slug?: string | null;
-  order: number;
-  icon: string | ServiceIcon;
-  name: string;
-  description: string;
-  updatedAt: string;
-  createdAt: string;
-  _status?: ('draft' | 'published') | null;
-}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "team".
+ */
 export interface Team {
   id: string;
   slug?: string | null;
@@ -1250,6 +1366,10 @@ export interface Team {
   createdAt: string;
   _status?: ('draft' | 'published') | null;
 }
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "team-member-photos".
+ */
 export interface TeamMemberPhoto {
   id: string;
   alt?: string | null;
@@ -1263,6 +1383,8 @@ export interface TeamMemberPhoto {
   filesize?: number | null;
   width?: number | null;
   height?: number | null;
+  focalX?: number | null;
+  focalY?: number | null;
   sizes?: {
     '700'?: {
       blurhash?: string | null;
@@ -1302,6 +1424,10 @@ export interface TeamMemberPhoto {
     };
   };
 }
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "technologies".
+ */
 export interface Technology {
   id: string;
   slug?: string | null;
@@ -1313,6 +1439,10 @@ export interface Technology {
   createdAt: string;
   _status?: ('draft' | 'published') | null;
 }
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "technology-logos".
+ */
 export interface TechnologyLogo {
   id: string;
   alt?: string | null;
@@ -1325,7 +1455,13 @@ export interface TechnologyLogo {
   filesize?: number | null;
   width?: number | null;
   height?: number | null;
+  focalX?: number | null;
+  focalY?: number | null;
 }
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "payload-preferences".
+ */
 export interface PayloadPreference {
   id: string;
   user: {
@@ -1345,6 +1481,10 @@ export interface PayloadPreference {
   updatedAt: string;
   createdAt: string;
 }
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "payload-migrations".
+ */
 export interface PayloadMigration {
   id: string;
   name?: string | null;
@@ -1352,6 +1492,10 @@ export interface PayloadMigration {
   updatedAt: string;
   createdAt: string;
 }
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "about-page".
+ */
 export interface AboutPage {
   id: string;
   content: {
@@ -1376,6 +1520,10 @@ export interface AboutPage {
   updatedAt?: string | null;
   createdAt?: string | null;
 }
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "blog-page".
+ */
 export interface BlogPage {
   id: string;
   content: {
@@ -1400,6 +1548,10 @@ export interface BlogPage {
   updatedAt?: string | null;
   createdAt?: string | null;
 }
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "common".
+ */
 export interface Common {
   id: string;
   translation?:
@@ -1415,6 +1567,10 @@ export interface Common {
   updatedAt?: string | null;
   createdAt?: string | null;
 }
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "contact-form".
+ */
 export interface ContactForm {
   id: string;
   translation?:
@@ -1430,6 +1586,10 @@ export interface ContactForm {
   updatedAt?: string | null;
   createdAt?: string | null;
 }
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "contacts-page".
+ */
 export interface ContactsPage {
   id: string;
   content: {
@@ -1454,6 +1614,10 @@ export interface ContactsPage {
   updatedAt?: string | null;
   createdAt?: string | null;
 }
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "cookies-policy-page".
+ */
 export interface CookiesPolicyPage {
   id: string;
   content: {
@@ -1478,6 +1642,10 @@ export interface CookiesPolicyPage {
   updatedAt?: string | null;
   createdAt?: string | null;
 }
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "footer".
+ */
 export interface Footer {
   id: string;
   translation?:
@@ -1493,6 +1661,10 @@ export interface Footer {
   updatedAt?: string | null;
   createdAt?: string | null;
 }
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "general".
+ */
 export interface General {
   id: string;
   phone: string;
@@ -1501,6 +1673,10 @@ export interface General {
   updatedAt?: string | null;
   createdAt?: string | null;
 }
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "home-page".
+ */
 export interface HomePage {
   id: string;
   content: {
@@ -1525,6 +1701,10 @@ export interface HomePage {
   updatedAt?: string | null;
   createdAt?: string | null;
 }
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "privacy-policy-page".
+ */
 export interface PrivacyPolicyPage {
   id: string;
   content: {
@@ -1549,6 +1729,10 @@ export interface PrivacyPolicyPage {
   updatedAt?: string | null;
   createdAt?: string | null;
 }
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "project-footer".
+ */
 export interface ProjectFooter {
   id: string;
   title: string;
@@ -1563,6 +1747,10 @@ export interface ProjectFooter {
   updatedAt?: string | null;
   createdAt?: string | null;
 }
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "project-page".
+ */
 export interface ProjectPage {
   id: string;
   translation?:
@@ -1578,6 +1766,10 @@ export interface ProjectPage {
   updatedAt?: string | null;
   createdAt?: string | null;
 }
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "projects-page".
+ */
 export interface ProjectsPage {
   id: string;
   content: {
@@ -1602,6 +1794,10 @@ export interface ProjectsPage {
   updatedAt?: string | null;
   createdAt?: string | null;
 }
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "schedule-meeting-page".
+ */
 export interface ScheduleMeetingPage {
   id: string;
   content: {
@@ -1626,6 +1822,10 @@ export interface ScheduleMeetingPage {
   updatedAt?: string | null;
   createdAt?: string | null;
 }
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "sitemap-page".
+ */
 export interface SitemapPage {
   id: string;
   content: {
@@ -1650,6 +1850,10 @@ export interface SitemapPage {
   updatedAt?: string | null;
   createdAt?: string | null;
 }
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "support-ukraine-page".
+ */
 export interface SupportUkrainePage {
   id: string;
   content: {
@@ -1674,6 +1878,10 @@ export interface SupportUkrainePage {
   updatedAt?: string | null;
   createdAt?: string | null;
 }
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "terms-of-use-page".
+ */
 export interface TermsOfUsePage {
   id: string;
   content: {
@@ -1698,6 +1906,10 @@ export interface TermsOfUsePage {
   updatedAt?: string | null;
   createdAt?: string | null;
 }
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "languages".
+ */
 export interface Language {
   id: string;
   translation?:
@@ -1712,6 +1924,10 @@ export interface Language {
   updatedAt?: string | null;
   createdAt?: string | null;
 }
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "navigation".
+ */
 export interface Navigation {
   id: string;
   translation?:

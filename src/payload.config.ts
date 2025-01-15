@@ -17,6 +17,7 @@ import { blurHash } from '@zapal/payload-blurhash-plugin';
 import path from 'path';
 
 import validationEN from 'locales/en/validation';
+import validationFR from 'locales/fr/validation';
 import validationUA from 'locales/ua/validation';
 
 import { defaultLocale, locales } from 'i18n';
@@ -277,6 +278,9 @@ export default buildConfig({
           loading: 'Завантаження',
         },
         validation: validationUA,
+      },
+      fr: {
+        validation: validationFR,
       },
     },
   },
